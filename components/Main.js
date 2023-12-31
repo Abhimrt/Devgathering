@@ -35,7 +35,7 @@ const Main = () => {
   return (
     <section
       id="main"
-      className="h-[100dvh] overflow-hidden relative flex justify-center items-center flex-col "
+      className="h-[100svh] overflow-hidden relative flex justify-center items-center flex-col "
     >
       <Image
         src="/images/mainMesh.png"

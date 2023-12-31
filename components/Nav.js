@@ -12,7 +12,7 @@ const link = [
   },
   {
     name: "Why Participate?",
-    link: "#about",
+    link: "#participate",
   },
   {
     name: "Event Schedule",
