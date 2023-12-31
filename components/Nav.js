@@ -47,11 +47,11 @@ const Nav = () => {
     sideNav.current.classList.toggle("translate-x-[-100vw]")
   }
   return (
-    <div className="flex h-[100px] rounded-b-3xl lg:shadow-md lg:border-b-5 border-Cblue    lg:bg-gray-500  lg:bg-clip-padding lg:backdrop-filter lg:backdrop-blur-sm lg:bg-opacity-10  fixed w-screen  z-50">
+    <div className="flex h-[100px] rounded-b-3xl lg:shadow-md lg:border-b-5 border-Cblue    lg:bg-white lg:bg-clip-padding lg:backdrop-filter lg:backdrop-blur-sm lg:bg-opacity-20  fixed w-screen  z-50">
       {/* for large and upper devices */}
       <>
         <a
-          href="/"
+          href="#"
           className="leftNav w-1/5 px-2 py-5 items-center hidden lg:flex"
         >
           <Image
@@ -83,10 +83,10 @@ const Nav = () => {
       {/* for md and below devices */}
       <>
       {/* slide bar initially hide on left side  */}
-        <div ref={sideNav} className="rightNav translate-x-[-100vw] duration-300 fixed h-[100dvh] w-[95vw] shadow-xl rounded-r-3xl border-r-1 border-black-200  bg-Corange block lg:hidden  ">
+        <div ref={sideNav} className="rightNav translate-x-[-100vw] duration-300 fixed h-[100dvh] w-[95vw] shadow-xl rounded-r-3xl border-r-1 border-black-200  bg-Corange block lg:hidden z-50  ">
          {/*right side button to translate sidebar back */}
-         <div className="  text-Cblue  text-4xl  cursor-pointer absolute right-4" >
-        <MdOutlineClose onClick={Show}/>
+         <div className="  text-Cblue  text-4xl  cursor-pointer absolute right-4 top-4" >
+        <MdOutlineClose onClick={Show} className="bg-white bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-20 rounded-md"/>
         </div>
           {/* logos */}
         <a
@@ -149,7 +149,7 @@ const Nav = () => {
 
         {/*left side button to translate sidebar */}
         <div className=" w-4/5 text-Cblue flex justify-start items-center pl-5 text-5xl cursor-pointer lg:hidden" >
-        <HiMenuAlt2 onClick={Show}/>
+        <HiMenuAlt2 onClick={Show} className="  bg-white bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-20 rounded-md"/>
         </div>
 
         {/* right sidemlsa logo */}

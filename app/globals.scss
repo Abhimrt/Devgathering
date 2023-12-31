@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  font-family: "Josefin Sans", sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #feb249;
+  color: #0000000d;
+}
+/* navbar */
+.NavHeading {
+  text-shadow: 2px 2px 3.3px rgba(0, 0, 0, 0.32);
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+
+/* main section */
+@import "Css/_Main.scss";
