@@ -3,6 +3,7 @@ import Image from "next/image";
 import React, { useRef } from "react";
 import { HiMenuAlt2 } from "react-icons/hi";
 import { MdOutlineClose } from "react-icons/md";
+import Button from "./Button";
 
 const link = [
   {
@@ -46,7 +47,7 @@ const Nav = () => {
     sideNav.current.classList.toggle("translate-x-[-100vw]")
   }
   return (
-    <div className="flex h-[100px] rounded-b-3xl shadow-md border-b-5 border-Cblue    bg-gray-500  bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10  fixed w-screen bg-Cblack-100 z-50">
+    <div className="flex h-[100px] rounded-b-3xl lg:shadow-md lg:border-b-5 border-Cblue    lg:bg-gray-500  lg:bg-clip-padding lg:backdrop-filter lg:backdrop-blur-sm lg:bg-opacity-10  fixed w-screen  z-50">
       {/* for large and upper devices */}
       <>
         <a
@@ -82,7 +83,7 @@ const Nav = () => {
       {/* for md and below devices */}
       <>
       {/* slide bar initially hide on left side  */}
-        <div ref={sideNav} className="rightNav translate-x-[-100vw] duration-300 fixed h-screen w-[95vw] shadow-xl rounded-r-3xl border-r-1 border-black-200 bg-Corange block lg:hidden  ">
+        <div ref={sideNav} className="rightNav translate-x-[-100vw] duration-300 fixed h-[100dvh] w-[95vw] shadow-xl rounded-r-3xl border-r-1 border-black-200  bg-Corange block lg:hidden  ">
          {/*right side button to translate sidebar back */}
          <div className="  text-Cblue  text-4xl  cursor-pointer absolute right-4" >
         <MdOutlineClose onClick={Show}/>
@@ -106,7 +107,7 @@ const Nav = () => {
         </a>
         {/* links */}
           <div className="flex   w-screen justify-center items-center h-[70vh] text-2xl  space-y-4 ">
-          <div className="flex   w-fit  flex-col text-2xl  space-y-4">
+          <div className="flex text-Cblue  w-fit  flex-col text-2xl  space-y-4">
           {link.map((e, i) => {
             if(e.name == "Contact Us"){
               return(<></>)
@@ -136,13 +137,13 @@ const Nav = () => {
           </div>
           </div>
           {/* contact button */}
-          <div className=" w-screen flex justify-center">
-          <a
-                  href="#contact"
-                  className="  drop-shadow-lg  bg-Cblue px-10 py-2 text-Corange rounded-full "
-                >
-                  Contact Us
-                </a>
+          <div className=" absolute left-0 right-0 bottom-10 m-auto  flex justify-center">
+          <Button
+            link="#contact"
+            text="Contact Us"
+            px="10"
+            py="2"
+          />
           </div>
         </div>
 
@@ -158,10 +159,10 @@ const Nav = () => {
         >
           <Image
             src={"/images/logo.png"}
-            className="w-[80px] h-auto"
+            className="w-[100px] h-auto"
             alt=""
-            width={80}
-            height={80}
+            width={100}
+            height={100}
           />
           
         </a>
