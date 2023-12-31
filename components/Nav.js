@@ -46,7 +46,7 @@ const Nav = () => {
     sideNav.current.classList.toggle("translate-x-[-100vw]")
   }
   return (
-    <div className="flex h-[100px] rounded-b-3xl shadow-md border-b-1 border-black-300 fixed w-screen">
+    <div className="flex h-[100px] rounded-b-3xl shadow-md border-b-5 border-Cblue    bg-gray-500  bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10  fixed w-screen bg-Cblack-100 z-50">
       {/* for large and upper devices */}
       <>
         <a
@@ -71,7 +71,7 @@ const Nav = () => {
             <a
               href={e.link}
               key={i}
-              className=" hover:border-b-[3px] duration-100 drop-shadow-lg"
+              className=" hover:border-b-[3px] border-Cblue duration-100 drop-shadow-lg"
             >
               {e.name}
             </a>
@@ -126,7 +126,7 @@ const Nav = () => {
                 <a
                   href={e.link}
                   key={i}
-                  className=" border-b-[3px]  drop-shadow-lg tracking-wide pb-3 indent-2  "
+                  className=" border-b-[3px] border-Cblue drop-shadow-lg tracking-wide pb-3 indent-2  "
                 >
                   {e.name}
                 </a>
@@ -158,7 +158,7 @@ const Nav = () => {
         >
           <Image
             src={"/images/logo.png"}
-            className="w-[70px] h-auto"
+            className="w-[80px] h-auto"
             alt=""
             width={80}
             height={80}
