@@ -36,7 +36,7 @@ section {
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: var(--Ccream);
+  background: rgba(91, 91, 91, 0.286);
 }
 
 /* Handle */
@@ -62,6 +62,40 @@ section {
 @import "Css/_Main.scss";
 /* partner section */
 @import "Css/_Partner.scss";
+
+// sponsor section
+#sponsors{
+  p,a{
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.577);
+  }
+}
+.sponsorScroll {
+  overflow-y: hidden;
+  scroll-snap-type: x mandatory;
+
+  &>div{
+    scroll-snap-align: center;
+  }
+
+  // scrollbar
+  /* width */
+  &::-webkit-scrollbar {
+    height: 10px;
+  }
+
+  /* Track */
+  &::-webkit-scrollbar-track {
+    background: var(--Cblue);
+  }
+
+  /* Handle */
+  &::-webkit-scrollbar-thumb {
+    background: var(--Corange);
+    border-radius: 10px;
+  }
+
+ 
+}
 
 .flare {
   position: fixed;
