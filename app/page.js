@@ -8,6 +8,7 @@ import Participate from "@/components/Participate";
 import Partners from "@/components/Partners";
 import Past from "@/components/Past";
 import Sponsors from "@/components/Sponsors";
+import Team from "@/components/Team";
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
       <Partners/>
       <Sponsors/>
       <Faq/>
+      <Team/>
       <Footer/>
     </>
   );

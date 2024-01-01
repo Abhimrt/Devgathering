@@ -27,17 +27,21 @@ const link = [
     link: "#about",
   },
   {
+    name: "Partners",
+    link: "#partners",
+  },
+  {
     name: "Sponsors",
-    link: "#about",
+    link: "#sponsors",
   },
   {
     name: "FAQs",
-    link: "#about",
+    link: "#faqs",
   },
-  {
-    name: "Contact Us",
-    link: "#about",
-  },
+  // {
+  //   name: "Contact Us",
+  //   link: "#footer",
+  // },
 ];
 
 
@@ -47,7 +51,7 @@ const Nav = () => {
     sideNav.current.classList.toggle("translate-x-[-100vw]")
   }
   return (
-    <div className="flex h-[100px] rounded-b-3xl lg:shadow-md lg:border-b-5 border-Cblue    lg:bg-Ccream lg:bg-clip-padding lg:backdrop-filter lg:backdrop-blur-sm lg:bg-opacity-20  fixed w-screen  z-50">
+    <div className="flex h-[100px] rounded-b-3xl lg:drop-shadow-lg lg:border-b-5 border-Cblue    lg:bg-Ccream lg:bg-clip-padding lg:backdrop-filter lg:backdrop-blur-md lg:bg-opacity-40  fixed w-screen  z-50">
       {/* for large and upper devices */}
       <>
         <div className="leftNav w-1/5 hidden lg:block"> 

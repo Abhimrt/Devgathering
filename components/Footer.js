@@ -8,7 +8,7 @@ import { BsLinkedin } from "react-icons/bs";
 
 const Footer = () => {
   return (
-    <section className="w-screen min-h-[50vh] bg-Cblue text-Ccream relative">
+    <section id="footer" className="w-screen min-h-[50vh] bg-Cblue text-Ccream relative " style={{boxShadow:"0px -3px 25px rgba(0,0,0,.8)"}}>
       <>
         <Image src="/images/FooterLeft.png" className="absolute lg:h-full w-full lg:w-auto  " width={300} height={300} alt="" />
         <Image src="/images/FooterRight.png" className="absolute lg:h-full w-1/2 lg:w-auto bottom-0 right-0" width={300} height={300} alt="" />
@@ -16,17 +16,17 @@ const Footer = () => {
 
       <div className="flex justify-center items-stretch mt-10  flex-col lg:flex-row w-[90vw] mx-auto relative z-10 relative">
         <div className="lg:w-[25%] space-y-2 flex items-center lg:items-start my-5 lg:my-0 justify-start flex-col">
-          <h3 className="tracking-wide text-3xl mb-5 ">More Info.</h3>
+          <h3 className="tracking-wide text-3xl  mb-3 lg:mb-5 ">More Info.</h3>
           <a href="#" className="opacity-70">code of conduct</a>
           <a href="" className="opacity-70">Community guidelines</a>
           <a href="" className="opacity-70">call for sponsors</a>
         </div>
         <div className="lg:w-[35%]  space-y-2 flex items-center justify-start flex-col ">
-          <Image src="/images/logo.png" className="" width={250} height={250} alt="" />
-          <h2 className="text-5xl text-[#0078D3] font-extrabold " style={{textShadow:"4px 4px 8px rgba(0,0,0,7)"}}>MLSA MIET</h2>
+          <Image src="/images/logo.png" className="w-[35vw] lg:w-auto h-auto" width={250} height={250} alt="" />
+          <h2 className="text-3xl lg:text-5xl text-[#0078D3] font-extrabold " style={{textShadow:"4px 4px 8px rgba(0,0,0,7)"}}>MLSA MIET</h2>
         </div>
-        <div className="lg:w-[30%] space-y-2 items-center lg:items-start my-5 lg:my-0 flex  justify-start flex-col pt-10 lg:pt-0 lg:pl-10 ">
-          <h3 className="tracking-wide text-3xl mb-5">Contact</h3>
+        <div className="lg:w-[30%] space-y-2 items-center lg:items-start  lg:my-0 flex  justify-start flex-col pt-5 lg:pt-0 lg:pl-10 ">
+          <h3 className="tracking-wide text-3xl mb-3 lg:mb-5">Contact</h3>
           <a href="" className="flex items-center space-x-3">
           <IoMail />
             <span className="text-Corange underline underline-offset-4">VANI.MITTAL@studentambassadors.com</span>

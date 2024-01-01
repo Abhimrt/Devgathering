@@ -173,6 +173,14 @@ section {
 
 #faqs {
   background: url("/images/FaqsBackgrounds.png");
+  background-size: contain;
+}
+
+#team {
+  background-color: var(--Cblue);
+  background-image: url("/images/TeamBackground.png");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .flare {
