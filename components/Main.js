@@ -78,7 +78,7 @@ const Main = () => {
       <h2 className="text-Cblue drop-shadow-md text-center font-semibold uppercase tracking-[3px] lg:tracking-[4px] text-sm lg:text-lg">
         First ever hackathon of mlsa miet
       </h2>
-      <h1 className="text-white uppercase tracking-widest text-5xl lg:text-7xl font-extrabold py-10 text-center ">
+      <h1 className="text-white uppercase cursor-pointer tracking-widest text-5xl lg:text-7xl font-extrabold py-10 text-center ">
         Dev <br className="lg:hidden" /> Gathering '24
       </h1>
       <h2 className="text-Cblue capitalize tracking-widest text-lg text-center ">

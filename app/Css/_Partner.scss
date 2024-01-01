@@ -1,0 +1,63 @@
+#partners {
+    .PartnerTopRight {
+        box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.4);
+
+        &::after {
+            content: "";
+            width: 100px;
+            height: 100px;
+            background-color: var(--Cblue);
+            position: absolute;
+            left: -30%;
+            bottom: -30%;
+            box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.4);
+            border-radius: 50%;
+        }
+    }
+
+    .PartnerLogoBox {
+        box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.6);
+
+
+        &::after {
+            content: "";
+            width: 10px;
+            height: 80px;
+            background-color: var(--Cblue);
+            position: absolute;
+            left: -15px;
+            z-index: 10;
+            box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.6);
+        }
+
+        &::before {
+            content: "";
+            width: 100px;
+            height: 100px;
+            position: absolute;
+            right: -8px;
+            z-index: 10;
+            background: url("/images/PartnersCircle.png");
+            background-repeat: no-repeat;
+            background-position: right;
+            background-size: contain;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .PartnerLogoBox {
+        &:nth-child(2n) {
+            align-self: flex-end;
+            margin-right: 15px;
+            transform: rotateY(180deg);
+            img {
+                transform: rotateY(180deg);
+            }
+        }
+        &:nth-child(2n+1) {
+            align-self: flex-start;
+            margin-left: 15px;
+        }
+    }
+}

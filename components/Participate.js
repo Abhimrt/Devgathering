@@ -29,12 +29,12 @@ const Participate = () => {
       <div className="w-full relative flex items-center justify-center mb-5 lg:mb-0 ">
         <Image
           src="/images/Participateheading.png"
-          className="absolute bottom-2 lg:bottom-5 -right-2 lg:right-[20%] min-w-[105vw]  lg:min-w-[50vw] h-auto -z-1"
+          className="absolute bottom-2 cursor-pointer lg:bottom-5 -right-2 lg:right-[20%] min-w-[105vw]  lg:min-w-[50vw] h-auto -z-1"
           alt=""
           width={600}
           height={50}
         />
-        <h2 className="text-Cblue text-4xl sm:text-5xl tracking-[1px] lg:tracking-[5px]  font-bold pb-8 z-20 ">
+        <h2 className="text-Cblue cursor-pointer text-4xl sm:text-5xl tracking-[1px] lg:tracking-[5px]  font-bold pb-8 z-20 ">
           Why Participate?
         </h2>
       </div>

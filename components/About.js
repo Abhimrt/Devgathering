@@ -42,10 +42,10 @@ const About = () => {
         width={500}
         height={500}
       />
-      <h2 className="text-white text-3xl sm:text-5xl tracking-[5px] font-bold pb-8  sm:absolute top-[20%] z-20 ">
+      <h2 className="text-Ccream text-3xl cursor-pointer sm:text-5xl tracking-[5px] font-bold pb-8  sm:absolute top-[20%] z-20 ">
         About Dev <br className="sm:hidden" /> Gathering
       </h2>
-      <div className="text-white space-y-5 w-[90vw] text-justify sm:w-[45vw] sm:absolute right-[15vw] top-[32%] z-20" style={{textShadow:"1px 1px 2px black"}}>
+      <div className="text-Ccream space-y-5 w-[90vw] text-justify sm:w-[45vw] sm:absolute right-[15vw] top-[32%] z-20" style={{textShadow:"1px 1px 2px black"}}>
         <p>
           MLSA MIET is thrilled to announce "Dev Gathering '24," a cutting-edge
           Hackathon set to take place in March 2024.
