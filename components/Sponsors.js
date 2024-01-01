@@ -4,9 +4,9 @@ import React from 'react'
 const Sponsors = () => {
   return (
     <section id='sponsors' className='flex justify-center items-center flex-col w-screen min-h-[100vh] relative overflow-visible '>
-        <h2 className='text-Cblue text-3xl cursor-pointer sm:text-5xl tracking-[5px] font-bold relative flex justify-center overflow-visible items-center my-10' style={{textShadow:"2px 2px 4px black"}}>
+        <h2 className='text-Cblue text-3xl cursor-pointer sm:text-5xl tracking-[5px] font-bold relative flex justify-center overflow-visible items-center my-10' style={{textShadow:"1px 1px 3px black"}}>
         <Image src="/images/SponsorsLine.png" className='absolute  min-w-[90vw] h-auto -top-10  -z-10' width={1000} height={500} alt="" />
-            <div className='text-right w-[100px] min-h-[100px]  pr-0 rounded-full bg-Cblue absolute -z-1 left-[-32px]'></div>
+            <div className='text-right w-[80px] lg:w-[100px] min-h-[80px] lg:min-h-[100px]  pr-0 rounded-full bg-Cblue absolute -z-1  left-[-35px]'></div>
             <span className=' text-Corange relative z-1'>Sp</span>onsors
         </h2>
         <p className='text-Ccream text-lg text-center mx-5'>Want to be featured here and be a part of this event and help us. Fill the form given form below</p>

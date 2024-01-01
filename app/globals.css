@@ -150,26 +150,29 @@ section {
 #sponsors p, #sponsors a {
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.577);
 }
-
-.sponsorScroll {
+#sponsors .sponsorScroll {
   overflow-y: hidden;
   scroll-snap-type: x mandatory;
   /* width */
   /* Track */
   /* Handle */
 }
-.sponsorScroll > div {
+#sponsors .sponsorScroll > div {
   scroll-snap-align: center;
 }
-.sponsorScroll::-webkit-scrollbar {
+#sponsors .sponsorScroll::-webkit-scrollbar {
   height: 10px;
 }
-.sponsorScroll::-webkit-scrollbar-track {
+#sponsors .sponsorScroll::-webkit-scrollbar-track {
   background: var(--Cblue);
 }
-.sponsorScroll::-webkit-scrollbar-thumb {
+#sponsors .sponsorScroll::-webkit-scrollbar-thumb {
   background: var(--Corange);
   border-radius: 10px;
+}
+
+#faqs {
+  background: url("/images/FaqsBackgrounds.png");
 }
 
 .flare {

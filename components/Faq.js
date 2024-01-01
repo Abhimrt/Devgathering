@@ -29,7 +29,7 @@ const Faq = () => {
     setActiveIndex((prevIndex) => (prevIndex === index ? null : index));
   };
   return (
-    <section id="faqs  " className="w-screen min-h-screen">
+    <section id="faqs" className="w-screen min-h-screen">
       <div>
         
         <Image
