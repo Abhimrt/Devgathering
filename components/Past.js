@@ -3,7 +3,7 @@ import Image from "next/image";
 import React, { useRef, useState } from "react";
 
 const Past = () => {
-  const [Src, setSrc] = useState("/images/PastFirst.jpg")
+  const [Src, setSrc] = useState("/images/PastFirst.JPG")
   const FullImage = useRef("")
 
   const toggle = (e)=>{
@@ -31,7 +31,7 @@ const Past = () => {
         </h2>
         <div className="w-screen space-y-5 lg:space-y-10 pb-10 ">
           <Image
-            src="/images/PastFirst.jpg"
+            src="/images/PastFirst.JPG"
             width={1000}
             height={200}
             className="w-screen border-2 lg:border-4 border-Corange rounded-2xl cursor-pointer"
