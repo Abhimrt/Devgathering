@@ -57,7 +57,7 @@ const Nav = () => {
       <>
         <div className="leftNav w-1/5 hidden lg:block"> 
         <Link
-          href="#"
+          href="/"
           className=" px-2 py-5 items-center flex w-fit"
         >
           <Image

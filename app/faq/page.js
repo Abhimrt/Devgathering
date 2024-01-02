@@ -3,6 +3,7 @@ import Image from "next/image";
 import React, { useState } from "react";
 import { FaqsData } from "@/components/Data";
 import Nav from "@/components/Nav";
+import Footer from "@/components/Footer";
 
 const page = () => {
   const [activeIndex, setActiveIndex] = useState(0);
@@ -15,7 +16,7 @@ const page = () => {
     <Nav/>
         <section
       id="faqs"
-      className="w-screen min-h-screen flex flex-col items-center space-y-10 pt-36"
+      className="w-screen min-h-screen flex flex-col items-center space-y-10 pt-36 pb-10"
     >
       <div >
         <div className="w-screen">
@@ -55,6 +56,7 @@ const page = () => {
         })}
       </div>
     </section>
+    <Footer/>
     </>
   );
 };

@@ -63,7 +63,7 @@ const Main = () => {
       <Image
         src="/images/mainMeshMobile.png"
         alt=""
-        className="h-auto w-screen  absolute bottom-0 md:bottom-[-30%] rotate-180 right-0 block lg:hidden z-[1] opacity-90"
+        className="h-auto w-screen  absolute bottom-0 md:bottom-[-30%] rotate-180 right-0 block lg:hidden -z-[1] opacity-90"
         width={1920}
         height={1000}
       />
