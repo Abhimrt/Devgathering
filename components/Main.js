@@ -101,7 +101,7 @@ const Main = () => {
       </div>
 
       {/* timer */}
-      <div className="timer animate-pulse space-x-5 absolute bottom-3 lg:bottom-16 flex scale-75 md:scale-90 lg:scale-100 ">
+      <div className="timer animate-pulse space-x-5 absolute bottom-3  flex scale-75 md:scale-90 lg:scale-100 ">
         <div className="days">
           {" "}
           {day}

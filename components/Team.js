@@ -19,7 +19,7 @@ const Team = () => {
         {" "}
         Meet Organizers{" "}
       </h2>
-      <div className="w-[90vw] flex items-center justify-between flex-col lg:flex-row space-y-5 lg:space-y-0 lg:mt-[50px]">
+      <div className="w-[90vw] flex items-center justify-between flex-col lg:flex-row space-y-5 lg:space-y-0 lg:mt-[100px]">
         <Box
           image="MeetVani.jpg"
           name="Vani Mittal"

@@ -1,7 +1,17 @@
+"use client"
 import Image from "next/image";
-import React from "react";
+import React, { useRef, useState } from "react";
 
 const Past = () => {
+  const [Src, setSrc] = useState("/images/PastFirst.jpg")
+  const FullImage = useRef("")
+
+  const toggle = (e)=>{
+    if(e != "") setSrc(e.target.getAttribute('src'))
+    
+    FullImage.current.classList.toggle("hidden")
+  }
+
   return (
     <section id="past" className="min-h-fit " style={{background:"linear-gradient(to bottom, transparent,var(--Cblue),var(--Cblue),var(--Cblue)"}}>
       <Image
@@ -19,52 +29,76 @@ const Past = () => {
           {" "}
           Past Events
         </h2>
-        <div className="w-screen space-y-5 lg:space-y-10 pb-10">
+        <div className="w-screen space-y-5 lg:space-y-10 pb-10 ">
           <Image
-            src="/images/PastFirst.png"
+            src="/images/PastFirst.jpg"
             width={1000}
             height={200}
-            className="w-screen"
+            className="w-screen border-2 lg:border-4 border-Corange rounded-2xl cursor-pointer"
+            onClick={(e)=>toggle(e)}
             alt=""
           />
 
+          <div className="flex justify-between items-center w-[95vw] mx-auto  overflow-hidden">
+            <Image
+              src="/images/PastSecond.jpg"
+              width={400}
+              height={400}
+              className="w-[48%] border-2 lg:border-4 border-Corange rounded-2xl cursor-pointer"
+              onClick={(e)=>toggle(e)}
+              alt=""
+            />
+            <Image
+              src="/images/PastThird.jpg"
+              width={400}
+              height={400}
+              className="w-[48%] border-2 lg:border-4 border-Corange rounded-2xl cursor-pointer"
+              onClick={(e)=>toggle(e)}
+              alt=""
+            />
+          </div>
           <div className="flex justify-between items-center w-[90vw] mx-auto  overflow-hidden">
             <Image
-              src="/images/PastSecond.png"
+              src="/images/PastFour.jpg"
               width={400}
               height={400}
-              className="w-[30%]"
+              className="w-[32%] border-2 lg:border-4 border-Corange rounded-2xl cursor-pointer"
+              onClick={(e)=>toggle(e)}
               alt=""
             />
             <Image
-              src="/images/PastThird.png"
+              src="/images/PastFive.jpg"
               width={400}
               height={400}
-              className="w-[30%]"
+              className="w-[32%] border-2 lg:border-4 border-Corange rounded-2xl cursor-pointer"
+              onClick={(e)=>toggle(e)}
               alt=""
             />
             <Image
-              src="/images/PastFour.png"
+              src="/images/PastSix.jpg"
               width={400}
               height={400}
-              className="w-[30%]"
+              className="w-[32%] border-2 lg:border-4 border-Corange rounded-2xl cursor-pointer"
+              onClick={(e)=>toggle(e)}
               alt=""
             />
           </div>
 
           <div className="flex justify-end items-center w-[90vw] mx-auto space-x-10 relative ">
             <Image
-              src="/images/PastFive.png"
+              src="/images/PastSeven.jpg"
               width={400}
               height={400}
-              className="w-[38vw] lg:w-[35vw] relative -right-20 sm:-right-24 lg:-right-28"
+              className="w-[34vw] lg:w-[33vw] relative -right-[70px] sm:-right-24 lg:-right-28  border-2 lg:border-4 border-Corange  rounded-full drop-shadow-xl  cursor-pointer"
+              onClick={(e)=>toggle(e)}
               alt=""
             />
             <Image
-              src="/images/PastSix.png"
+              src="/images/PastEight.jpg"
               width={400}
               height={400}
-              className="min-w-[65vw] lg:min-w-[60vw]"
+              className="min-w-[65vw] lg:min-w-[60vw] border-2 lg:border-4 border-Corange rounded-2xl  cursor-pointer"
+              onClick={(e)=>toggle(e)}
               alt=""
             />
           </div>
@@ -77,6 +111,17 @@ const Past = () => {
           height={50}
           alt=""
         />
+      </div>
+      {/* on click open image */}
+      <div ref={FullImage} className="w-screen h-screen bg-Ccream bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-10 fixed top-0 z-40 flex justify-center items-center lg:pt-[110px] hidden" >
+        <div className="w-screen h-screen fixed top-0 " onClick={()=>toggle("")}></div>
+      <Image
+            src={Src}
+            width={1000}
+            height={200}
+            className="w-[90%] lg:w-auto lg:h-[75vh] border-2 lg:border-4 border-Corange rounded-2xl shadow-2xl z-50"
+            alt=""
+          />
       </div>
     </section>
   );
