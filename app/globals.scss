@@ -127,7 +127,7 @@ section {
   transition:
     width 0.2s ease-in-out,
     height 0.2s ease-in-out;
-  cursor: none !important; /* Let's hide the default cursor so it looks way better */
+   /* Let's hide the default cursor so it looks way better */
 
   &::before {
     content: "";
@@ -164,11 +164,11 @@ section {
     }
   }
   .flare.pointer {
-    display: none;
+     opacity: 0 !important;
   }
 }
 .flare.pointer {
-  // opacity: 0 !important;
+ 
   mix-blend-mode: lighten;
   background-color: rgba(191, 255, 0, 0.59);
   width: 80px !important;
@@ -178,9 +178,19 @@ section {
     width 0.2s ease-in-out,
     height 0.2s ease-in-out,
     opacity 0.2s ease-in-out;
+    display: grid;
+    place-content: center;
 
   &::before {
     content: "";
     display: none;
+  }
+  &::after {
+    content: "";
+    width: 10px;
+    height: 10px;
+    background: #0000006b;
+    z-index: 9999999 !important;
+    border-radius: 50%;
   }
 }

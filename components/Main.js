@@ -2,6 +2,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import Image from "next/image";
 import Button from "./Button";
+import Link from "next/link";
 
 const Main = () => {
   const [day, setDay] = useState("-");
@@ -91,22 +92,22 @@ const Main = () => {
         >
           Registrations Open Soon...
         </a>
-        <a
-          href="#faq"
+        <Link
+          href="#faqs"
           className={`drop-shadow-lg font-semibold tracking-widest text-nowrap text-center px-28 lg:px-48 py-2 text-Cblue text-xl border-2 border-Cblue rounded-full  bg-gray-500 backdrop-blur-lg bg-opacity-10 `}
         >
           See FAQs
-        </a>
+        </Link>
       </div>
 
       {/* timer */}
-      <div className="timer space-x-5 absolute bottom-5 lg:bottom-16 flex scale-75 md:scale-90 lg:scale-100 ">
+      <div className="timer animate-pulse space-x-5 absolute bottom-3 lg:bottom-16 flex scale-75 md:scale-90 lg:scale-100 ">
         <div className="days">
           {" "}
           {day}
           <div>days</div>
         </div>
-        <div className="hours">
+        <div className="hours ">
           {hour} <div>hours</div>{" "}
         </div>
         <div className="minutes">

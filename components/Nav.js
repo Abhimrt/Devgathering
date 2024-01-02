@@ -4,39 +4,40 @@ import React, { useRef } from "react";
 import { HiMenuAlt2 } from "react-icons/hi";
 import { MdOutlineClose } from "react-icons/md";
 import Button from "./Button";
+import Link from "next/link";
 
 const link = [
   {
     name: "About",
-    link: "#about",
+    link: "/#about",
   },
   {
     name: "Why Participate?",
-    link: "#participate",
+    link: "/#participate",
   },
   {
     name: "Event Schedule",
-    link: "#past",
+    link: "/#past",
   },
   {
     name: "Problem Statement",
-    link: "#about",
+    link: "/#about",
   },
   {
     name: "Past Events",
-    link: "#about",
+    link: "/#past",
   },
   {
     name: "Partners",
-    link: "#partners",
+    link: "/#partners",
   },
   {
     name: "Sponsors",
-    link: "#sponsors",
+    link: "/#sponsors",
   },
   {
     name: "FAQs",
-    link: "#faqs",
+    link: "/#faqs",
   },
   // {
   //   name: "Contact Us",
@@ -55,7 +56,7 @@ const Nav = () => {
       {/* for large and upper devices */}
       <>
         <div className="leftNav w-1/5 hidden lg:block"> 
-        <a
+        <Link
           href="#"
           className=" px-2 py-5 items-center flex w-fit"
         >
@@ -70,18 +71,18 @@ const Nav = () => {
             <div>MLSA</div>
             <div>MIET</div>
           </div>
-        </a>
+        </Link>
         </div>
 
         <div className="rightNav w-4/5 text-Cblue flex justify-evenly items-center px-5 font-semibold text-md xl:text-lg  hidden lg:flex  ">
           {link.map((e, i) => (
-            <a
+            <Link
               href={e.link}
               key={i}
               className=" hover:border-b-[3px] border-Cblue duration-100 drop-shadow-lg"
             >
               {e.name}
-            </a>
+            </Link>
           ))}
         </div>
       </>
@@ -95,7 +96,7 @@ const Nav = () => {
         <MdOutlineClose onClick={Show} className="bg-Ccream bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-20 rounded-md"/>
         </div>
           {/* logos */}
-        <a
+        <Link
           href="/"
           className="leftNav w-full justify-center px-2 py-5 items-center flex"
         >
@@ -110,7 +111,7 @@ const Nav = () => {
             <h2>MLSA</h2>
             <h2>MIET</h2>
           </div>
-        </a>
+        </Link>
         {/* links */}
           <div className="flex   w-screen justify-center items-center h-[70vh] text-2xl  space-y-4 ">
           <div className="flex text-Cblue  w-fit  flex-col text-2xl  space-y-4">
@@ -120,23 +121,23 @@ const Nav = () => {
             }
             if(e.name == "FAQs"){
               return (
-                <a
+                <Link
                   href={e.link}
                   key={i}
                   className="  drop-shadow-lg tracking-wide pb-3 indent-2  "
                 >
                   {e.name}
-                </a>
+                </Link>
               )
             }else{
               return (
-                <a
+                <Link
                   href={e.link}
                   key={i}
                   className=" border-b-[3px] border-Cblue drop-shadow-lg tracking-wide pb-3 indent-2  "
                 >
                   {e.name}
-                </a>
+                </Link>
               )
             }
           })}
@@ -145,7 +146,7 @@ const Nav = () => {
           {/* contact button */}
           <div className=" absolute left-0 right-0 bottom-10 m-auto  flex justify-center">
           <Button
-            link="#contact"
+            link="/#footer"
             text="Contact Us"
             px="10"
             py="2"
@@ -159,7 +160,7 @@ const Nav = () => {
         </div>
 
         {/* right sidemlsa logo */}
-        <a
+        <Link
           href="/"
           className="leftNav w-1/5  p-5 items-center flex lg:hidden justify-end "
         >
@@ -171,7 +172,7 @@ const Nav = () => {
             height={100}
           />
           
-        </a>
+        </Link>
       </>
     </div>
   );

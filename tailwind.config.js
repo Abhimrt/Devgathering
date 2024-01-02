@@ -7,7 +7,31 @@ module.exports = {
   ],
   theme: {
     extend: {
-     
+      keyframes: {
+        wiggle: {
+          '0%, 100%': { transform: 'rotate(-3deg)' },
+          '50%': { transform: 'rotate(3deg)' },
+        },
+        jiggle:{
+          '0%, 30%,100%': { transform: 'rotate(0deg) scale(1)' },
+          '40%, 60%, 80%': { transform: 'rotate(-6deg) scale(1.1)' },
+          '50%, 70%, 90%': { transform: 'rotate(6deg) scale(1.1)' },
+        },
+        bounceR:{
+          "0%, 100%": {
+            transform: "translateX(50%)"
+          },
+         "50%": {
+            transform: "translateX(0)"
+          }
+        }
+      },
+      animation: {
+        wiggle: 'wiggle 1s ease-in-out infinite',
+        jiggle: 'jiggle 1s ease-in-out infinite',
+        "ping-slow":"ping 1.5s linear infinite",
+        bounceR:"bounceR 1.5s linear infinite"
+      },
       colors: {
         Cblue:"#002447",
         Csblue:'#53D3D1',

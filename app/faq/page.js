@@ -1,31 +1,33 @@
 "use client";
 import Image from "next/image";
 import React, { useState } from "react";
-import { FaqsData } from "./Data";
-import { FaAnglesRight } from "react-icons/fa6";
-import Link from "next/link";
+import { FaqsData } from "@/components/Data";
+import Nav from "@/components/Nav";
 
-const Faq = () => {
+const page = () => {
   const [activeIndex, setActiveIndex] = useState(0);
 
   const handleClick = (index) => {
     setActiveIndex((prevIndex) => (prevIndex === index ? null : index));
   };
   return (
-    <section
+    <>
+    <Nav/>
+        <section
       id="faqs"
-      className="w-screen min-h-screen flex flex-col items-center space-y-10"
+      className="w-screen min-h-screen flex flex-col items-center space-y-10 pt-36"
     >
-      <div>
+      <div >
+        <div className="w-screen">
         <Image
           src="/images/FaqHeading.png"
-          className="min-w-[120vw] lg:min-w-[70%] h-auto cursor-pointer"
+          className="min-w-[130vw] lg:min-w-[70%]  relative -left-5 h-auto cursor-pointer"
           alt=""
           width={900}
           height={200}
         />
+        </div>
         {FaqsData.map((item, index) => {
-          if (index >= 7) return;
           return (
             <div key={index} className="mb-2 w-[90vw] mx-auto ">
               <div
@@ -52,14 +54,9 @@ const Faq = () => {
           );
         })}
       </div>
-      <Link
-        href={"/faq"}
-        className={`drop-shadow-lg font-semibold tracking-widest bg-Cblue px-10 py-2 text-Corange rounded-full flex justify-center items-center gap-3 `}
-      >
-        Explore More FAQs <FaAnglesRight className="animate-bounceR" />
-      </Link>
     </section>
+    </>
   );
 };
 
-export default Faq;
+export default page;

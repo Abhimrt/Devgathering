@@ -72,7 +72,7 @@ const Past = () => {
         <hr className="w-[90vw] h-3 lg:h-5 border-0 bg-Corange rounded-xl" />
         <Image
           src="/images/PastArrow.png"
-          className=" w-[5vw] lg:w-[3vw] h-auto pt-5"
+          className=" w-[5vw] lg:w-[3vw] h-auto pt-5 animate-bounce"
           width={50}
           height={50}
           alt=""

@@ -79,6 +79,13 @@ const About = () => {
         width={100}
         height={100}
       />
+      <Image
+        src="/images/AboutCircles.png"
+        className="absolute animate-ping  right-[4%] bottom-[4%] sm:bottom-[5%] w-[25vw] sm:w-[8vw]"
+        alt=""
+        width={100}
+        height={100}
+      />
     </section>
   );
 };
