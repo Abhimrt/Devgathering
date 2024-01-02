@@ -16,7 +16,7 @@ const Partners = () => {
         </div>
         <>
           <p className='text-Ccream text-lg text-center mx-5'>Want to be featured here and be a part of this event and help us. Fill the form given form below</p>
-          <a href=""className='text-Ccream border-2 border-Ccream px-5 py-2 rounded-xl mt-2 mb-5 hover:bg-Cblue duration-300' >Become Partner</a>
+          <a href=""className='text-Ccream border-2 border-Ccream px-5 py-2 rounded-xl mt-2 mb-5 hover:bg-Cblue duration-300 text-no-wrap' >Become Partner</a>
         </>
         {/* <div className='w-screen  h-auto flex justify-center items-center flex-col md:flex-row space-y-10 md:space-y-0 md:space-x-10 my-10'>
             <Box image="PartnerReskill.png"/>

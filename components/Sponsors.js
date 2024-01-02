@@ -10,7 +10,7 @@ const Sponsors = () => {
             <span className=' text-Corange relative z-1'>Sp</span>onsors
         </h2>
         <p className='text-Ccream text-lg text-center mx-5'>Want to be featured here and be a part of this event and help us. Fill the form given form below</p>
-        <a href="https://abhisheksinghal.notion.site/abhisheksinghal/MLSA-MIET-Dev-Gathering-Call-for-Sponsors-0005e944a676484d96b298479af82617" target='_blank' className='text-Ccream border-2 border-Ccream px-5 py-2 rounded-xl mt-2 mb-5 hover:bg-Cblue duration-300' >Sponsor Us</a>
+        <a href="https://abhisheksinghal.notion.site/abhisheksinghal/MLSA-MIET-Dev-Gathering-Call-for-Sponsors-0005e944a676484d96b298479af82617" target='_blank' className='text-Ccream border-2 border-Ccream px-5 py-2 rounded-xl mt-2 mb-5 hover:bg-Cblue duration-300 text-nowrap' >Sponsor Us</a>
         <div className='w-screen overflow-hidden bg-Cblue min-h-[40vh] flex items-center'>
         <div className='sponsorScroll  overflow-x-auto  flex   px-12 lg:pl-24 space-x-14'>
               <h3 className='text-Ccream text-center text-3xl w-screen ' >Declare soon...</h3>
