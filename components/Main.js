@@ -83,7 +83,7 @@ const Main = () => {
         Dev <br className="lg:hidden" /> Gathering '24
       </h1>
       <h2 className="text-Cblue capitalize tracking-widest text-lg text-center ">
-        32 Hours Offline Hackathon <br /> March 15 to March 17
+        32 Hours Offline Hackathon <br /> March 30 to March 31
       </h2>
       <div className="lg:space-x-5 space-y-5 w-[80vw] lg:w-auto mt-5 lg:mt-10 flex flex-col items-center lg:block ">
         <a
