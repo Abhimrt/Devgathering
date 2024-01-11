@@ -1,4 +1,5 @@
 import About from "@/components/About";
+import EventSchedule from "@/components/EventSchedule";
 import Faq from "@/components/Faq";
 import FlareCursor from "@/components/FlareCursor";
 import Footer from "@/components/Footer";
@@ -18,12 +19,13 @@ export default function Home() {
       <Main />
       <About />
       <Participate />
-      <Past/>
-      <Partners/>
-      <Sponsors/>
-      <Faq/>
-      <Team/>
-      <Footer/>
+      <EventSchedule />
+      <Past />
+      <Partners />
+      <Sponsors />
+      <Faq />
+      <Team />
+      <Footer />
     </>
   );
 }

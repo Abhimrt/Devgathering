@@ -1,0 +1,189 @@
+$borderRadius: 6rem;
+$borderWidth: .5rem;
+
+:root {
+    --base: #140a15;
+    --black: #0b0404;
+    --shade1: #77bee7;
+    --shade2: #3a9bd4;
+    --shade3: #01171f;
+    --shade4: #062631;
+    --text1: white;
+}
+
+#timeline {
+    width: 80vw;
+    color: white;
+
+
+    .timelineContent {
+        overflow: visible;
+
+        .timelineTextBox {
+            @apply p-12;
+            position: relative;
+            overflow: visible;
+            border-radius: $borderRadius;
+
+            .border {
+                position: absolute;
+                top: 0;
+                width: 50%;
+                height: 100%;
+                border: $borderWidth solid var(--Cblue);
+                z-index: 1;
+            }
+
+            &:after {
+                @apply text-4xl animate-jiggleCus;
+                position: absolute;
+                content: "1";
+                padding: 1rem;
+                width: 5rem;
+                height: 5rem;
+                background-color: var(--Corange);
+                transform: translateY(-50%);
+                @include center;
+                border-radius: 50%;
+                top: 50%;
+                border: .5rem solid var(--Cblue);
+                z-index: 2;
+            }
+
+            // odd element
+            &:nth-child(2n+1) {
+                // background: linear-gradient(to right, var(--Csblue), transparent);
+
+                &::after {
+                    left: -2.5rem;
+                }
+
+                .border {
+
+                    border-radius: $borderRadius 0 0 $borderRadius;
+                    border-right: none;
+                    left: 0px;
+                }
+            }
+
+            //even element
+            &:nth-child(2n) {
+                // background: linear-gradient(to left, var(--Cblue), transparent);
+                text-align: right;
+
+                &::after {
+                    right: -2.5rem;
+                }
+
+                .border {
+                    right: 0px;
+                    border-radius: 0 $borderRadius $borderRadius 0;
+                    border-left: none
+                }
+            }
+
+            // first element
+            &:nth-child(1) {
+                background: none;
+                // background: linear-gradient(to top right, var(--Csblue), transparent, transparent);
+
+                .border {
+                    border-top: none;
+                    overflow: visible;
+                    border-radius: 0rem 0rem 0rem $borderRadius;
+
+                    &::after {
+                        content: "";
+                        position: absolute;
+                        background: var(--Corange);
+                        width: $borderWidth;
+                        height: 50%;
+                        top: 0;
+                        left: -$borderWidth;
+                    }
+                }
+            }
+
+            // last element
+            &:last-child {
+                .border {
+                    border-bottom: none !important;
+                    overflow: visible;
+
+                    &::after {
+                        content: "";
+                        position: absolute;
+                        background: var(--Corange);
+                        width: $borderWidth;
+                        height: 50%;
+                        bottom: 0;
+                    }
+                }
+
+                // if last element is odd
+                &:nth-child(odd) {
+                    // background: linear-gradient(to bottom right, var(--Ccream), transparent, transparent);
+
+                    .border {
+                        border-radius: $borderRadius 0rem 0rem 0 !important;
+
+                        &::after {
+                            left: -$borderWidth;
+                        }
+                    }
+                }
+
+                // if last element is even
+                &:nth-child(even) {
+                    // background: linear-gradient(to bottom left, var(--Ccream), transparent, transparent);
+
+                    .border {
+                        border-radius: 0rem $borderRadius 0rem 0rem !important;
+
+                        &::after {
+                            right: -$borderWidth;
+                        }
+                    }
+                }
+            }
+
+
+            // to make element border seamless
+            @for $i from 1 through 15 {
+                &:nth-child(#{$i+1}) {
+                    top: -$i*$borderWidth;
+
+                    &::after {
+                        content: "#{$i+1}";
+
+                    }
+                }
+            }
+
+
+            // main text designing
+            h2 {
+                @apply text-3xl lg:text-5xl;
+                font-weight: 700;
+                text-shadow: 1px 1px 3px var(--Cblue);
+            }
+
+            .position,
+            .date {
+                @apply text-xl lg:text-2xl text-Cblue;
+                font-style: italic;
+                letter-spacing: 1px;
+            }
+
+            .date {
+                @apply text-nowrap text-gray-500;
+            }
+
+            p {
+                @apply text-xl;
+                font-weight: 400;
+                text-shadow: 1px 1px 1.5px var(--Cblue);
+            }
+        }
+    }
+}

@@ -5,7 +5,7 @@ const About = () => {
   return (
     <section
       id="about"
-      className="h-[100vh] w-full flex items-center justify-center flex-col bg-Cblue overflow-hidden relative"
+      className="min-h-[100vh] w-full flex items-center justify-center flex-col bg-Cblue overflow-hidden relative"
     >
       <Image
         src="/images/AboutFingers.png"
@@ -42,35 +42,37 @@ const About = () => {
         width={500}
         height={500}
       />
-      <h2 className="text-Ccream text-3xl cursor-pointer sm:text-5xl tracking-[5px] font-bold pb-8  sm:absolute top-[20%] z-20 ">
-        About Dev <br className="sm:hidden" /> Gathering
-      </h2>
-      <div className="text-Ccream space-y-5 w-[90vw] text-justify sm:w-[45vw] sm:absolute right-[15vw] top-[32%] z-20" style={{textShadow:"1px 1px 2px black"}}>
-        <p>
-          MLSA MIET is thrilled to announce "Dev Gathering '24," a cutting-edge
-          Hackathon set to take place in March 2024.
-        </p>
-        <p>
-          This event promises to be an exciting platform for tech enthusiasts,
-          developers, and innovators to come together and showcase their skills.
-          Participants will have the opportunity to tackle real-world
-          challenges, collaborate on groundbreaking projects, and push the
-          boundaries of technology.
-        </p>
-        <p>
-          Dev Gathering '24 aims to foster a dynamic and creative environment,
-          encouraging participants to think outside the box and explore
-          innovative solutions. With engaging workshops, expert mentorship, and
-          the chance to network with like-minded individuals, this hackathon is
-          not just a competition but a celebration of collaboration and
-          ingenuity.
-        </p>
-        <p className="hidden lg:block" >
-          Join us for an unforgettable experience where ideas converge, and
-          innovation takes center stage. Get ready to unleash your creativity
-          and make a lasting impact in the world of technology at Dev Gathering
-          '24!
-        </p>
+      <div className="relative w-full min-h-screen text-center py-[30%] lg:py-0">
+        <h2 className="text-Ccream text-center text-3xl cursor-pointer sm:text-5xl tracking-[5px] font-bold pb-8  sm:absolute top-[20%] z-30 w-full">
+          About Dev <br className="sm:hidden" /> Gathering
+        </h2>
+        <div className="text-Ccream space-y-5 w-[90vw]  text-justify sm:w-[45vw] sm:absolute right-[15vw] top-[32%] z-20 mx-auto" style={{ textShadow: "1px 1px 2px black" }}>
+          <p>
+            MLSA MIET is thrilled to announce "Dev Gathering '24," a cutting-edge
+            Hackathon set to take place in March 2024.
+          </p>
+          <p>
+            This event promises to be an exciting platform for tech enthusiasts,
+            developers, and innovators to come together and showcase their skills.
+            Participants will have the opportunity to tackle real-world
+            challenges, collaborate on groundbreaking projects, and push the
+            boundaries of technology.
+          </p>
+          <p>
+            Dev Gathering '24 aims to foster a dynamic and creative environment,
+            encouraging participants to think outside the box and explore
+            innovative solutions. With engaging workshops, expert mentorship, and
+            the chance to network with like-minded individuals, this hackathon is
+            not just a competition but a celebration of collaboration and
+            ingenuity.
+          </p>
+          <p  >
+            Join us for an unforgettable experience where ideas converge, and
+            innovation takes center stage. Get ready to unleash your creativity
+            and make a lasting impact in the world of technology at Dev Gathering
+            '24!
+          </p>
+        </div>
       </div>
       <Image
         src="/images/AboutCircles.png"
