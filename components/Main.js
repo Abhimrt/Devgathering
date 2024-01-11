@@ -11,7 +11,7 @@ const Main = () => {
   const [second, setSecond] = useState('-');
 
   //competition date
-  const date = Math.abs((new Date(2024, 2, 15).getTime() / 1000).toFixed(0));
+  const date = Math.abs((new Date(2024, 2, 30).getTime() / 1000).toFixed(0));
 
   useEffect(() => {
     function displayTimeLeft() {
@@ -87,10 +87,11 @@ const Main = () => {
       </h2>
       <div className="lg:space-x-5 space-y-5 w-[80vw] lg:w-auto mt-5 lg:mt-10 flex flex-col items-center lg:block ">
         <a
-          href={"#"}
+          href={"https://whereuelevate.com/drills/mlsa-miet-devgathering-hackathon-2024"}
           className={`drop-shadow-lg text-nowrap font-semibold tracking-widest bg-Cblue px-8 lg:px-28 py-3 text-Corange rounded-full `}
+          target="_blank"
         >
-          Registrations Open Soon...
+          Register Now...
         </a>
         <Link
           href="#faqs"

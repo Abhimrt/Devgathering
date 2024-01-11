@@ -6,14 +6,14 @@ const Past = () => {
   const [Src, setSrc] = useState("/images/PastFirst.JPG")
   const FullImage = useRef("")
 
-  const toggle = (e)=>{
-    if(e != "") setSrc(e.target.getAttribute('src'))
-    
+  const toggle = (e) => {
+    if (e != "") setSrc(e.target.getAttribute('src'))
+
     FullImage.current.classList.toggle("hidden")
   }
 
   return (
-    <section id="past" className="min-h-fit " style={{background:"linear-gradient(to bottom, transparent,var(--Cblue),var(--Cblue),var(--Cblue)"}}>
+    <section id="past" className="min-h-fit " style={{ background: "linear-gradient(to bottom, transparent,var(--Cblue),var(--Cblue),var(--Cblue)" }}>
       <Image
         src="/images/PastWaves.png"
         className="w-screen mt-8"
@@ -35,7 +35,7 @@ const Past = () => {
             width={1000}
             height={200}
             className="w-screen border-2 lg:border-4 border-Corange rounded-2xl cursor-pointer"
-            onClick={(e)=>toggle(e)}
+            onClick={(e) => toggle(e)}
             alt=""
           />
 
@@ -45,7 +45,7 @@ const Past = () => {
               width={400}
               height={400}
               className="w-[48%] border-2 lg:border-4 border-Corange rounded-2xl cursor-pointer"
-              onClick={(e)=>toggle(e)}
+              onClick={(e) => toggle(e)}
               alt=""
             />
             <Image
@@ -53,7 +53,7 @@ const Past = () => {
               width={400}
               height={400}
               className="w-[48%] border-2 lg:border-4 border-Corange rounded-2xl cursor-pointer"
-              onClick={(e)=>toggle(e)}
+              onClick={(e) => toggle(e)}
               alt=""
             />
           </div>
@@ -63,7 +63,7 @@ const Past = () => {
               width={400}
               height={400}
               className="w-[32%] border-2 lg:border-4 border-Corange rounded-2xl cursor-pointer"
-              onClick={(e)=>toggle(e)}
+              onClick={(e) => toggle(e)}
               alt=""
             />
             <Image
@@ -71,7 +71,7 @@ const Past = () => {
               width={400}
               height={400}
               className="w-[32%] border-2 lg:border-4 border-Corange rounded-2xl cursor-pointer"
-              onClick={(e)=>toggle(e)}
+              onClick={(e) => toggle(e)}
               alt=""
             />
             <Image
@@ -79,7 +79,7 @@ const Past = () => {
               width={400}
               height={400}
               className="w-[32%] border-2 lg:border-4 border-Corange rounded-2xl cursor-pointer"
-              onClick={(e)=>toggle(e)}
+              onClick={(e) => toggle(e)}
               alt=""
             />
           </div>
@@ -90,7 +90,7 @@ const Past = () => {
               width={400}
               height={400}
               className="w-[34vw] lg:w-[33vw] relative -right-[70px] sm:-right-24 lg:-right-28  border-2 lg:border-4 border-Corange  rounded-full drop-shadow-xl  cursor-pointer"
-              onClick={(e)=>toggle(e)}
+              onClick={(e) => toggle(e)}
               alt=""
             />
             <Image
@@ -98,7 +98,7 @@ const Past = () => {
               width={400}
               height={400}
               className="min-w-[65vw] lg:min-w-[60vw] border-2 lg:border-4 border-Corange rounded-2xl  cursor-pointer"
-              onClick={(e)=>toggle(e)}
+              onClick={(e) => toggle(e)}
               alt=""
             />
           </div>
@@ -114,14 +114,14 @@ const Past = () => {
       </div>
       {/* on click open image */}
       <div ref={FullImage} className="w-screen h-screen bg-Ccream bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-10 fixed top-0 z-40 flex justify-center items-center lg:pt-[110px] hidden" >
-        <div className="w-screen h-screen fixed top-0 " onClick={()=>toggle("")}></div>
-      <Image
-            src={Src}
-            width={1000}
-            height={200}
-            className="w-[90%] lg:w-auto lg:h-[75vh] border-2 lg:border-4 border-Corange rounded-2xl shadow-2xl z-50"
-            alt=""
-          />
+        <div className="w-screen h-screen fixed top-0 " onClick={() => toggle("")}></div>
+        <Image
+          src={Src}
+          width={1500}
+          height={800}
+          className="w-[90%] lg:w-auto lg:h-[75vh] border-2 lg:border-4 border-Corange rounded-2xl shadow-2xl z-50"
+          alt=""
+        />
       </div>
     </section>
   );
