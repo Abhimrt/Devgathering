@@ -34,7 +34,7 @@ const Team = () => {
           image="MeetAbhishek.jpg"
           name="Abhishek Singhal"
           phone="9927245142"
-          mail="abhisinghal112001@gmail.com"
+          mail="support@abhisheksinghal.in"
           instagram="https://www.instagram.com/abhi112001/"
           linkedin="https://www.linkedin.com/in/abhishek-singhal-112001/"
           twitter="https://www.linkedin.com/in/abhishek-singhal-112001/"
