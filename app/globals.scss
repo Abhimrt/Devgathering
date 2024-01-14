@@ -16,7 +16,7 @@
   scroll-behavior: smooth;
   padding: 0;
   margin: 0;
-  cursor: none;
+  // cursor: none;
 }
 
 @mixin center {
@@ -36,6 +36,11 @@ body {
   background-color: var(--Corange);
   width: 100vw;
   overflow-x: hidden;
+
+}
+
+body::-webkit-scrollbar {
+  display: none;
 }
 
 section {
@@ -46,7 +51,7 @@ section {
 // scrollbar
 /* width */
 ::-webkit-scrollbar {
-  display: none;
+  // display: none;
   width: 15px;
 }
 
@@ -198,7 +203,7 @@ section {
 .flare.pointer {
 
   mix-blend-mode: lighten;
-  background-color: rgba(191, 255, 0, 0.59);
+  background-color: rgba(191, 255, 0, 0.3);
   width: 100px !important;
   height: 100px !important;
   cursor: none !important;
@@ -227,4 +232,35 @@ section {
 
 .pstable td {
   @apply border-2 p-3 border-Cblue shadow-md text-2xl;
+}
+
+.Mbutton {
+  * {
+    cursor: pointer;
+  }
+
+  a {
+    @apply min-w-40 drop-shadow-xl text-Ccream font-semibold capitalize text-xl bg-Cblue rounded-sm text-center py-3 relative duration-200;
+
+    &:before {
+      content: "";
+      @apply border-2 rounded-sm absolute top-0 left-0 -translate-x-2 -translate-y-2 drop-shadow-xl w-full h-full duration-200 transition-transform;
+    }
+
+    &:active {
+      @apply translate-x-1 translate-y-1;
+
+      &:before {
+        @apply border-b-0 border-r-0;
+      }
+    }
+
+    &:hover {
+      @apply -translate-x-1 -translate-y-1;
+
+      &:before {
+        @apply translate-x-0 translate-y-0;
+      }
+    }
+  }
 }

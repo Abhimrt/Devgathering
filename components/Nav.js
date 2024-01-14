@@ -27,14 +27,14 @@ const link = [
     name: "Past Events",
     link: "/#past",
   },
-  {
-    name: "Partners",
-    link: "/#partners",
-  },
-  {
-    name: "Sponsors",
-    link: "/#sponsors",
-  },
+  // {
+  //   name: "Partners",
+  //   link: "/#Partners",
+  // },
+  // {
+  //   name: "Sponsors",
+  //   link: "/#Sponsors",
+  // },
   {
     name: "FAQs",
     link: "/#faqs",

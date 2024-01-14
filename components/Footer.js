@@ -33,7 +33,7 @@ const Footer = () => {
       <div className="flex justify-center items-stretch mt-10  flex-col lg:flex-row w-[90vw] mx-auto relative z-10 relative">
         <div className="lg:w-[30%] space-y-2 flex items-center lg:items-start my-5 lg:my-0 justify-start flex-col">
           <h3 className="tracking-wide text-3xl  mb-3 lg:mb-5 ">More Info.</h3>
-          <a target="_blank" href="#" className="opacity-70">
+          <a target="_blank" href="http://aka.ms/SACoC" className="opacity-70">
             code of conduct
           </a>
           <a target="_blank" href="" className="opacity-70">
@@ -67,7 +67,7 @@ const Footer = () => {
           <div className="flex items-center space-x-3">
             <IoMail />
             <span className="text-Corange underline underline-offset-4">
-              VANI.MITTAL@studentambassadors.com
+              support@mietmlsa.xyz
             </span>
           </div>
           <a

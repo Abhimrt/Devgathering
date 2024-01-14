@@ -1,4 +1,4 @@
-#partners {
+#Partners {
     .PartnerTopRight {
         box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.4);
 
@@ -51,10 +51,12 @@
             align-self: flex-end;
             margin-right: 15px;
             transform: rotateY(180deg);
+
             img {
                 transform: rotateY(180deg);
             }
         }
+
         &:nth-child(2n+1) {
             align-self: flex-start;
             margin-left: 15px;

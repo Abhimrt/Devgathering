@@ -15,7 +15,6 @@
   scroll-behavior: smooth;
   padding: 0;
   margin: 0;
-  cursor: none;
 }
 
 a,
@@ -29,6 +28,10 @@ body {
   overflow-x: hidden;
 }
 
+body::-webkit-scrollbar {
+  display: none;
+}
+
 section {
   max-width: 100vw;
   overflow-x: hidden;
@@ -36,7 +39,6 @@ section {
 
 /* width */
 ::-webkit-scrollbar {
-  display: none;
   width: 15px;
 }
 
@@ -100,10 +102,10 @@ section {
 }
 
 /* partner section */
-#partners .PartnerTopRight {
+#Partners .PartnerTopRight {
   box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.4);
 }
-#partners .PartnerTopRight::after {
+#Partners .PartnerTopRight::after {
   content: "";
   width: 100px;
   height: 100px;
@@ -114,10 +116,10 @@ section {
   box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.4);
   border-radius: 50%;
 }
-#partners .PartnerLogoBox {
+#Partners .PartnerLogoBox {
   box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.6);
 }
-#partners .PartnerLogoBox::after {
+#Partners .PartnerLogoBox::after {
   content: "";
   width: 10px;
   height: 80px;
@@ -127,7 +129,7 @@ section {
   z-index: 10;
   box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.6);
 }
-#partners .PartnerLogoBox::before {
+#Partners .PartnerLogoBox::before {
   content: "";
   width: 100px;
   height: 100px;
@@ -457,7 +459,7 @@ section {
 }
 .flare.pointer {
   mix-blend-mode: lighten;
-  background-color: rgba(191, 255, 0, 0.59);
+  background-color: rgba(191, 255, 0, 0.3);
   width: 100px !important;
   height: 100px !important;
   cursor: none !important;
@@ -481,4 +483,27 @@ section {
 
 .pstable td {
   @apply border-2 p-3 border-Cblue shadow-md text-2xl;
+}
+
+.Mbutton * {
+  cursor: pointer;
+}
+.Mbutton a {
+  @apply min-w-40 drop-shadow-xl text-Ccream font-semibold capitalize text-xl bg-Cblue rounded-sm text-center py-3 relative duration-200;
+}
+.Mbutton a:before {
+  content: "";
+  @apply border-2 rounded-sm absolute top-0 left-0 -translate-x-2 -translate-y-2 drop-shadow-xl w-full h-full duration-200 transition-transform;
+}
+.Mbutton a:active {
+  @apply translate-x-1 translate-y-1;
+}
+.Mbutton a:active:before {
+  @apply border-b-0 border-r-0;
+}
+.Mbutton a:hover {
+  @apply -translate-x-1 -translate-y-1;
+}
+.Mbutton a:hover:before {
+  @apply translate-x-0 translate-y-0;
 }/*# sourceMappingURL=globals.css.map */
