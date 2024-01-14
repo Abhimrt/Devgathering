@@ -21,7 +21,7 @@ const link = [
   },
   {
     name: "Problem Statement",
-    link: "/#about",
+    link: "/problemstatement",
   },
   {
     name: "Past Events",
@@ -52,7 +52,7 @@ const Nav = () => {
     sideNav.current.classList.toggle("translate-x-[-100vw]")
   }
   return (
-    <div className="flex h-[100px] rounded-b-3xl lg:drop-shadow-lg lg:border-b-5 border-Cblue    lg:bg-Ccream lg:bg-clip-padding lg:backdrop-filter lg:backdrop-blur-md lg:bg-opacity-40  fixed w-screen  z-50">
+    <div className="flex h-[100px] rounded-b-3xl lg:drop-shadow-lg lg:border-b-5 border-Cblue    lg:bg-Ccream lg:bg-clip-padding lg:backdrop-filter lg:backdrop-blur-md lg:bg-opacity-40  fixed top-0 w-screen  z-50">
       {/* for large and upper devices */}
       <>
         <div className="leftNav w-1/5 hidden lg:block">

@@ -224,3 +224,7 @@ section {
     border-radius: 50%;
   }
 }
+
+.pstable td {
+  @apply border-2 p-3 border-Cblue shadow-md text-2xl;
+}

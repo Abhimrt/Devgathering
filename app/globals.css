@@ -477,4 +477,8 @@ section {
   background: #000000;
   z-index: 9999999 !important;
   border-radius: 50%;
+}
+
+.pstable td {
+  @apply border-2 p-3 border-Cblue shadow-md text-2xl;
 }/*# sourceMappingURL=globals.css.map */
