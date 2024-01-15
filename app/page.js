@@ -27,7 +27,7 @@ export default function Home() {
     "Evangelist"
   ]
 
-  const [show, setshow] = useState("Judges")
+  const [show, setshow] = useState("Partners")
 
   return (
     <>
