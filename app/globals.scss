@@ -87,7 +87,7 @@ section {
 @import "Css/_Timeline.scss";
 
 // sponsor section
-#sponsors {
+#Sponsors {
 
   p,
   a {
@@ -101,6 +101,8 @@ section {
     &>div {
       scroll-snap-align: center;
     }
+
+
 
     // scrollbar
     /* width */

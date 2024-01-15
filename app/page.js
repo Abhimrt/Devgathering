@@ -4,6 +4,7 @@ import EventSchedule from "@/components/EventSchedule";
 import Faq from "@/components/Faq";
 import FlareCursor from "@/components/FlareCursor";
 import Footer from "@/components/Footer";
+import JoinMember from "@/components/JoinMemeber";
 import Main from "@/components/Main";
 import MultipleButton from "@/components/MultipleButton";
 import Nav from "@/components/Nav";
@@ -13,19 +14,20 @@ import Past from "@/components/Past";
 import Sponsors from "@/components/Sponsors";
 import Team from "@/components/Team";
 import { useState } from "react";
+import { joinMem } from "@/data/JoinMembers"
 
 export default function Home() {
 
   const portal = [
     "Partners",
     "Sponsors",
-    // "Judges",
-    // "Mentors",
-    // "Community",
-    // "Evangelist"
+    "Judges",
+    "Mentors",
+    "Community",
+    "Evangelist"
   ]
 
-  const [show, setshow] = useState("Partners")
+  const [show, setshow] = useState("Judges")
 
   return (
     <>
@@ -38,7 +40,12 @@ export default function Home() {
       <Past />
       <MultipleButton portal={portal} setshow={setshow} />
       {
-        (show == "Partners") ? <Partners /> : <Sponsors />
+        (show == "Partners") ? <Partners /> :
+          (show == "Sponsors") ? <Sponsors /> :
+            (show == "Judges") ? <JoinMember content={joinMem.judge} /> :
+              (show == "Mentors") ? <JoinMember content={joinMem.mentors} /> :
+                (show == "Community") ? <JoinMember content={joinMem.community} /> :
+                  <JoinMember content={joinMem.evangelist} />
       }
       <Faq />
       <Team />

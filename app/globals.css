@@ -376,27 +376,27 @@ section {
   text-shadow: 1px 1px 1.5px var(--Cblue);
 }
 
-#sponsors p,
-#sponsors a {
+#Sponsors p,
+#Sponsors a {
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.577);
 }
-#sponsors .sponsorScroll {
+#Sponsors .sponsorScroll {
   overflow-y: hidden;
   scroll-snap-type: x mandatory;
   /* width */
   /* Track */
   /* Handle */
 }
-#sponsors .sponsorScroll > div {
+#Sponsors .sponsorScroll > div {
   scroll-snap-align: center;
 }
-#sponsors .sponsorScroll::-webkit-scrollbar {
+#Sponsors .sponsorScroll::-webkit-scrollbar {
   height: 10px;
 }
-#sponsors .sponsorScroll::-webkit-scrollbar-track {
+#Sponsors .sponsorScroll::-webkit-scrollbar-track {
   background: var(--Cblue);
 }
-#sponsors .sponsorScroll::-webkit-scrollbar-thumb {
+#Sponsors .sponsorScroll::-webkit-scrollbar-thumb {
   background: var(--Corange);
   border-radius: 10px;
 }
