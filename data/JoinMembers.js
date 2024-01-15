@@ -17,7 +17,7 @@ const joinMem = {
     },
     community: {
         title: "Community",
-        link: "",
+        link: "https://www.commudle.com/fill-form/2150",
         linkTitle: "Become Community Partner",
         Member: [
 
@@ -25,7 +25,7 @@ const joinMem = {
     },
     evangelist: {
         title: "Evangelist",
-        link: "",
+        link: "https://www.commudle.com/fill-form/2152",
         linkTitle: "Become Evangelist",
         Member: [
 

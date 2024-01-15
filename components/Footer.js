@@ -36,15 +36,15 @@ const Footer = () => {
           <a target="_blank" href="http://aka.ms/SACoC" className="opacity-70">
             code of conduct
           </a>
-          <a target="_blank" href="" className="opacity-70">
-            Community guidelines
-          </a>
           <a
             target="_blank"
             href="https://abhisheksinghal.notion.site/abhisheksinghal/MLSA-MIET-Dev-Gathering-Call-for-Sponsors-0005e944a676484d96b298479af82617"
             className="opacity-70"
           >
-            call for sponsors
+            call for Sponsors
+          </a>
+          <a target="_blank" href="https://www.commudle.com/fill-form/2150" className="opacity-70">
+            call for Community Partners
           </a>
         </div>
         <div className="lg:w-[30%]  space-y-2 flex items-center justify-start flex-col ">

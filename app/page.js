@@ -13,8 +13,9 @@ import Partners from "@/components/Partners";
 import Past from "@/components/Past";
 import Sponsors from "@/components/Sponsors";
 import Team from "@/components/Team";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { joinMem } from "@/data/JoinMembers"
+import Loader from "@/components/Loader";
 
 export default function Home() {
 
@@ -31,6 +32,7 @@ export default function Home() {
 
   return (
     <>
+      <Loader />
       <FlareCursor />
       <Nav />
       <Main />
