@@ -19,7 +19,7 @@ const Team = () => {
         {" "}
         Meet Organizers{" "}
       </h2>
-      <div className="w-[90vw] flex items-center justify-between flex-col lg:flex-row space-y-5 lg:space-y-0 lg:mt-[100px]">
+      <div className="w-[90vw] flex items-center justify-between flex-col lg:flex-row space-y-5 lg:space-y-0 lg:mt-[100px] flex-wrap">
         <Box
           image="MeetVani.jpg"
           name="Vani Mittal"
@@ -39,6 +39,16 @@ const Team = () => {
           linkedin="https://www.linkedin.com/in/abhishek-singhal-112001/"
           twitter="https://www.linkedin.com/in/abhishek-singhal-112001/"
           connect="https://www.abhisheksinghal.in/"
+        />
+        <Box
+          image="MeetHimank.jpeg"
+          name="Himank Varshney"
+          phone="8373931752"
+          mail="mailto:var.himank@gmail.com"
+          instagram=""
+          linkedin="https://www.linkedin.com/in/varhimank/"
+          twitter=""
+          connect="https://www.linkedin.com/in/varhimank/"
         />
         {/* <Box image="MeetAbhishek.jpg" name="Abhishek Singhal" phone="9927245142" mail="abhisinghal112001@gmail.com" instagram="https://www.instagram.com/abhi112001/" linkedin="https://www.linkedin.com/in/abhishek-singhal-112001/" twitter="https://www.linkedin.com/in/abhishek-singhal-112001/" connect="https://www.abhisheksinghal.in/" /> */}
       </div>
