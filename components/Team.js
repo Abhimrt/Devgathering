@@ -44,7 +44,7 @@ const Team = () => {
           image="MeetHimank.jpeg"
           name="Himank Varshney"
           phone="8373931752"
-          mail="mailto:var.himank@gmail.com"
+          mail="var.himank@gmail.com"
           instagram=""
           linkedin="https://www.linkedin.com/in/varhimank/"
           twitter=""
