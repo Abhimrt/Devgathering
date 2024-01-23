@@ -4,7 +4,7 @@ import { MdLocationPin } from "react-icons/md";
 import { IoMail } from "react-icons/io5";
 import { FaDiscord } from "react-icons/fa";
 import { RiInstagramFill } from "react-icons/ri";
-import { BsLinkedin } from "react-icons/bs";
+import { BsLinkedin, BsTwitterX } from "react-icons/bs";
 
 const Footer = () => {
   return (
@@ -102,6 +102,12 @@ const Footer = () => {
               href="https://www.linkedin.com/company/mlsa-miet/"
             >
               <BsLinkedin />
+            </a>
+            <a
+              target="_blank"
+              href="https://twitter.com/MlsaMiet"
+            >
+              <BsTwitterX />
             </a>
           </div>
         </div>

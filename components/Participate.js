@@ -3,19 +3,19 @@ import React from "react";
 
 const data = [
   {
-    img:'First',
-    heading:"1 Lakhs",
-    para:[" Worth prizes at stake, along with","Certificate of Participation and","Amazing swags"]
+    img: 'First',
+    heading: "1 Lakhs",
+    para: [" Worth prizes at stake, along with", "Certificate of Participation and", "Amazing swags"]
   },
   {
-    img:'Second',
-    heading:"Get Inspired",
-    para:[" Code with 500+ developers and "," designers to build solutions to real- "," world problems"]
+    img: 'Second',
+    heading: "Get Inspired",
+    para: [" Code with 500+ developers and ", " designers to build solutions to real- ", " world problems"]
   },
   {
-    img:'Third',
-    heading:"Fresh Insights",
-    para:[" Get insights from eminent "," speakers and mentors "," "]
+    img: 'Third',
+    heading: "Internship Opportunity",
+    para: [" Opportunity to secure a  ", " paid internship ", "awaits you! "]
   },
 ]
 
@@ -41,35 +41,35 @@ const Participate = () => {
 
       <div className=" w-[85vw] mx-auto flex items-stretch justify-center flex-col lg:flex-row  lg:space-x-10 space-y-16 lg:space-y-0 ">
         {
-          data.map((e,i)=>(
+          data.map((e, i) => (
             <div className="border-2 border-Cblue rounded-2xl flex items-center justify-stretch flex-col w-full lg:w-1/3 relative shadow-md " key={i}>
-            <Image
-              src={`/images/Participate${e.img}.png`}
-              className="w-full h-auto"
-              width={400}
-              height={400}
-              alt=""
-            />
-            <div className="flex items-start justify-center w-full flex-col  ">
-              <h3
-                className="text-white text-center text-5xl w-full"
-                style={{ textShadow: "2px 2px 3px rgba(0,0,0,.8)" }}
-              >
-                {e.heading}
-              </h3>
-              <hr className="w-[60%] mx-auto h-2 bg-Cblue border-0 rounded-full mt-3 mb-1 " />
-              <p className="text-center w-full font-semibold text-lg mb-5 text-Cblue px-5 text-nowrap">
-                {e.para.map((e1,i)=>(
-                  <>{e1}<br/></>
+              <Image
+                src={`/images/Participate${e.img}.png`}
+                className="w-full h-auto"
+                width={400}
+                height={400}
+                alt=""
+              />
+              <div className="flex items-start justify-center w-full flex-col  ">
+                <h3
+                  className="text-white text-center text-5xl w-full"
+                  style={{ textShadow: "2px 2px 3px rgba(0,0,0,.8)" }}
+                >
+                  {e.heading}
+                </h3>
+                <hr className="w-[60%] mx-auto h-2 bg-Cblue border-0 rounded-full mt-3 mb-1 " />
+                <p className="text-center w-full font-semibold text-lg mb-5 text-Cblue px-5 text-nowrap">
+                  {e.para.map((e1, i) => (
+                    <>{e1}<br /></>
                   ))}
-              </p>
-              <hr className="w-[100%] mx-auto h-6 bg-Cblue border-0 rounded-full mt-3 mb-1 absolute -bottom-10 drop-shadow-lg" />
+                </p>
+                <hr className="w-[100%] mx-auto h-6 bg-Cblue border-0 rounded-full mt-3 mb-1 absolute -bottom-10 drop-shadow-lg" />
+              </div>
             </div>
-          </div>
           ))
         }
-        
-        
+
+
       </div>
     </section>
   );
