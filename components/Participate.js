@@ -4,8 +4,8 @@ import React from "react";
 const data = [
   {
     img: 'First',
-    heading: "1 Lakhs",
-    para: [" Worth prizes at stake, along with", "Certificate of Participation and", "Amazing swags"]
+    heading: "50 Lakhs+",
+    para: ["Prize Poll 50 Lakh+, cash Prize 25,000+", " with Certificate of Participation and", "Amazing swags"]
   },
   {
     img: 'Second',
