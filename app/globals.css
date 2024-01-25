@@ -172,6 +172,7 @@ section {
   color: white;
 }
 #timeline .timelineContent {
+  width: 75vw;
   overflow: visible;
 }
 #timeline .timelineContent .timelineTextBox {
