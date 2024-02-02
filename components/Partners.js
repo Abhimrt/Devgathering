@@ -27,12 +27,12 @@ const Partners = () => {
             <Box image="PartnerReskill.png"/>
             <Box image="PartnerReskill.png"/>
         </div> */}
-      {/* <div className='w-screen flex justify-center items-center flex-col md:flex-row space-y-10 md:space-y-0 md:space-x-10 my-10 '>
-            <div className='hidden'></div>
+      <div className='w-screen flex justify-center items-center flex-col md:flex-row space-y-10 md:space-y-0 md:space-x-10 my-10 lg:scale-125'>
+            {/* <div className='hidden'></div> */}
             <div className='lg:w-96 hidden lg:block'></div>
-            <Box image="PartnerReskill.png"/>
-            <Box image="PartnerReskill.png"/>
-        </div> */}
+            <Box image="commudleLogo.png"/>
+            {/* <Box image="PartnerReskill.png"/> */}
+        </div>
     </section>
   )
 }
