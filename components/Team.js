@@ -40,7 +40,7 @@ const Team = () => {
           twitter="https://www.linkedin.com/in/abhishek-singhal-112001/"
           connect="https://www.abhisheksinghal.in/"
         />
-        {/* <Box
+        <Box
           image="MeetHimank.jpeg"
           name="Himank Varshney"
           phone="8373931752"
@@ -49,7 +49,7 @@ const Team = () => {
           linkedin="https://www.linkedin.com/in/varhimank/"
           twitter=""
           connect="https://www.linkedin.com/in/varhimank/"
-        /> */}
+        />
         {/* <Box image="MeetAbhishek.jpg" name="Abhishek Singhal" phone="9927245142" mail="abhisinghal112001@gmail.com" instagram="https://www.instagram.com/abhi112001/" linkedin="https://www.linkedin.com/in/abhishek-singhal-112001/" twitter="https://www.linkedin.com/in/abhishek-singhal-112001/" connect="https://www.abhisheksinghal.in/" /> */}
       </div>
     </div>
