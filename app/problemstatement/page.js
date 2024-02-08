@@ -131,7 +131,7 @@ const page = () => {
     }
 
     return (
-        <div className='relative'>
+        <div className='relative mb-28 w-screen'>
             <Nav />
             <FlareCursor />
             <section className='flex justify-center items-center flex-col my-10 mt-28 lg:mt-40'>
@@ -166,6 +166,15 @@ const page = () => {
                     </table>
                 </div>
             </div>
+            <Heading text={"Tezos Track"} />
+            <div className='w-screen flex items-center justify-center'>
+                <div className='rounded-md p-5 bg-Cblue flex items-center justify-center flex-col hover:scale-105 duration-300'>
+                    <Image width={200} height={200} src="/images/PSblockchain.png" alt="" />
+                    <p className='text-Corange text-xl mt-4 '>Blockchain</p>
+                </div>
+
+            </div>
+            <a href="" target='_blank' className='mx-auto my-8 absolute left-0 right-0 w-fit p-3  rounded-full text-blue-700 text-2xl'>Benefits of choosing Track</a>
         </div>
     )
 }
