@@ -661,7 +661,13 @@ section {
 
 #team {
   background-color: var(--Cblue);
-  background-image: url("/images/TeamBackground.png");
+  background-image: url("/images/TeamBackgroundUpper.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#team2 {
+  background-color: var(--Cblue);
+  background-image: url("/images/TeamBackgroundLower.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
