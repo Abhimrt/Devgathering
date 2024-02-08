@@ -28,11 +28,11 @@ const Partners = () => {
             <Box image="PartnerReskill.png"/>
         </div> */}
       <div className='w-screen flex justify-center items-center flex-col md:flex-row space-y-10 md:space-y-0 md:space-x-10 my-10 lg:scale-125'>
-            {/* <div className='hidden'></div> */}
-            <div className='lg:w-96 hidden lg:block'></div>
-            <Box image="PartnerCommudle.png"/>
-            {/* <Box image="PartnerReskill.png"/> */}
-        </div>
+        {/* <div className='hidden'></div> */}
+        <div className='lg:w-96 hidden lg:block'></div>
+        <Box image="PartnerCommudle.png" />
+        {/* <Box image="PartnerReskill.png"/> */}
+      </div>
     </section>
   )
 }
@@ -43,7 +43,7 @@ export default Partners
 const Box = ({ image }) => {
   return (
     <div className='w-[250px] h-[80px] rounded-r-full shadow-lg  bg-Cblue PartnerLogoBox relative flex justify-center items-center'>
-      <Image src={`/images/${image}`} width={200} height={80} alt="" />
+      <Image src={`/images/${image}`} width={190} height={80} alt="" />
     </div>
   )
 }

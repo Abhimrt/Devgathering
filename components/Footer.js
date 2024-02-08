@@ -33,18 +33,18 @@ const Footer = () => {
       <div className="flex justify-center items-stretch mt-10  flex-col lg:flex-row w-[90vw] mx-auto relative z-10 relative">
         <div className="lg:w-[30%] space-y-2 flex items-center lg:items-start my-5 lg:my-0 justify-start flex-col">
           <h3 className="tracking-wide text-3xl  mb-3 lg:mb-5 ">More Info.</h3>
-          <a target="_blank" href="http://aka.ms/SACoC" className="opacity-70">
-            code of conduct
+          <a target="_blank" href="https://drive.google.com/file/d/12jE-eOq4JmGbfgDxdj_ceOTrbAwcgofW/view?usp=sharing" className="opacity-70">
+            Code of conduct
           </a>
           <a
             target="_blank"
             href="https://abhisheksinghal.notion.site/abhisheksinghal/MLSA-MIET-Dev-Gathering-Call-for-Sponsors-0005e944a676484d96b298479af82617"
             className="opacity-70"
           >
-            call for Sponsors
+            Call for Sponsors
           </a>
           <a target="_blank" href="https://www.commudle.com/fill-form/2150" className="opacity-70">
-            call for Community Partners
+            Call for Community Partners
           </a>
         </div>
         <div className="lg:w-[30%]  space-y-2 flex items-center justify-start flex-col ">
@@ -87,7 +87,7 @@ const Footer = () => {
             >
               {" "}
               <Image
-                src="/images/CommudleLogo.png"
+                src="/images/CommudleLogo.webp"
                 width={30}
                 height={50}
                 alt=""

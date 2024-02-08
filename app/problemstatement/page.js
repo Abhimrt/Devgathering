@@ -100,6 +100,16 @@ const data = [
             },
         ]
     },
+    {
+        title: "Where You Elevate",
+        content: [
+            {
+                psno: "WUE01",
+                text: "Hackathons are a crucible for innovation, where ideas are forged into tangible projects under the pressure of time. The feedback from judges not only serves as a beacon for improvement but also shapes the participants' perspectives on their work. However, this valuable feedback can be voluminous and diverse, making it a challenge to analyze effectively. Moreover, unconscious biases in feedback can influence the reception and self-esteem of participants. Your mission, should you choose to accept it, is to develop an automated tool that not only categorizes the sentiment of feedback but also detects potential biases, ensuring a fair and constructive hackathon experience for all.",
+                desc: <a href="https://drive.google.com/file/d/1VkS-nSQ7oZIfEtke6OATdS0PHX8UPLEl/view?usp=sharing" target='_blank' className='z-50 relative text-nowrap'>Description Link</a>
+            },
+        ]
+    },
 
 ]
 
@@ -138,7 +148,7 @@ const page = () => {
             {/* work on click */}
             <div ref={showPannel} className="hidden w-screen h-screen  bg-Ccream bg-clip-padding backdrop-filter backdrop-blur-xl bg-opacity-30 fixed top-0 z-40 flex justify-center items-center lg:pt-[110px] overflow-auto" >
                 <div className="w-screen h-screen fixed top-0 " onClick={() => toggle(-1)}></div>
-                <div className='my-10' >
+                <div className='my-10 ' >
                     <Heading text={data[subIndex].title} />
                     <table className='w-[90%] lg:w-[80%]  mx-auto pstable shadow-lg my-5 text-sm lg:text-lg ' >
                         <thead className=' font-medium'>
@@ -196,7 +206,7 @@ const ProblemContainer = ({ problemData, toggle }) => {
 const Heading = ({ text }) => {
     return (
         <div className='relative'>
-            <Image width={300} height={100} className='-z-10 ' src="/images/ProblemHeading.png" alt="" />
+            <Image width={350} height={100} className='-z-10 ' src="/images/ProblemHeading.png" alt="" />
             <h2 className='absolute top-[50%] translate-y-[-50%] left-5 capitalize text-2xl z-10 text-Corange font-medium ' >{text}</h2>
         </div>
     )
