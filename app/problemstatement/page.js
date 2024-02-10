@@ -6,6 +6,16 @@ import React, { useRef, useState } from 'react'
 
 const data = [
     {
+        title: "Where You Elevate",
+        content: [
+            {
+                psno: "WUE01",
+                text: "Hackathons are a crucible for innovation, where ideas are forged into tangible projects under the pressure of time. The feedback from judges not only serves as a beacon for improvement but also shapes the participants' perspectives on their work. However, this valuable feedback can be voluminous and diverse, making it a challenge to analyze effectively. Moreover, unconscious biases in feedback can influence the reception and self-esteem of participants. Your mission, should you choose to accept it, is to develop an automated tool that not only categorizes the sentiment of feedback but also detects potential biases, ensuring a fair and constructive hackathon experience for all.",
+                desc: <a href="https://drive.google.com/file/d/1VkS-nSQ7oZIfEtke6OATdS0PHX8UPLEl/view?usp=sharing" target='_blank' className='z-50 relative text-nowrap'>Description Link</a>
+            },
+        ]
+    },
+    {
         title: "",
         content: [
             {
@@ -100,16 +110,7 @@ const data = [
             },
         ]
     },
-    {
-        title: "Where You Elevate",
-        content: [
-            {
-                psno: "WUE01",
-                text: "Hackathons are a crucible for innovation, where ideas are forged into tangible projects under the pressure of time. The feedback from judges not only serves as a beacon for improvement but also shapes the participants' perspectives on their work. However, this valuable feedback can be voluminous and diverse, making it a challenge to analyze effectively. Moreover, unconscious biases in feedback can influence the reception and self-esteem of participants. Your mission, should you choose to accept it, is to develop an automated tool that not only categorizes the sentiment of feedback but also detects potential biases, ensuring a fair and constructive hackathon experience for all.",
-                desc: <a href="https://drive.google.com/file/d/1VkS-nSQ7oZIfEtke6OATdS0PHX8UPLEl/view?usp=sharing" target='_blank' className='z-50 relative text-nowrap'>Description Link</a>
-            },
-        ]
-    },
+
 
 ]
 
@@ -166,15 +167,24 @@ const page = () => {
                     </table>
                 </div>
             </div>
-            <Heading text={"Tezos Track"} />
-            <div className='w-screen flex items-center justify-center'>
-                <div className='rounded-md p-5 bg-Cblue flex items-center justify-center flex-col hover:scale-105 duration-300'>
-                    <Image width={200} height={200} src="/images/PSblockchain.png" alt="" />
-                    <p className='text-Corange text-xl mt-4 '>Blockchain</p>
-                </div>
+            <Heading text={"Tracks"} />
+            <div className='xl:flex-row flex max-lg:flex-col lg:justify-around mt-8 lg:mx-12'>
+                <div className='w-screen flex items-center justify-center'>
+                    <div className='rounded-md p-5 bg-Cblue flex items-center justify-center flex-col hover:scale-105 duration-300'>
+                        <Image width={200} height={200} src="/images/PSblockchain.png" alt="" />
+                        <p className='text-Corange text-xl mt-4 '>Blockchain</p>
+                    </div>
 
+                </div>
+                <div className='w-screen p-5 flex items-center justify-center'>
+                    <div className='rounded-md p-5 bg-Cblue flex items-center justify-center flex-col hover:scale-105 duration-300'>
+                        <Image width={200} height={200} src="/images/PSWeb3.0.png" alt="" />
+                        <p className='text-Corange text-xl mt-4 '>Web 3.0</p>
+                    </div>
+
+                </div>
             </div>
-            <a href="" target='_blank' className='mx-auto my-8 absolute left-0 right-0 w-fit p-3  rounded-full text-blue-700 text-2xl'>Benefits of choosing Track</a>
+            {/* <a href="" target='_blank' className='mx-auto my-8 absolute left-0 right-0 w-fit p-3  rounded-full text-blue-700 text-2xl'>Benefits of choosing Track</a> */}
         </div>
     )
 }
@@ -214,9 +224,9 @@ const ProblemContainer = ({ problemData, toggle }) => {
 
 const Heading = ({ text }) => {
     return (
-        <div className='relative'>
+        <div className='relative w-fit'>
             <Image width={350} height={100} className='-z-10 ' src="/images/ProblemHeading.png" alt="" />
-            <h2 className='absolute top-[50%] translate-y-[-50%] left-5 capitalize text-2xl z-10 text-Corange font-medium ' >{text}</h2>
+            <h2 className='absolute top-[50%] translate-y-[-50%] my-auto justify-center w-full pr-14 text-center capitalize text-2xl z-10 text-Corange font-medium ' >{text}</h2>
         </div>
     )
 }
