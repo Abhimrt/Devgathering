@@ -20,15 +20,15 @@ import Loader from "@/components/Loader";
 export default function Home() {
 
   const portal = [
-    "Partners",
     "Sponsors",
+    "Partners",
     "Judges",
     "Mentors",
     "Community",
     "Evangelist"
   ]
 
-  const [show, setshow] = useState("Partners")
+  const [show, setshow] = useState("Sponsors")
 
   return (
     <>
@@ -42,8 +42,8 @@ export default function Home() {
       <Past />
       <MultipleButton portal={portal} setshow={setshow} />
       {
-        (show == "Partners") ? <Partners /> :
-          (show == "Sponsors") ? <Sponsors /> :
+        (show == "Sponsors") ? <Sponsors /> :
+          (show == "Partners") ? <Partners /> :
             (show == "Judges") ? <JoinMember content={joinMem.judge} /> :
               (show == "Mentors") ? <JoinMember content={joinMem.mentors} /> :
                 (show == "Community") ? <JoinMember content={joinMem.community} /> :
