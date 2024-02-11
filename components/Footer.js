@@ -33,7 +33,7 @@ const Footer = () => {
       <div className="flex justify-center items-stretch mt-10  flex-col lg:flex-row w-[90vw] mx-auto relative z-10 relative">
         <div className="lg:w-[30%] space-y-2 flex items-center lg:items-start my-5 lg:my-0 justify-start flex-col">
           <h3 className="tracking-wide text-3xl  mb-3 lg:mb-5 ">More Info.</h3>
-          <a target="_blank" href="https://drive.google.com/file/d/12jE-eOq4JmGbfgDxdj_ceOTrbAwcgofW/view?usp=sharing" className="opacity-70">
+          <a target="_blank" href="https://drive.google.com/file/d/1f6d9D1iABjeDPSuXWwf8K04WIx6_iYWw/view?usp=drive_link" className="opacity-70">
             Code of conduct
           </a>
           <a
