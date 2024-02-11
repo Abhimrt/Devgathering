@@ -92,13 +92,13 @@ const Main = () => {
         Dev <br className="lg:hidden" /> Gathering '24
       </h1>
       <h2 className="text-Cblue capitalize tracking-widest text-lg text-center ">
-        32 Hours Offline Hackathon <br /> March 30 to March 31
+        36 Hours Offline Hackathon <br /> March 30 to March 31
       </h2>
       <div className="lg:space-x-5 space-y-5 w-[80vw] lg:w-auto mt-5 lg:mt-10 flex flex-col items-center lg:block ">
         <a
-          href={"https://whereuelevate.com/drills/mlsa-miet-devgathering-hackathon-2024"}
+          // href={"https://whereuelevate.com/drills/mlsa-miet-devgathering-hackathon-2024"}
           className={`drop-shadow-lg text-nowrap font-semibold tracking-widest bg-Cblue px-8 lg:px-28 py-3 text-Corange rounded-full `}
-          target="_blank"
+          // target="_blank"
         >
           Register Now
         </a>
