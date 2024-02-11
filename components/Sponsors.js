@@ -16,7 +16,7 @@ const Sponsors = () => {
         <div className='sponsorScroll  overflow-x-auto  flex justify-center items-center flex-wrap px-12 lg:pl-24 gap-10  lg:gap-14'>
           {/* <h3 className='text-Ccream text-center text-3xl w-screen ' >Declare soon...</h3> */}
           <Box1 image="sponsorsDevfolio" name="DEVFOLIO" />
-          <Box1 image="sponsorsPolygon" name="PLOYGON" />
+          <Box1 image="sponsorsPolygon" name="POLYGON" />
           <Box1 image="sponsorsETH" name="ETHINDIA" />
 
         </div>
