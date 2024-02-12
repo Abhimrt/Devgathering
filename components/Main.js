@@ -100,7 +100,7 @@ const Main = () => {
           className={`drop-shadow-lg text-nowrap font-semibold tracking-widest bg-Cblue px-8 lg:px-28 py-3 text-Corange rounded-full `}
           // target="_blank"
         >
-          Register Now
+          Coming Soon
         </a>
         <Link
           href="#faqs"
