@@ -95,22 +95,13 @@ const Main = () => {
         36 Hours Offline Hackathon <br /> March 30 to March 31
       </h2>
       <div className="lg:space-x-5 space-y-5 w-[80vw] lg:w-auto mt-5 lg:mt-10 flex flex-col items-center lg:block ">
-        <a
+        {/* <a
           // href={"https://whereuelevate.com/drills/mlsa-miet-devgathering-hackathon-2024"}
           className={`drop-shadow-lg text-nowrap font-semibold tracking-widest bg-Cblue px-8 lg:px-28 py-3 text-Corange rounded-full `}
           // target="_blank"
         >
           Coming Soon
-        </a>
-        <Link
-          href="#faqs"
-          className={`drop-shadow-lg font-semibold tracking-widest text-nowrap text-center px-28 lg:px-48 py-2 text-Cblue text-xl border-2 border-Cblue rounded-full  bg-gray-500 backdrop-blur-lg bg-opacity-10 `}
-        >
-          See FAQs
-        </Link>
-
-
-
+        </a> */}
         <div className=" w-full flex justify-center ">
 
           <div
@@ -121,6 +112,16 @@ const Main = () => {
           >
           </div>
         </div>
+        <Link
+          href="#faqs"
+          className={`drop-shadow-lg font-semibold tracking-widest text-nowrap text-center px-28 lg:px-48 py-2 text-Cblue text-xl border-2 border-Cblue rounded-full  bg-gray-500 backdrop-blur-lg bg-opacity-10 `}
+        >
+          See FAQs
+        </Link>
+
+
+
+
 
 
 
