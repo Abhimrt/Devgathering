@@ -104,7 +104,7 @@ const Main = () => {
         </a> */}
         {/* <div className="flex justify-center "> */}
         <div
-            className="apply-button"
+            className="apply-button cursor-none"
             data-hackathon-slug="mlsamiet-devgathering"
             data-button-theme="dark"
             style={{ height: "44px", width: "312px" }}
