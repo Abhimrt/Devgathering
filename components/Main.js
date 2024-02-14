@@ -98,26 +98,25 @@ const Main = () => {
         {/* <a
           // href={"https://whereuelevate.com/drills/mlsa-miet-devgathering-hackathon-2024"}
           className={`drop-shadow-lg text-nowrap font-semibold tracking-widest bg-Cblue px-8 lg:px-28 py-3 text-Corange rounded-full `}
-          // target="_blank"
+        // target="_blank"
         >
-          Coming Soon
+          coming soon
         </a> */}
-        <div className=" w-full flex justify-center ">
-
-          <div
-            class="apply-button"
+        {/* <div className="flex justify-center "> */}
+        <div
+            className="apply-button"
             data-hackathon-slug="mlsamiet-devgathering"
-            data-button-theme="light"
+            data-button-theme="dark"
             style={{ height: "44px", width: "312px" }}
           >
           </div>
-        </div>
-        <Link
+        {/* </div> */}
+        {/* <Link
           href="#faqs"
           className={`drop-shadow-lg font-semibold tracking-widest text-nowrap text-center px-28 lg:px-48 py-2 text-Cblue text-xl border-2 border-Cblue rounded-full  bg-gray-500 backdrop-blur-lg bg-opacity-10 `}
         >
           See FAQs
-        </Link>
+        </Link> */}
 
 
 
