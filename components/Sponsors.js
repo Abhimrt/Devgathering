@@ -11,9 +11,9 @@ const Sponsors = () => {
       </h2>
       <p className='text-Ccream text-lg text-center mx-5'>Want to be featured here and be a part of this event and help us. Fill the form given form below</p>
       <a href="https://abhisheksinghal.notion.site/abhisheksinghal/MLSA-MIET-Dev-Gathering-Call-for-Sponsors-0005e944a676484d96b298479af82617" target='_blank' className='text-Ccream border-2 border-Ccream px-5 py-2 rounded-xl mt-2 mb-5 hover:bg-Cblue duration-300 text-nowrap' >Sponsor Us</a>
-      <h3 className=' text-2xl rounded-full pb-2 pt-3 mt-8 px-10 shadow-sm bg-Cblue text-Corange'>Gold Sponsors</h3>
+      <h3 className=' text-2xl rounded-full pb-2 pt-3 mt-8 mb-12 lg:mb-0 px-10 shadow-sm bg-Cblue text-Corange'>Gold Sponsors</h3>
       <div className='w-screen overflow-hidden  min-h-[40vh] flex justify-center items-center'>
-        <div className='sponsorScroll  overflow-x-auto  flex justify-center items-center flex-wrap px-12 lg:pl-24 gap-10  lg:gap-14'>
+        <div className='sponsorScroll  overflow-x-auto  flex justify-center items-center flex-wrap px-12 lg:pl-24 gap-8  lg:gap-14'>
           {/* <h3 className='text-Ccream text-center text-3xl w-screen ' >Declare soon...</h3> */}
           <Box1 image="sponsorsDevfolio" name="DEVFOLIO" />
           <Box1 image="sponsorsPolygon" name="POLYGON" />
