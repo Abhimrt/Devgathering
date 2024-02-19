@@ -31,7 +31,7 @@ const Data = [
         date: "15/03/2024",
     },
     {
-        title: "RSVP Conformation",
+        title: "RSVP Confirmation",
         subTitle: "Mail",
         date: "15/03/2024 - 23/03/2023",
     },

@@ -169,20 +169,10 @@ const page = () => {
             </div>
             <Heading text={"Tracks"} />
             <div className='xl:flex-row flex max-lg:flex-col lg:justify-around mt-8 lg:mx-12'>
-                <div className='w-screen flex items-center justify-center'>
-                    <div className='rounded-md p-5 bg-Cblue flex items-center justify-center flex-col hover:scale-105 duration-300'>
-                        <Image width={200} height={200} src="/images/PSblockchain.png" alt="" />
-                        <p className='text-Corange text-xl mt-4 '>Blockchain</p>
-                    </div>
-
-                </div>
-                <div className='w-screen p-5 flex items-center justify-center'>
-                    <div className='rounded-md p-5 bg-Cblue flex items-center justify-center flex-col hover:scale-105 duration-300'>
-                        <Image width={200} height={200} src="/images/PSWeb3.0.png" alt="" />
-                        <p className='text-Corange text-xl mt-4 '>Web 3.0</p>
-                    </div>
-
-                </div>
+                <Pstrack name={"Blockchain"} image={"PSblockchain"}/>
+                <Pstrack name={"Web 3.0"} image={"PSWeb3.0"}/>
+                <Pstrack name={"Polygon "} image={"PSPolygon"}/> 
+                <Pstrack name={"Ethereum "} image={"PSEthereum"}/> 
             </div>
             {/* <a href="" target='_blank' className='mx-auto my-8 absolute left-0 right-0 w-fit p-3  rounded-full text-blue-700 text-2xl'>Benefits of choosing Track</a> */}
         </div>
@@ -219,6 +209,18 @@ const ProblemContainer = ({ problemData, toggle }) => {
                 ))
             }
         </>
+    )
+}
+
+const Pstrack = ({ name, image }) => {
+    return (
+        <div className='w-screen p-5 flex items-center justify-center'>
+            <div className='rounded-md p-5 bg-Cblue flex items-center justify-center flex-col hover:scale-105 duration-300'>
+                <Image width={200} height={200} src={`/images/${image}.png`} alt="" />
+                <p className='text-Corange text-xl mt-4 '>{name}</p>
+            </div>
+
+        </div>
     )
 }
 
