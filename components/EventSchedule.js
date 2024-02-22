@@ -18,11 +18,11 @@ const Data = [
         para: "The submission involved presenting innovative ideas via PowerPoint presentations for the designated problem statements."
     },
     {
-        title: "Event Registration Stop",
+        title: "Event Registration Ends",
         date: "28/02/2024",
     },
     {
-        title: "Submission Stop",
+        title: "Submission Ends",
         date: "05/03/2024",
     },
     {

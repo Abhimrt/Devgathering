@@ -2,7 +2,7 @@
 import About from "@/components/About";
 import EventSchedule from "@/components/EventSchedule";
 import Faq from "@/components/Faq";
-import FlareCursor from "@/components/FlareCursor";
+// import FlareCursor from "@/components/FlareCursor";
 import Footer from "@/components/Footer";
 import JoinMember from "@/components/JoinMemeber";
 import Main from "@/components/Main";
@@ -16,6 +16,7 @@ import Team from "@/components/Team";
 import { useEffect, useState } from "react";
 import { joinMem } from "@/data/JoinMembers"
 import Loader from "@/components/Loader";
+import PrizePool from "@/components/prizepool";
 
 export default function Home() {
 
@@ -33,11 +34,12 @@ export default function Home() {
   return (
     <>
       <Loader />
-      <FlareCursor />
+      {/* <FlareCursor /> */}
       <Nav />
       <Main />
       <About />
       <Participate />
+      <PrizePool/>
       <EventSchedule />
       <Past />
       <MultipleButton portal={portal} setshow={setshow} />

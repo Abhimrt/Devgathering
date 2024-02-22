@@ -1,5 +1,5 @@
 "use client"
-import FlareCursor from '@/components/FlareCursor'
+// import FlareCursor from '@/components/FlareCursor'
 import Nav from '@/components/Nav'
 import Image from 'next/image'
 import React, { useRef, useState } from 'react'

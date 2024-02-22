@@ -28,6 +28,7 @@ const Sponsors = () => {
           <Box image="sponsorsXYZ" name=".XYZ" />
           <Box image="sponsorsECHO" name="Echo3d" />
           <Box image="sponsorsIC" name="Interview Cake" />
+          <Box image="sponsorsInterviewBuddy" name="Interview Buddy" />
 
         </div>
       </div>
