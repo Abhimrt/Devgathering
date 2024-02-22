@@ -1,5 +1,5 @@
 "use client"
-// import FlareCursor from '@/components/FlareCursor'
+import FlareCursor from '@/components/FlareCursor'
 import Nav from '@/components/Nav'
 import Image from 'next/image'
 import React, { useRef, useState } from 'react'
@@ -134,7 +134,7 @@ const page = () => {
     return (
         <div className='relative mb-28 w-screen'>
             <Nav />
-            <FlareCursor />
+            {/* <FlareCursor /> */}
             <section className='flex justify-center items-center flex-col my-10 mt-28 lg:mt-40'>
                 <h1 className='cursor-pointer  text-3xl lg:text-4xl font-semibold tracking-widest'>{"{"}Problem
                     <span className=' cursor-pointer bg-Cblue text-Corange px-1 py-2'>Statement{"}"}</span>
