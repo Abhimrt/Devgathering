@@ -168,14 +168,21 @@ const page = () => {
                 </div>
             </div>
             <Heading text={"Tracks"} />
-            <div className='xl:flex-row flex max-lg:flex-col lg:justify-around mt-8 lg:mx-12'>
-                <Pstrack name={"Blockchain"} image={"PSblockchain"}/>
-                <Pstrack name={"Web 3.0"} image={"PSWeb3.0"}/>
-                <Pstrack name={"Polygon "} image={"PSPolygon"}/> 
-                <Pstrack name={"Ethereum "} image={"PSEthereum"}/> 
-                <Pstrack name={"Hardware "} image={"PSHardware"}/> 
+            <div>
+
+                <div className='xl:flex-row flex max-lg:flex-col lg:justify-around mt-8 lg:mx-12'>
+                    <Pstrack name={"Blockchain"} image={"PSblockchain"} />
+                    <Pstrack name={"Web 3.0"} image={"PSWeb3.0"} />
+                    <Pstrack name={"Polygon "} image={"PSPolygon"} />
+                    <Pstrack name={"Ethereum "} image={"PSEthereum"} />
+                </div>
+                <div className='xl:flex-row flex max-lg:flex-col lg:justify-around mt-8 lg:mx-12'>
+                    <Pstrack name={"Hardware "} image={"PSHardware"} />
+                    <Pstrack name={"Cloud "} image={"PSCloud"} />
+                    <Pstrack name={"AIML "} image={"PSAIML"} />
+                    {/* <a href="" target='_blank' className='mx-auto my-8 absolute left-0 right-0 w-fit p-3  rounded-full text-blue-700 text-2xl'>Benefits of choosing Track</a> */}
+                </div>
             </div>
-            {/* <a href="" target='_blank' className='mx-auto my-8 absolute left-0 right-0 w-fit p-3  rounded-full text-blue-700 text-2xl'>Benefits of choosing Track</a> */}
         </div>
     )
 }
