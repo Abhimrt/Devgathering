@@ -5,7 +5,7 @@ export const FaqsData = [
     },
     {
       Question: "I cannot attend the event for some reason, can someone attend it in my place?",
-      Answer: "Yes, as long as the following conditions are met: The replacement attendee meets the eligibility criteria. A mail has been written to VANI.MITTAL@studentambassadors.com</a> in before the event, stating the change.",
+      Answer: "Yes, as long as the following conditions are met: The replacement attendee meets the eligibility criteria. A mail has been written to VANI.MITTAL@studentambassadors.com in before the event, stating the change.",
     },
     {
       Question: "Can I cancel my registration?",

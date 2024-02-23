@@ -18,7 +18,7 @@ const Team = () => {
           style={{ textShadow: "3px 3px 6px black" }}
         >
           {" "}
-          Meet Lead Organizers{" "}
+          Meet Our Lead Organizers{" "}
         </h2>
         <div className="w-[90vw] gap-10 flex items-center justify-between flex-col lg:flex-row space-y-5 lg:space-y-0 lg:mt-[100px] flex-wrap">
 
@@ -35,6 +35,33 @@ const Team = () => {
           />
         </div>
       </div>
+      {/* <div
+        id="teamMiddle"
+        className="w-screen min-h-screen flex items-center justify-evenly flex-col mt-4 lg:mt-0 lg:bg-center pt-10 lg:pt-24 pb-10 relative"
+      >
+        <div className="w-full h-full bg-Cblack-500 bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 absolute lg:hidden"></div>
+        <h2
+          className="text-Corange text-3xl text-center cursor-pointer break-words sm:text-5xl tracking-[5px] font-bold relative pt-24 z-10 mb-10 lg:mb-4"
+          style={{ textShadow: "3px 3px 6px black" }}
+        >
+          {" "}
+          Meet Our Lead Organizers{" "}
+        </h2>
+        <div className="w-[90vw] gap-10 flex items-center justify-between flex-col lg:flex-row space-y-5 lg:space-y-0 lg:mt-[100px] flex-wrap">
+
+
+          <Box
+            image="MeetVani.jpg"
+            name="Vani Mittal"
+            phone="9548538035"
+            mail="VANI.MITTAL@studentambassadors.com"
+            instagram="https://www.instagram.com/vani__001/"
+            linkedin="https://www.linkedin.com/in/vani-mi-ttal/"
+            twitter="https://twitter.com/VANIMITTAL12"
+            connect="https://www.linkedin.com/in/vani-mi-ttal/"
+          />
+        </div>
+      </div> */}
       <div
         id="team2"
         className="w-screen min-h-screen flex items-center justify-evenly flex-col  lg:bg-center pt-10 lg:pt-24 pb-10 relative"
@@ -45,7 +72,7 @@ const Team = () => {
           style={{ textShadow: "3px 3px 6px black" }}
         >
           {" "}
-          Meet Organizers{" "}
+          Meet Our Organizers{" "}
         </h2>
         <div className="w-[90vw] gap-10 flex items-center justify-between flex-col lg:flex-row space-y-5 lg:space-y-0 lg:mt-[100px] flex-wrap">
 
@@ -65,9 +92,9 @@ const Team = () => {
             name="Madhur Aggarwal"
             phone="9084417011"
             mail="madhuragl609@gmail.com"
-            instagram="https://www.instagram.com/vani__001/"
+            instagram="https://www.instagram.com/madhuragrawal__"
             linkedin="https://www.linkedin.com/in/madhuragl/"
-            twitter="https://twitter.com/VANIMITTAL12"
+            twitter="https://twitter.com/madhuragl"
             connect="https://www.linkedin.com/in/madhuragl/"
           />
           <Box

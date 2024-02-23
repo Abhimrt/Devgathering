@@ -671,6 +671,12 @@ section {
   background-repeat: no-repeat;
   background-size: cover;
 }
+#teamMiddle {
+  background-color: var(--Cblue);
+  background-image: url("/images/TeamBackgroundMiddle.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 .flare {
   position: fixed;
