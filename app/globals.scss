@@ -269,3 +269,14 @@ section {
     }
   }
 }
+
+.hoverEffect{
+  .hoverEffectChild{
+    transition: .3s all ease-in-out;
+  }
+  &:hover{
+    .hoverEffectChild{
+      @apply rotate-180
+    }
+  }
+}

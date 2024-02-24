@@ -5,8 +5,8 @@ import React from "react";
 const data = [
   {
     img: 'First',
-    heading: "50 Lakhs+",
-    para: ["Prize Poll 50 Lakh+, cash Prize 25,000+", " with Certificate of Participation and", "Amazing swags"]
+    heading: "$1,50,000",
+    para: ["Prize Poll $1,50,000 , cash Prize ₹25,000+", " with Certificate of Participation and", "Amazing swags"]
   },
   {
     img: 'Second',
@@ -65,7 +65,9 @@ const Participate = () => {
                   <hr key={i} className="w-[60%] mx-auto h-2 bg-Cblue border-0 rounded-full mt-3 mb-1 " />
                   <p key={i} className="text-center w-full font-semibold text-lg mb-5 text-Cblue px-5 text-nowrap">
                     {e.para.map((e1, i) => (
+                      <React.Fragment key={i}>
                       <>{e1}<br /></>
+                      </React.Fragment>
                     ))}
                   </p>
                   <hr key={i} className="w-[100%] mx-auto h-6 bg-Cblue border-0 rounded-full mt-3 mb-1 absolute -bottom-10 drop-shadow-lg" />

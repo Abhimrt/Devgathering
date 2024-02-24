@@ -89,7 +89,7 @@ const Team = () => {
           />
           <Box
             image="MeetMadhur.png"
-            name="Madhur Aggarwal"
+            name="Madhur Agrawal"
             phone="9084417011"
             mail="madhuragl609@gmail.com"
             instagram="https://www.instagram.com/madhuragrawal__"

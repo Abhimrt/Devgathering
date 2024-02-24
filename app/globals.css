@@ -172,7 +172,7 @@ section {
   color: white;
 }
 #timeline .timelineContent {
-  width: 75vw;
+  width: 75lvw;
   overflow: visible;
 }
 #timeline .timelineContent .timelineTextBox {
@@ -661,19 +661,7 @@ section {
 
 #team {
   background-color: var(--Cblue);
-  background-image: url("/images/TeamBackgroundUpper.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-#team2 {
-  background-color: var(--Cblue);
-  background-image: url("/images/TeamBackgroundLower.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-#teamMiddle {
-  background-color: var(--Cblue);
-  background-image: url("/images/TeamBackgroundMiddle.png");
+  background-image: url("/images/TeamBackground.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -771,4 +759,11 @@ section {
 }
 .Mbutton a:hover:before {
   @apply translate-x-0 translate-y-0;
+}
+
+.hoverEffect .hoverEffectChild {
+  transition: 0.3s all ease-in-out;
+}
+.hoverEffect:hover .hoverEffectChild {
+  @apply rotate-180;
 }/*# sourceMappingURL=globals.css.map */
