@@ -14,7 +14,7 @@ const Faq = () => {
   return (
     <section
       id="faqs"
-      className="w-screen min-h-screen flex flex-col items-center space-y-10"
+      className="w-screen min-h-screen flex flex-col mb-12 lg:mb-2 items-center space-y-10"
     >
       <div>
         <Image

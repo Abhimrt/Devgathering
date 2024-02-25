@@ -1,9 +1,10 @@
 import React from "react";
 
-const KnowMore = ({link,text, setModal,px,py}) => {
+const KnowMore = ({index,text, handleModal,px,py}) => {
   return (
     <button
-      onClick={()=>{setModal(true)}}
+    value={index}
+      onClick={handleModal}
       className={`drop-shadow-lg font-semibold tracking-widest bg-Cblue px-10 py-2 text-Corange rounded-full `}
     >
       {text}

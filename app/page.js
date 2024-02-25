@@ -16,8 +16,7 @@ import Team from "@/components/Team";
 import { useEffect, useState } from "react";
 import { joinMem } from "@/data/JoinMembers"
 import Loader from "@/components/Loader";
-import PrizePool from "@/components/prizepool";
-import SecondPrize from "@/components/linkedInPost";
+import PrizePool from "@/components/PrizePool";
 
 export default function Home() {
 
@@ -40,7 +39,7 @@ export default function Home() {
       <Main />
       <About />
       <Participate />
-      <SecondPrize/>
+      <PrizePool/>
       <EventSchedule />
       <Past />
       <MultipleButton portal={portal} setshow={setshow} />

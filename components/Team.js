@@ -10,11 +10,11 @@ const Team = () => {
     <>
       <div
         id="team"
-        className="w-screen min-h-screen flex items-center justify-evenly flex-col mt-4 lg:mt-0 lg:bg-center pt-10 lg:pt-24 pb-10 relative"
+        className="w-screen min-h-screen flex items-center justify-evenly flex-col mt-4 lg:mt-0 lg:bg-center pb-10 relative"
       >
         <div className="w-full h-full bg-Cblack-500 bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 absolute lg:hidden"></div>
         <h2
-          className="text-Corange text-3xl text-center cursor-pointer break-words sm:text-5xl tracking-[5px] font-bold relative pt-24 z-10 mb-10 lg:mb-4"
+          className="text-Corange text-3xl text-center cursor-pointer break-words sm:text-5xl tracking-[5px] font-bold relative pt-24 z-10 mb-10 lg:mb-10"
           style={{ textShadow: "3px 3px 6px black" }}
         >
           {" "}
@@ -64,19 +64,17 @@ const Team = () => {
       </div> */}
       <div
         id="team2"
-        className="w-screen min-h-screen flex items-center justify-evenly flex-col  lg:bg-center pt-10 lg:pt-24 pb-10 relative"
+        className="w-screen min-h-screen flex items-center justify-evenly flex-col  lg:bg-center  pb-10 relative"
       >
         <div className="w-full h-full bg-Cblack-500 bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 absolute lg:hidden"></div>
         <h2
-          className="text-Corange text-3xl cursor-pointer sm:text-5xl tracking-[5px] font-bold relative pt-24 z-10 mb-10 lg:mb-4"
+          className="text-Corange text-3xl text-center cursor-pointer sm:text-5xl tracking-[5px] font-bold relative pt-24 z-10 mb-20 lg:mb-10"
           style={{ textShadow: "3px 3px 6px black" }}
         >
           {" "}
           Meet Our Organizers{" "}
         </h2>
         <div className="w-[90vw] gap-10 flex items-center justify-between flex-col lg:flex-row space-y-5 lg:space-y-0 lg:mt-[100px] flex-wrap">
-
-
           <Box
             image="MeetAbhishek.jpg"
             name="Abhishek Singhal"
