@@ -93,12 +93,11 @@ function PrizePool() {
       Total: "To be Announced",
       Cash: "$200",
       KnowMore: [
-        "InterviewBuddy: Mock Interview.",
-        "Echo3D:One Month free access to pro tier worth $99",
-        ".XYZ: Domain Name for One Year worth ₹165.",
-        "InterviewCake: Full access licences worth $249.",
-        "InterviewBuddy: Discount Vouchers for all.",
-        "Exclusive Swag kits."
+        "Polygon is a protocol and a framework for building and connecting Ethereum-compatible blockchain networks.",
+        "Track: Polygon Track",
+        "Read about the bounty details and find code templates for Polygon here: <a>https://nsb.dev/polygon-bounty</a>.",
+        "Best hack built on Polygon",
+        "1 PRIZE, 200 USD"
       ]
     },
     {
@@ -107,12 +106,13 @@ function PrizePool() {
       Total: "To be Announced",
       Cash: "$100",
       KnowMore: [
-        "InterviewBuddy: Mock Interview.",
-        "Echo3D:One Month free access to pro tier worth $99",
-        ".XYZ: Domain Name for One Year worth ₹165.",
-        "InterviewCake: Full access licences worth $249.",
-        "InterviewBuddy: Discount Vouchers for all.",
-        "Exclusive Swag kits."
+        "ETHIndia is empowering the Ethereum Community through its various initiatives including hackathons, fellowships, grants, and more!",
+        "Track: Ethereum Track",
+        "Select this track if you're building on Ethereum to be eligible for the prizes!",
+        "Best hack built on Ethereum",
+        "1 PRIZE, 100 USD",
+
+
       ]
     },
   ]
@@ -127,12 +127,12 @@ function PrizePool() {
 
   useEffect(() => {
     console.log(ModalContent)
-  
+
     // return () => {
     //   second
     // }
   }, [ModalContent])
-  
+
 
 
   return (
@@ -206,7 +206,7 @@ const Box = ({
         </h3>
         <div className="mb-4">
           <p>Total Prize Worth: ₹{total}</p>
-          {cash && <p>Cash Prize Worth: ₹{cash}</p>}
+          {cash && <p>Cash Prize Worth: {cash}</p>}
         </div>
         <KnowMore index={index} handleModal={handleModal} text="Know More" />
         {/* <Button  text="Know More" /> */}
