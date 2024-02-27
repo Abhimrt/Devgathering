@@ -17,6 +17,7 @@ import { useEffect, useState } from "react";
 import { joinMem } from "@/data/JoinMembers"
 import Loader from "@/components/Loader";
 import PrizePool from "@/components/PrizePool";
+import LinkedInPosts from "@/components/LinkedInPosts";
 
 export default function Home() {
 
@@ -42,6 +43,7 @@ export default function Home() {
       <PrizePool/>
       <EventSchedule />
       <Past />
+      <LinkedInPosts/>
       <MultipleButton portal={portal} setshow={setshow} />
       {
         (show == "Sponsors") ? <Sponsors /> :

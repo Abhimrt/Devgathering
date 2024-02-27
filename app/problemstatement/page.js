@@ -114,6 +114,45 @@ const data = [
 
 ]
 
+const tracks = [
+    {
+        name: "FinTech",
+        image:"PSFintech"
+    },
+    {
+        name: "EdTech",
+        image:"PSEdtech"
+    },
+    {
+        name: "AR/VR",
+        image:"PSARVR"
+    },
+    {
+        name: "Productivity & networking ",
+        image:"PSPAN"
+    },
+    {
+        name: "Iot",
+        image:"PSIOT"
+    },
+    {
+        name: "Healthcare",
+        image:"PSHealthcare"
+    },
+    {
+        name: "open innovation ",
+        image:"PSOI"
+    },
+    {
+        name: "web 3.0",
+        image:"PSWeb3.0"
+    },
+    {
+        name: "blockchain",
+        image:"PSblockchain"
+    },
+]
+
 const page = () => {
     const [index, setIndex] = useState(0)
     const [subIndex, setSubIndex] = useState(0)
@@ -208,18 +247,24 @@ const page = () => {
                 </div>
             </div>
             <Heading text={"Tracks"} />
-            <div className=' flex flex-wrap xl:flex-row max-lg:flex-col lg:justify-around mt-8 max-w-screen lg:mx-12'>
-                {/* <div className='xl:flex-row flex max-lg:flex-col lg:justify-around mt-8 lg:mx-12'> */}
-                    <Pstrack name={"Blockchain"} image={"PSblockchain"} />
-                    <Pstrack name={"Web 3.0"} image={"PSWeb3.0"} />
-                    <Pstrack name={"Polygon "} image={"PSPolygon"} />
-                    <Pstrack name={"Ethereum "} image={"PSEthereum"} />
-                {/* </div>
-                <div className='xl:flex-row flex max-lg:flex-col lg:justify-around mt-8 lg:mx-12'> */}
-                    <Pstrack name={"Hardware "} image={"PSHardware"} />
-                    <Pstrack name={"Cloud "} image={"PSCloud"} />
-                    <Pstrack name={"AIML "} image={"PSAIML"} />
-                    {/* <a href="" target='_blank' className='mx-auto my-8 absolute left-0 right-0 w-fit p-3  rounded-full text-blue-700 text-2xl'>Benefits of choosing Track</a> */}
+            <div className=' flex flex-wrap xl:flex-row text-center capitalize max-lg:flex-col lg:justify-around mt-8 max-w-screen lg:mx-12'>
+                {
+                    tracks.map((e,i)=>{
+                        return(
+                            <>
+                                <Pstrack name={e.name} image={e.image} />
+                            </>
+                        )
+                    })
+                }
+                {/* <Pstrack name={"Blockchain"} image={"PSblockchain"} /> */}
+                {/* <Pstrack name={"Web 3.0"} image={"PSWeb3.0"} />
+                <Pstrack name={"Polygon "} image={"PSPolygon"} />
+                <Pstrack name={"Ethereum "} image={"PSEthereum"} />
+                <Pstrack name={"Hardware "} image={"PSHardware"} />
+                <Pstrack name={"Cloud "} image={"PSCloud"} />
+                <Pstrack name={"AIML "} image={"PSAIML"} /> */}
+                {/* <a href="" target='_blank' className='mx-auto my-8 absolute left-0 right-0 w-fit p-3  rounded-full text-blue-700 text-2xl'>Benefits of choosing Track</a> */}
                 {/* </div> */}
             </div>
         </div>
