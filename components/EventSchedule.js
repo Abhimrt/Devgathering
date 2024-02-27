@@ -19,11 +19,11 @@ const Data = [
     },
     {
         title: "Event Registration Ends",
-        date: "28/02/2024",
+        date: "15/03/2024",
     },
     {
         title: "Submission Ends",
-        date: "05/03/2024",
+        date: "15/03/2024",
     },
     {
         title: "Shortlisted Teams Announced",
