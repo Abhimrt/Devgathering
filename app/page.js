@@ -43,7 +43,7 @@ export default function Home() {
       <PrizePool/>
       <EventSchedule />
       <Past />
-      <LinkedInPosts/>
+      {/* <LinkedInPosts/> */}
       <MultipleButton portal={portal} setshow={setshow} />
       {
         (show == "Sponsors") ? <Sponsors /> :
