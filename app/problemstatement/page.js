@@ -151,6 +151,10 @@ const tracks = [
         name: "blockchain",
         image:"PSblockchain"
     },
+    {
+        name:"Security",
+        image:"PSSecurity"
+    },
 ]
 
 const page = () => {

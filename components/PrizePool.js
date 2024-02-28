@@ -95,7 +95,7 @@ function PrizePool() {
       KnowMore: [
         "Polygon is a protocol and a framework for building and connecting Ethereum-compatible blockchain networks.",
         "Track: Polygon Track",
-        "Read about the bounty details and find code templates for Polygon here: <a>https://nsb.dev/polygon-bounty</a>.",
+        "Read about the bounty details and find code templates for Polygon here: https://nsb.dev/polygon-bounty.",
         "Best hack built on Polygon",
         "1 PRIZE, 200 USD"
       ]

@@ -674,7 +674,6 @@ section {
 #teamMiddle {
   background-color: var(--Cblue);
   background-image: url("/images/TeamBackgroundMiddle.png");
-  background-image: url("/images/TeamBackground.png");
   background-repeat: no-repeat;
   background-size: cover;
 }

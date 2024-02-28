@@ -25,7 +25,7 @@ const Modal = ({ setShowModal, ModalContent}) => {
                                 ModalContent.KnowMore.map((e,i)=>{
                                     return(
                                         <>
-                                            <li><span className=" font-bold">{e.split(":")[0]}</span>{e.split(":")[1]?":  "+e.split(":")[1]:""}</li>
+                                            <li><span className=" font-bold">{e.split(":")[0]}</span>{e.split(":")[1]?":  "+e.split(":").splice(1,).join(":"):""}</li>
                                         </>
                                     )
                                 })
