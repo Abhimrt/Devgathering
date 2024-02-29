@@ -24,22 +24,38 @@ const Team = () => {
           <Box
             image="Meet.jpg"
             name="Brijesh Singh"
+            position="Director"
             // phone="9548538035"
             mail="brijesh.singh@miet.ac.in"
             // instagram="https://www.instagram.com/vani__001/"
             linkedin="https://www.linkedin.com/in/brijesh-singh-804a3b15/"
             // twitter="https://twitter.com/VANIMITTAL12"
             connect="https://www.linkedin.com/in/brijesh-singh-804a3b15/"
+            auto="1"
           />
           <Box
             image="MeetMukesh.jpg"
-            name="Mukesh Rawat"
+            name="Dr. Mukesh Rawat"
+            position="Prof. & Head - CSE"
             phone="9837477042"
             mail="mukesh.rawat@miet.ac.in"
             // instagram="https://www.instagram.com/vani__001/"
             linkedin="https://www.linkedin.com/in/mukesh-rawat-818722123/"
             // twitter="https://twitter.com/VANIMITTAL12"
             connect="https://www.linkedin.com/in/mukesh-rawat-818722123/"
+            auto="1"
+          />
+          <Box
+            image="MeetSwati.jpg"
+            name="Dr. Swati Sharma"
+            position="Prof. & Head - IT"
+            // phone="9837477042"
+            mail="swati.sharma@miet.ac.in"
+            // instagram="https://www.instagram.com/vani__001/"
+            linkedin="https://www.linkedin.com/in/prof-dr-swati-sharma-8a5b599a/"
+            // twitter="https://twitter.com/VANIMITTAL12"
+            connect="https://www.linkedin.com/in/prof-dr-swati-sharma-8a5b599a/"
+            auto="1"
           />
           <Box
             image="MeetJagbeer.png"
@@ -50,6 +66,7 @@ const Team = () => {
             linkedin="https://www.linkedin.com/in/jagbeer-singh-61b34064/"
             // twitter="https://twitter.com/VANIMITTAL12"
             connect="https://www.linkedin.com/in/jagbeer-singh-61b34064/"
+            auto="1"
           />
         </div>
       </div>
@@ -90,7 +107,7 @@ const Team = () => {
           {" "}
           Meet Our Organizers{" "}
         </h2>
-        <div className="w-[90vw] gap-10 flex items-center justify-between flex-col lg:flex-row space-y-5 lg:space-y-0 lg:mt-[100px] flex-wrap">
+        <div className="w-[95vw] gap-10 lg:gap-0 flex items-center justify-between flex-col lg:flex-row space-y-5 lg:space-y-0 lg:mt-[100px]">
           <Box
             image="MeetAbhishek.jpg"
             name="Abhishek Singhal"
@@ -138,9 +155,12 @@ const Box = ({
   linkedin,
   twitter,
   connect,
+  position,
+  auto
 }) => {
   return (
-    <div className="w-[90%] mx-auto lg:w-[25%] flex items-center justify-end min-h-[60vh] flex-col relative ">
+    <div className={`w-[90%] mx-auto ${auto==="1"?"lg:w-auto lg:max-w-[25%]":"lg:w-[25%]"} flex items-center justify-end min-h-[60vh] flex-col relative `}>
+
       <div className="w-full h-[350px] space-y-4 rounded-2xl bg-Corange flex items-center justify-end flex-col  pb-5 text-Cblue relative  mt-[100px] lg:mt-0">
         <Image
           src={`/images/${image}`}
@@ -150,12 +170,20 @@ const Box = ({
           height={200}
           alt=""
         />
-        <h3
-          className="text-3xl font-bold"
-          style={{ textShadow: "1px 1px 3px rgba(0,0,0,.4) " }}
-        >
-          {name}
-        </h3>
+        <div className=" flex text-center flex-col">
+          <h3
+            className="text-3xl font-bold"
+            style={{ textShadow: "1px 1px 3px rgba(0,0,0,.4) " }}
+          >
+            {name}
+          </h3>
+          {position && <h3
+            className="text-xl mt-0"
+            style={{ textShadow: "1px 1px 3px rgba(0,0,0,.4) " }}
+          >
+            {position}
+          </h3>}
+        </div>
         <div className="min-w-fit mx-auto ">
           {phone && <a
             href={`https://wa.me/${phone}`}
