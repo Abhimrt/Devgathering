@@ -17,7 +17,7 @@ export const FaqsData = [
     },
     {
       Question: "Do I need to be in Meerut to take part in the Hackathon?",
-      Answer: "Yes. It is an onsite hackathon.",
+      Answer: "You can apply, if you live in India but you have to be present onsite in MIET, Meerut on the day of hackathon.",
     },
     {
       Question: "What is the AI usage policy?",

@@ -13,11 +13,10 @@ function PrizePool() {
       Total: "To be Announced",
       Cash: "₹12,000",
       KnowMore: [
-        "InterviewBuddy: Mock Interview.",
+        "InterviewBuddy: Mock Interview, discount Vouchers for all.",
         "Echo3D:One Month free access to pro tier worth $99",
         ".XYZ: Domain Name for One Year worth ₹165.",
         "InterviewCake: Full access licences worth $249.",
-        "InterviewBuddy: Discount Vouchers for all.",
         "Exclusive Swag kits."
       ]
     },
@@ -27,11 +26,10 @@ function PrizePool() {
       Total: "To be Announced",
       Cash: "₹8,000",
       KnowMore: [
-        "InterviewBuddy: Mock Interview.",
+        "InterviewBuddy: Mock Interview, discount Vouchers for all.",
         "Echo3D:One Month free access to pro tier worth $99",
         ".XYZ: Domain Name for One Year worth ₹165.",
         "InterviewCake: Full access licences worth $249.",
-        "InterviewBuddy: Discount Vouchers for all.",
         "Exclusive Swag kits."
       ]
     },
@@ -41,11 +39,10 @@ function PrizePool() {
       Total: "To be Announced",
       Cash: "₹5,000",
       KnowMore: [
-        "InterviewBuddy: Mock Interview.",
+        "InterviewBuddy: Mock Interview, discount Vouchers for all.",
         "Echo3D:One Month free access to pro tier worth $99",
         ".XYZ: Domain Name for One Year worth ₹165.",
         "InterviewCake: Full access licences worth $249.",
-        "InterviewBuddy: Discount Vouchers for all.",
         "Exclusive Swag kits."
       ]
     },
@@ -54,7 +51,6 @@ function PrizePool() {
       name: "All Girls Team",
       Total: "To be Announced",
       KnowMore: [
-        "InterviewBuddy: Mock Interview.",
         "Echo3D:One Month free access to pro tier worth $99",
         ".XYZ: Domain Name for One Year worth ₹165.",
         "InterviewCake: Full access licences worth $249.",
@@ -67,7 +63,6 @@ function PrizePool() {
       name: "All Fresher Team",
       Total: "To be Announced",
       KnowMore: [
-        "InterviewBuddy: Mock Interview.",
         "Echo3D:One Month free access to pro tier worth $99",
         ".XYZ: Domain Name for One Year worth ₹165.",
         "InterviewCake: Full access licences worth $249.",
