@@ -198,7 +198,7 @@ const Box = ({
           {name}
         </h3>
         <div className="mb-4">
-          {total && <p>Total Prize Worth: ₹{total}</p>}
+          {total && <p>Total Prize Worth: {total}</p>}
           {cash && <p>Cash Prize Worth: {cash}</p>}
         </div>
         <KnowMore index={index} handleModal={handleModal} text="Know More" />
