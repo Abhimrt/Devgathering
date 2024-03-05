@@ -6,7 +6,7 @@ const data = [
   {
     img: 'First',
     heading: "Incubation",
-    para: ["Win $10,000 incubation funding,", " Best blockchain projects get ", "$50 each"]
+    para: ["Win $10,000 incubation funding,", " Best Stellar Blockchain projects get ", "$50 each"]
   },
   {
     img: 'Second',

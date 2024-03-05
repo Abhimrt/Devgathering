@@ -10,7 +10,7 @@ function PrizePool() {
     {
       image: "first.png",
       name: "First Prize",
-      Total: "To be Announced",
+      Total: "$1,900",
       Cash: "₹12,000",
       KnowMore: [
         "InterviewBuddy: Mock Interview, discount Vouchers for all.",
@@ -23,7 +23,7 @@ function PrizePool() {
     {
       image: "second.png",
       name: "Second Prize",
-      Total: "To be Announced",
+      Total: "$1,845",
       Cash: "₹8,000",
       KnowMore: [
         "InterviewBuddy: Mock Interview, discount Vouchers for all.",
@@ -36,7 +36,7 @@ function PrizePool() {
     {
       image: "third.png",
       name: "Third Prize",
-      Total: "To be Announced",
+      Total: "$1,810",
       Cash: "₹5,000",
       KnowMore: [
         "InterviewBuddy: Mock Interview, discount Vouchers for all.",
@@ -49,7 +49,7 @@ function PrizePool() {
     {
       image: "girls.jpeg",
       name: "All Girls Team",
-      Total: "To be Announced",
+      Total: "$1,750",
       KnowMore: [
         "Echo3D:One Month free access to pro tier worth $99",
         ".XYZ: Domain Name for One Year worth ₹165.",
@@ -61,7 +61,7 @@ function PrizePool() {
     {
       image: "fresher.jpeg",
       name: "All Fresher Team",
-      Total: "To be Announced",
+      Total: "$1,750",
       KnowMore: [
         "Echo3D:One Month free access to pro tier worth $99",
         ".XYZ: Domain Name for One Year worth ₹165.",
@@ -73,7 +73,7 @@ function PrizePool() {
     {
       image: "participants.jpeg",
       name: "All Paticipants",
-      Total: "To be Announced",
+      Total: "$1,750",
       KnowMore: [
         "Echo3D:One Month free access to pro tier worth $99",
         ".XYZ: Domain Name for One Year worth ₹165.",
@@ -85,7 +85,6 @@ function PrizePool() {
     {
       image: "PSPolygon.png",
       name: "Polygon",
-      Total: "To be Announced",
       Cash: "$200",
       KnowMore: [
         "Polygon is a protocol and a framework for building and connecting Ethereum-compatible blockchain networks.",
@@ -98,7 +97,6 @@ function PrizePool() {
     {
       image: "PSEthereum.png",
       name: "ETHIndia",
-      Total: "To be Announced",
       Cash: "$100",
       KnowMore: [
         "ETHIndia is empowering the Ethereum Community through its various initiatives including hackathons, fellowships, grants, and more!",
@@ -200,7 +198,7 @@ const Box = ({
           {name}
         </h3>
         <div className="mb-4">
-          <p>Total Prize Worth: ₹{total}</p>
+          {total && <p>Total Prize Worth: ₹{total}</p>}
           {cash && <p>Cash Prize Worth: {cash}</p>}
         </div>
         <KnowMore index={index} handleModal={handleModal} text="Know More" />

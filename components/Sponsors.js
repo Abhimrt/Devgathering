@@ -51,8 +51,8 @@ export default Sponsors
 
 const Box = ({ image, name }) => {
   return (
-    <div className=' w-auto space-y-8 flex justify-center items-center flex-col h-[50vh]' >
-      <div className='h-[30vh] aspect-square shadow-2xl rounded-xl overflow-hidden rotate-12 hover:rotate-0 duration-150 grid place-content-center relative ' >
+    <div className=' w-auto space-y-8 flex justify-center items-center flex-col h-[40vh] ' >
+      <div className='h-[22vh] aspect-square shadow-2xl rounded-xl overflow-hidden rotate-12 hover:rotate-0 duration-150 grid place-content-center relative ' >
         {/* <Image src={`/images/${image}.png`} className='w-[80%] opacity-20 animate-ping-slow mx-auto absolute -rotate-12 hover:rotate-0 duration-300' width={400} height={400} alt={`${name} LOGO`} /> */}
         <Image src={`/images/${image}.png`} className='w-[80%]  mx-auto -rotate-12 hover:rotate-0 duration-300' width={400} height={400} alt={`${name} LOGO`} />
       </div>

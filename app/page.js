@@ -41,9 +41,6 @@ export default function Home() {
       <About />
       <Participate />
       <PrizePool/>
-      <EventSchedule />
-      <Past />
-      {/* <LinkedInPosts/> */}
       <MultipleButton portal={portal} setshow={setshow} />
       {
         (show == "Sponsors") ? <Sponsors /> :
@@ -53,6 +50,9 @@ export default function Home() {
                 (show == "Community") ? <JoinMember content={joinMem.community} /> :
                   <JoinMember content={joinMem.evangelist} />
       }
+      <EventSchedule />
+      <Past />
+      <LinkedInPosts/>
       <Faq />
       <Team />
       <Footer />
