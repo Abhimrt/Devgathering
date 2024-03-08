@@ -44,6 +44,7 @@ export default function Home() {
       <EventSchedule />
       <Past />
       {/* <LinkedInPosts/> */}
+      
       <MultipleButton portal={portal} setshow={setshow} />
       {
         (show == "Sponsors") ? <Sponsors /> :
