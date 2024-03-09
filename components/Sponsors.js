@@ -22,11 +22,35 @@ const Sponsors = () => {
           <Box1 image="sponsorsDevfolio" name="DEVFOLIO" />
           <Box1 image="sponsorsPolygon" name="POLYGON" />
           <Box1 image="sponsorsETH" name="ETHINDIA" />
-          <Box1 image="sponsorsBobble" name="Bobble FanStore" />
           <Box1 image="sponsorsGithub" name="Github" />
+          <Box1 image="sponsorsMiet" name="Github" />
 
         </div>
       </div>
+
+      {/* // Bronze Sponsors */}
+
+      <h3 className=' text-2xl rounded-full pb-2 pt-3 mt-8 px-10 shadow-sm bg-Cblue text-Corange'>Bronze Sponsor</h3>
+      <div className='w-screen overflow-hidden  min-h-[40vh] flex justify-center items-center'>
+        <div className='sponsorScroll  overflow-x-auto  flex justify-center items-center flex-wrap px-12 lg:pl-24 sm:gap-10  lg:gap-20'>
+          {/* <h3 className='text-Ccream text-center text-3xl w-screen ' >Declare soon...</h3> */}
+          <Box image="SponsorTekshila" name="Tekshila AI" />
+
+        </div>
+      </div>
+
+
+      {/* // In Track Sponsors */}
+
+      <h3 className=' text-2xl rounded-full pb-2 pt-3 mt-8 px-10 shadow-sm bg-Cblue text-Corange'>Track Sponsors</h3>
+      <div className='w-screen overflow-hidden  min-h-[40vh] flex justify-center items-center'>
+        <div className='sponsorScroll  overflow-x-auto  flex justify-center items-center flex-wrap px-12 lg:pl-24 sm:gap-10  lg:gap-20'>
+          {/* <h3 className='text-Ccream text-center text-3xl w-screen ' >Declare soon...</h3> */}
+          <Box image="sponsorsQuillAudits" name="Quill Audits" />
+          <Box image="trackTezos" name="Tezos" />
+        </div>
+      </div>
+
 
       {/* // In Kind Sponsors */}
 
@@ -42,16 +66,6 @@ const Sponsors = () => {
         </div>
       </div>
 
-      {/* // Bronze Sponsors */}
-
-      <h3 className=' text-2xl rounded-full pb-2 pt-3 mt-8 px-10 shadow-sm bg-Cblue text-Corange'>Bronze Sponsor</h3>
-      <div className='w-screen overflow-hidden  min-h-[40vh] flex justify-center items-center'>
-        <div className='sponsorScroll  overflow-x-auto  flex justify-center items-center flex-wrap px-12 lg:pl-24 sm:gap-10  lg:gap-20'>
-          {/* <h3 className='text-Ccream text-center text-3xl w-screen ' >Declare soon...</h3> */}
-          <Box image="SponsorTekshila" name="Tekshila AI" />
-
-        </div>
-      </div>
     </section>
   )
 }

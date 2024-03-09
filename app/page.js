@@ -18,6 +18,7 @@ import { joinMem } from "@/data/JoinMembers"
 import Loader from "@/components/Loader";
 import PrizePool from "@/components/PrizePool";
 import LinkedInPosts from "@/components/LinkedInPosts";
+import Seminar from "@/components/seminar";
 
 export default function Home() {
 
@@ -51,6 +52,7 @@ export default function Home() {
                   <JoinMember content={joinMem.evangelist} />
       }
       <EventSchedule />
+      {/* <Seminar/> */}
       <Past />
       <LinkedInPosts/>
       <Faq />

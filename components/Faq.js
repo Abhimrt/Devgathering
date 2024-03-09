@@ -19,7 +19,7 @@ const Faq = () => {
       <div>
         <Image
           src="/images/FaqHeading.png"
-          className="min-w-[120vw] lg:min-w-[70%] h-auto cursor-pointer"
+          className="min-w-[105vw] lg:min-w-[70%] left-0 h-auto cursor-pointer"
           alt=""
           width={900}
           height={200}

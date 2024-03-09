@@ -2,6 +2,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 :root {
   --Cblue: #002447;
   --Csblue: #53d3d1;
@@ -71,12 +72,14 @@ section {
   text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
   line-height: 25px;
 }
+
 #main h1 {
   letter-spacing: 1.22222px;
   color: var(--Ccream);
   text-shadow: 0px 4.88889px 6.35556px rgba(0, 0, 0, 0.65);
 }
-#main .timer > div {
+
+#main .timer>div {
   border-radius: 8px;
   font-size: 45px;
   text-align: center;
@@ -87,7 +90,7 @@ section {
   border: 1px solid #173047;
   box-shadow: 0px 6px 4px rgba(0, 0, 0, 0.3);
   -webkit-backdrop-filter: blur(4.5px);
-          backdrop-filter: blur(4.5px);
+  backdrop-filter: blur(4.5px);
   border-radius: 15px;
   font-family: "Inter";
   font-style: normal;
@@ -96,7 +99,8 @@ section {
   padding-bottom: 3px;
   text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.65);
 }
-#main .timer > div div {
+
+#main .timer>div div {
   font-size: 16px;
   text-transform: capitalize;
 }
@@ -105,6 +109,7 @@ section {
 #Partners .PartnerTopRight {
   box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.4);
 }
+
 #Partners .PartnerTopRight::after {
   content: "";
   width: 100px;
@@ -116,9 +121,11 @@ section {
   box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.4);
   border-radius: 50%;
 }
+
 #Partners .PartnerLogoBox {
   box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.6);
 }
+
 #Partners .PartnerLogoBox::after {
   content: "";
   width: 10px;
@@ -129,6 +136,7 @@ section {
   z-index: 10;
   box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.6);
 }
+
 #Partners .PartnerLogoBox::before {
   content: "";
   width: 100px;
@@ -148,14 +156,17 @@ section {
     margin-right: 15px;
     transform: rotateY(180deg);
   }
+
   .PartnerLogoBox:nth-child(2n) img {
     transform: rotateY(180deg);
   }
+
   .PartnerLogoBox:nth-child(2n+1) {
     align-self: flex-start;
     margin-left: 15px;
   }
 }
+
 /* timeline section */
 :root {
   --base: #140a15;
@@ -171,16 +182,19 @@ section {
   width: 80vw;
   color: white;
 }
+
 #timeline .timelineContent {
   width: 75lvw;
   overflow: visible;
 }
+
 #timeline .timelineContent .timelineTextBox {
   @apply p-12;
   position: relative;
   overflow: visible;
   border-radius: 6rem;
 }
+
 #timeline .timelineContent .timelineTextBox .border {
   position: absolute;
   top: 0;
@@ -189,6 +203,7 @@ section {
   border: 0.5rem solid var(--Cblue);
   z-index: 1;
 }
+
 #timeline .timelineContent .timelineTextBox:after {
   @apply text-4xl animate-jiggleCus;
   position: absolute;
@@ -207,33 +222,41 @@ section {
   border: 0.5rem solid var(--Cblue);
   z-index: 2;
 }
+
 #timeline .timelineContent .timelineTextBox:nth-child(2n+1)::after {
   left: -2.5rem;
 }
+
 #timeline .timelineContent .timelineTextBox:nth-child(2n+1) .border {
   border-radius: 6rem 0 0 6rem;
   border-right: none;
   left: 0px;
 }
+
 #timeline .timelineContent .timelineTextBox:nth-child(2n) {
   text-align: right;
 }
+
 #timeline .timelineContent .timelineTextBox:nth-child(2n)::after {
   right: -2.5rem;
 }
+
 #timeline .timelineContent .timelineTextBox:nth-child(2n) .border {
   right: 0px;
   border-radius: 0 6rem 6rem 0;
   border-left: none;
 }
+
 #timeline .timelineContent .timelineTextBox:nth-child(1) {
   background: none;
 }
+
 #timeline .timelineContent .timelineTextBox:nth-child(1) .border {
   border-top: none;
   overflow: visible;
   border-radius: 0rem 0rem 0rem 6rem;
 }
+
 #timeline .timelineContent .timelineTextBox:nth-child(1) .border::after {
   content: "";
   position: absolute;
@@ -243,10 +266,12 @@ section {
   top: 0;
   left: -0.5rem;
 }
+
 #timeline .timelineContent .timelineTextBox:last-child .border {
   border-bottom: none !important;
   overflow: visible;
 }
+
 #timeline .timelineContent .timelineTextBox:last-child .border::after {
   content: "";
   position: absolute;
@@ -255,122 +280,160 @@ section {
   height: 50%;
   bottom: 0;
 }
+
 #timeline .timelineContent .timelineTextBox:last-child:nth-child(odd) .border {
   border-radius: 6rem 0rem 0rem 0 !important;
 }
+
 #timeline .timelineContent .timelineTextBox:last-child:nth-child(odd) .border::after {
   left: -0.5rem;
 }
+
 #timeline .timelineContent .timelineTextBox:last-child:nth-child(even) .border {
   border-radius: 0rem 6rem 0rem 0rem !important;
 }
+
 #timeline .timelineContent .timelineTextBox:last-child:nth-child(even) .border::after {
   right: -0.5rem;
 }
+
 #timeline .timelineContent .timelineTextBox:nth-child(2) {
   top: -0.5rem;
 }
+
 #timeline .timelineContent .timelineTextBox:nth-child(2)::after {
   content: "2";
 }
+
 #timeline .timelineContent .timelineTextBox:nth-child(3) {
   top: -1rem;
 }
+
 #timeline .timelineContent .timelineTextBox:nth-child(3)::after {
   content: "3";
 }
+
 #timeline .timelineContent .timelineTextBox:nth-child(4) {
   top: -1.5rem;
 }
+
 #timeline .timelineContent .timelineTextBox:nth-child(4)::after {
   content: "4";
 }
+
 #timeline .timelineContent .timelineTextBox:nth-child(5) {
   top: -2rem;
 }
+
 #timeline .timelineContent .timelineTextBox:nth-child(5)::after {
   content: "5";
 }
+
 #timeline .timelineContent .timelineTextBox:nth-child(6) {
   top: -2.5rem;
 }
+
 #timeline .timelineContent .timelineTextBox:nth-child(6)::after {
   content: "6";
 }
+
 #timeline .timelineContent .timelineTextBox:nth-child(7) {
   top: -3rem;
 }
+
 #timeline .timelineContent .timelineTextBox:nth-child(7)::after {
   content: "7";
 }
+
 #timeline .timelineContent .timelineTextBox:nth-child(8) {
   top: -3.5rem;
 }
+
 #timeline .timelineContent .timelineTextBox:nth-child(8)::after {
   content: "8";
 }
+
 #timeline .timelineContent .timelineTextBox:nth-child(9) {
   top: -4rem;
 }
+
 #timeline .timelineContent .timelineTextBox:nth-child(9)::after {
   content: "9";
 }
+
 #timeline .timelineContent .timelineTextBox:nth-child(10) {
   top: -4.5rem;
 }
+
 #timeline .timelineContent .timelineTextBox:nth-child(10)::after {
   content: "10";
 }
+
 #timeline .timelineContent .timelineTextBox:nth-child(11) {
   top: -5rem;
 }
+
 #timeline .timelineContent .timelineTextBox:nth-child(11)::after {
   content: "11";
 }
+
 #timeline .timelineContent .timelineTextBox:nth-child(12) {
   top: -5.5rem;
 }
+
 #timeline .timelineContent .timelineTextBox:nth-child(12)::after {
   content: "12";
 }
+
 #timeline .timelineContent .timelineTextBox:nth-child(13) {
   top: -6rem;
 }
+
 #timeline .timelineContent .timelineTextBox:nth-child(13)::after {
   content: "13";
 }
+
 #timeline .timelineContent .timelineTextBox:nth-child(14) {
   top: -6.5rem;
 }
+
 #timeline .timelineContent .timelineTextBox:nth-child(14)::after {
   content: "14";
 }
+
 #timeline .timelineContent .timelineTextBox:nth-child(15) {
   top: -7rem;
 }
+
 #timeline .timelineContent .timelineTextBox:nth-child(15)::after {
   content: "15";
 }
+
 #timeline .timelineContent .timelineTextBox:nth-child(16) {
   top: -7.5rem;
 }
+
 #timeline .timelineContent .timelineTextBox:nth-child(16)::after {
   content: "16";
 }
+
 #timeline .timelineContent .timelineTextBox h2 {
   @apply text-3xl lg:text-5xl;
   font-weight: 700;
   text-shadow: 1px 1px 3px var(--Cblue);
 }
+
 #timeline .timelineContent .timelineTextBox .position,
 #timeline .timelineContent .timelineTextBox .date {
   @apply text-xl lg:text-2xl text-Cblue;
   font-style: italic;
   letter-spacing: 1px;
 }
+
 #timeline .timelineContent .timelineTextBox .date {
   @apply text-nowrap text-gray-500;
 }
+
 #timeline .timelineContent .timelineTextBox p {
   @apply text-xl;
   font-weight: 400;
@@ -417,6 +480,7 @@ section {
   * End: (--delay + --length) * step || The next --delay * step;
   * */
 }
+
 .loader *,
 .loader *:after,
 .loader *:before {
@@ -424,15 +488,18 @@ section {
   transform-style: preserve-3d;
   touch-action: none;
 }
-.loader #flip:checked ~ .container {
+
+.loader #flip:checked~.container {
   --rotation-y: -24;
   --rotation-x: -24;
 }
+
 .loader [for] {
   transform: translateZ(200vmin);
   position: fixed;
   inset: 0;
 }
+
 .loader .sr-only {
   position: absolute;
   width: 1px;
@@ -444,6 +511,7 @@ section {
   white-space: nowrap;
   border-width: 0;
 }
+
 .loader .loading-label {
   position: absolute;
   left: 0;
@@ -451,17 +519,20 @@ section {
   font-weight: bold;
   font-size: clamp(1rem, var(--size) * 0.025, 6rem);
 }
+
 .loader .container {
   width: var(--size);
   aspect-ratio: 16/1.25;
   position: relative;
 }
+
 .loader .scene {
   height: 100%;
   width: 100%;
   transform: translate3d(0, 0, 100vmin) rotateX(calc(var(--rotation-y, 0) * 1deg)) rotateY(calc(var(--rotation-x, 0) * 1deg));
   transition: transform 0.25s;
 }
+
 .loader h1 {
   opacity: 0.5;
   color: var(--color);
@@ -471,17 +542,20 @@ section {
   right: 1rem;
   margin: 0;
 }
+
 .loader .bar {
   width: 100%;
   height: 100%;
   display: grid;
   grid-template-columns: var(--columns);
 }
+
 .loader .bar__segment {
   background: hsl(0, 0%, 100%);
   transform: translateZ(calc(var(--depth) * var(--segment)));
   border: calc(var(--segment) * 0.5) solid black;
 }
+
 .loader .bar__segment:after {
   content: "";
   position: absolute;
@@ -497,133 +571,202 @@ section {
   animation-timing-function: linear;
   animation-iteration-count: 1;
 }
+
 @keyframes reveal {
   from {
     transform: scaleX(0);
   }
 }
+
 .loader .bar__segment:not(:first-of-type, :last-of-type) {
   border-left: transparent;
   border-right: transparent;
 }
+
 .loader .bar__segment:first-of-type {
   border-right: transparent;
 }
+
 .loader .bar__segment:last-of-type {
   border-left: transparent;
 }
+
 .loader .bar__segment:not(.bar__segment--aligned) {
   width: calc(var(--segment) * var(--length));
   transform-origin: 0 50%;
   filter: brightness(0.78);
   transform: translateZ(calc(var(--depth) * var(--segment))) rotateY(var(--rotation, 0deg));
 }
+
 .loader .bar__segment--front {
   --rotation: -90deg;
 }
+
 .loader .bar__segment--back {
   --rotation: 90deg;
 }
+
 @keyframes segment-1 {
   0% {
     transform: scaleX(0);
   }
-  5%, 100% {
+
+  5%,
+  100% {
     transform: scaleX(1);
   }
 }
+
 @keyframes segment-2 {
-  0%, 5% {
+
+  0%,
+  5% {
     transform: scaleX(0);
   }
-  12.5%, 100% {
+
+  12.5%,
+  100% {
     transform: scaleX(1);
   }
 }
+
 @keyframes segment-3 {
-  0%, 12.5% {
+
+  0%,
+  12.5% {
     transform: scaleX(0);
   }
-  15%, 100% {
+
+  15%,
+  100% {
     transform: scaleX(1);
   }
 }
+
 @keyframes segment-4 {
-  0%, 15% {
+
+  0%,
+  15% {
     transform: scaleX(0);
   }
-  27.5%, 100% {
+
+  27.5%,
+  100% {
     transform: scaleX(1);
   }
 }
+
 @keyframes segment-5 {
-  0%, 27.5% {
+
+  0%,
+  27.5% {
     transform: scaleX(0);
   }
-  30%, 100% {
+
+  30%,
+  100% {
     transform: scaleX(1);
   }
 }
+
 @keyframes segment-6 {
-  0%, 30% {
+
+  0%,
+  30% {
     transform: scaleX(0);
   }
-  45%, 100% {
+
+  45%,
+  100% {
     transform: scaleX(1);
   }
 }
+
 @keyframes segment-7 {
-  0%, 45% {
+
+  0%,
+  45% {
     transform: scaleX(0);
   }
-  47.5%, 100% {
+
+  47.5%,
+  100% {
     transform: scaleX(1);
   }
 }
+
 @keyframes segment-8 {
-  0%, 47.5% {
+
+  0%,
+  47.5% {
     transform: scaleX(0);
   }
-  65%, 100% {
+
+  65%,
+  100% {
     transform: scaleX(1);
   }
 }
+
 @keyframes segment-9 {
-  0%, 65% {
+
+  0%,
+  65% {
     transform: scaleX(0);
   }
-  70%, 100% {
+
+  70%,
+  100% {
     transform: scaleX(1);
   }
 }
+
 @keyframes segment-10 {
-  0%, 70% {
+
+  0%,
+  70% {
     transform: scaleX(0);
   }
-  82.5%, 100% {
+
+  82.5%,
+  100% {
     transform: scaleX(1);
   }
 }
+
 @keyframes segment-11 {
-  0%, 82.5% {
+
+  0%,
+  82.5% {
     transform: scaleX(0);
   }
-  90%, 100% {
+
+  90%,
+  100% {
     transform: scaleX(1);
   }
 }
+
 @keyframes segment-12 {
-  0%, 90% {
+
+  0%,
+  90% {
     transform: scaleX(0);
   }
-  95%, 100% {
+
+  95%,
+  100% {
     transform: scaleX(1);
   }
 }
+
 @keyframes segment-13 {
-  0%, 95% {
+
+  0%,
+  95% {
     transform: scaleX(0);
   }
+
   100% {
     transform: scaleX(1);
   }
@@ -633,6 +776,7 @@ section {
 #Sponsors a {
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.577);
 }
+
 #Sponsors .sponsorScroll {
   overflow-y: hidden;
   scroll-snap-type: x mandatory;
@@ -640,15 +784,19 @@ section {
   /* Track */
   /* Handle */
 }
-#Sponsors .sponsorScroll > div {
+
+#Sponsors .sponsorScroll>div {
   scroll-snap-align: center;
 }
+
 #Sponsors .sponsorScroll::-webkit-scrollbar {
   height: 10px;
 }
+
 #Sponsors .sponsorScroll::-webkit-scrollbar-track {
   background: var(--Cblue);
 }
+
 #Sponsors .sponsorScroll::-webkit-scrollbar-thumb {
   background: var(--Corange);
   border-radius: 10px;
@@ -665,12 +813,14 @@ section {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 #team2 {
   background-color: var(--Cblue);
   background-image: url("/images/TeamBackgroundLower.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 #teamMiddle {
   background-color: var(--Cblue);
   background-image: url("/images/TeamBackgroundMiddle.png");
@@ -687,11 +837,12 @@ section {
   transform: translate(-50%, -50%);
   z-index: 999999 !important;
   -webkit-backdrop-filter: blur(1px);
-          backdrop-filter: blur(1px);
+  backdrop-filter: blur(1px);
   background-color: rgba(32, 32, 32, 0.8549019608);
   transition: width 0.2s ease-in-out, height 0.2s ease-in-out;
   /* Let's hide the default cursor so it looks way better */
 }
+
 .flare::before {
   content: "";
   box-shadow: 2px 2px 10px rgb(46, 46, 46), -2px -2px 8px rgb(46, 46, 46);
@@ -714,14 +865,17 @@ section {
     height: 0;
     transition: width 0.2s ease-in-out, height 0.2s ease-in-out, opacity 0.2s ease-in-out;
   }
+
   .flare::before {
     content: "";
     display: none;
   }
+
   .flare.pointer {
     opacity: 0 !important;
   }
 }
+
 .flare.pointer {
   mix-blend-mode: lighten;
   background-color: rgba(191, 255, 0, 0.3);
@@ -733,10 +887,12 @@ section {
   display: grid;
   place-content: center;
 }
+
 .flare.pointer::before {
   content: "";
   display: none;
 }
+
 .flare.pointer::after {
   content: "";
   width: 10px;
@@ -753,22 +909,28 @@ section {
 .Mbutton * {
   cursor: pointer;
 }
+
 .Mbutton a {
   @apply min-w-40 drop-shadow-xl text-Ccream font-semibold capitalize text-xl bg-Cblue rounded-sm text-center py-3 relative duration-200;
 }
+
 .Mbutton a:before {
   content: "";
   @apply border-2 rounded-sm absolute top-0 left-0 -translate-x-2 -translate-y-2 drop-shadow-xl w-full h-full duration-200 transition-transform;
 }
+
 .Mbutton a:active {
   @apply translate-x-1 translate-y-1;
 }
+
 .Mbutton a:active:before {
   @apply border-b-0 border-r-0;
 }
+
 .Mbutton a:hover {
   @apply -translate-x-1 -translate-y-1;
 }
+
 .Mbutton a:hover:before {
   @apply translate-x-0 translate-y-0;
 }
@@ -776,18 +938,22 @@ section {
 .hoverEffect .hoverEffectChild {
   transition: 0.3s all ease-in-out;
 }
+
 .hoverEffect:hover .hoverEffectChild {
   @apply rotate-180;
-}/*# sourceMappingURL=globals.css.map */
+}
+
+/*# sourceMappingURL=globals.css.map */
 
 
 
 .flip-card {
   background-color: transparent;
-  width: 300px;
-  height: 200px;
-  border: 1px solid #f1f1f1;
-  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  /* width: 20rem; */
+  /* height: 12rem; */
+  /* border: 1px solid #f1f1f1; */
+  perspective: 1000px;
+  /* Remove this if you don't want the 3D effect */
 }
 
 /* This container is needed to position the front and back side */
@@ -802,27 +968,42 @@ section {
 
 /* Do an horizontal flip when you move the mouse over the flip box container */
 .flip-card:hover .flip-card-inner {
-  transform: rotateY(180deg);
+  transform: rotateY(-180deg);
 }
 
 /* Position the front and back side */
-.flip-card-front, .flip-card-back {
+.flip-card-front,
+.flip-card-back {
   position: absolute;
   width: 100%;
   height: 100%;
-  -webkit-backface-visibility: hidden; /* Safari */
+  -webkit-backface-visibility: hidden;
+  /* Safari */
   backface-visibility: hidden;
 }
 
 /* Style the front side (fallback if image is missing) */
 .flip-card-front {
-  background-color: #bbb;
+  /* background-color: #bbb; */
+  /* From https://css.glass */
+  background: rgba(0, 36, 71, 1);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(9.1px);
+  -webkit-backdrop-filter: blur(9.1px);
+  border: 1px solid rgba(110, 97, 97, 0.59);
   color: black;
 }
 
 /* Style the back side */
 .flip-card-back {
-  background-color: dodgerblue;
-  color: white;
+  /* From https://css.glass */
+  background: rgba(30, 144, 255, 0.34);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(9.1px);
+  -webkit-backdrop-filter: blur(9.1px);
+  border: 1px solid rgba(110, 97, 97, 0.59);
+
   transform: rotateY(180deg);
 }

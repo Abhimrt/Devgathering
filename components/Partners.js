@@ -26,7 +26,7 @@ const Partners = () => {
       <div className='w-screen flex justify-center items-center flex-col md:flex-row space-y-10 md:space-y-0 md:space-x-10 md:my-10 lg:scale-125 '>
         {/* <div className='lg:w-36 hidden lg:block'></div> */}
         <div className='hidden'></div>
-        <Box image="PartnerWUE.png" />
+        <Box image="PartnerBobble.png" />
         {/* <Box image="PartnerReskill.png"/> */}
       </div>
       <div className='w-screen flex justify-center items-center flex-col md:flex-row space-y-10 md:space-y-0 md:space-x-10 my-10 lg:scale-125'>

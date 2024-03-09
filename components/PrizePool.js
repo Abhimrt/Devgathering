@@ -1,114 +1,136 @@
 "use client"
 import Image from "next/image";
 import React, { useEffect, useState } from 'react';
-import Button from "./Button";
 import Modal from "./Modal";
 import KnowMore from "./KnowMore";
 
+const prizes = [
+  {
+    image: "first.png",
+    name: "First Prize",
+    Total: "$1,900",
+    Cash: "₹12,000",
+    KnowMore: [
+      "InterviewBuddy: Mock Interview, discount Vouchers for all.",
+      "Echo3D:One Month free access to pro tier worth $99",
+      ".XYZ: Domain Name for One Year worth ₹165.",
+      "InterviewCake: Full access licences worth $249.",
+      "Exclusive Swag kits."
+    ]
+  },
+  {
+    image: "second.png",
+    name: "Second Prize",
+    Total: "$1,845",
+    Cash: "₹8,000",
+    KnowMore: [
+      "InterviewBuddy: Mock Interview, discount Vouchers for all.",
+      "Echo3D:One Month free access to pro tier worth $99",
+      ".XYZ: Domain Name for One Year worth ₹165.",
+      "InterviewCake: Full access licences worth $249.",
+      "Exclusive Swag kits."
+    ]
+  },
+  {
+    image: "third.png",
+    name: "Third Prize",
+    Total: "$1,810",
+    Cash: "₹5,000",
+    KnowMore: [
+      "InterviewBuddy: Mock Interview, discount Vouchers for all.",
+      "Echo3D:One Month free access to pro tier worth $99",
+      ".XYZ: Domain Name for One Year worth ₹165.",
+      "InterviewCake: Full access licences worth $249.",
+      "Exclusive Swag kits."
+    ]
+  },
+  {
+    image: "girls.jpeg",
+    name: "All Girls Team",
+    Total: "$1,750",
+    KnowMore: [
+      "Echo3D:One Month free access to pro tier worth $99",
+      ".XYZ: Domain Name for One Year worth ₹165.",
+      "InterviewCake: Full access licences worth $249.",
+      "InterviewBuddy: Discount Vouchers for all.",
+      "Exclusive Swag kits."
+    ]
+  },
+  {
+    image: "fresher.jpeg",
+    name: "All Fresher Team",
+    Total: "$1,750",
+    KnowMore: [
+      "Echo3D:One Month free access to pro tier worth $99",
+      ".XYZ: Domain Name for One Year worth ₹165.",
+      "InterviewCake: Full access licences worth $249.",
+      "InterviewBuddy: Discount Vouchers for all.",
+      "Exclusive Swag kits."
+    ]
+  },
+  {
+    image: "participants.jpeg",
+    name: "All Paticipants",
+    Total: "$1,750",
+    KnowMore: [
+      "Echo3D:One Month free access to pro tier worth $99",
+      ".XYZ: Domain Name for One Year worth ₹165.",
+      "InterviewCake:Full access licences worth $249.",
+      "InterviewBuddy: Discount Vouchers for all.",
+      "Exclusive Swags."
+    ]
+  },
+  {
+    image: "trackPolygon.png",
+    name: "Polygon",
+    Cash: "$200",
+    KnowMore: [
+      "Polygon is a protocol and a framework for building and connecting Ethereum-compatible blockchain networks.",
+      "Track: Polygon Track",
+      "Read about the bounty details and find code templates for Polygon here: https://nsb.dev/polygon-bounty.",
+      "Best hack built on Polygon",
+      "1 PRIZE, 200 USD"
+    ]
+  },
+  {
+    image: "trackEthereum.png",
+    name: "ETHIndia",
+    Cash: "$100",
+    KnowMore: [
+      "ETHIndia is empowering the Ethereum Community through its various initiatives including hackathons, fellowships, grants, and more!",
+      "Track: Ethereum Track",
+      "Select this track if you're building on Ethereum to be eligible for the prizes!",
+      "Best hack built on Ethereum",
+      "1 PRIZE, 100 USD",
+    ]
+  },
+  {
+    image: "trackQuill.png",
+    name: "Quill Audits",
+    Total: "$2,000",
+    KnowMore: [
+      "Track prize:The top teams using the sponsor’s products will receive swags",
+      "Track: Web 3.0 Track",
+      "Free API Credits: API Credits worth USD 2,000",
+      "Hiring/Internship opportunity",
+    ]
+  },
+  {
+    image: "trackTezos.png",
+    name: "Tezos",
+    Cash: "$500",
+    KnowMore: [
+      "Track: Blockchain Track",
+      "$500 is divided into 2 parts  :  $300  for top 3 projects that have integrated or used Tezos Blockchain",
+      "1st prize : $150",
+      "2nd Prize : $100",
+      "3rd prize :  $50",
+      "Rest $200 : This $200 prize pool is for projects that have implemented tezos blockchain but couldn't make it to Top 3.",
+      "Max Prize a team can avail out of $200 Prize pool is $40 per team.",
+    ]
+  },
+]
 function PrizePool() {
-  const prizes = [
-    {
-      image: "first.png",
-      name: "First Prize",
-      Total: "$1,900",
-      Cash: "₹12,000",
-      KnowMore: [
-        "InterviewBuddy: Mock Interview, discount Vouchers for all.",
-        "Echo3D:One Month free access to pro tier worth $99",
-        ".XYZ: Domain Name for One Year worth ₹165.",
-        "InterviewCake: Full access licences worth $249.",
-        "Exclusive Swag kits."
-      ]
-    },
-    {
-      image: "second.png",
-      name: "Second Prize",
-      Total: "$1,845",
-      Cash: "₹8,000",
-      KnowMore: [
-        "InterviewBuddy: Mock Interview, discount Vouchers for all.",
-        "Echo3D:One Month free access to pro tier worth $99",
-        ".XYZ: Domain Name for One Year worth ₹165.",
-        "InterviewCake: Full access licences worth $249.",
-        "Exclusive Swag kits."
-      ]
-    },
-    {
-      image: "third.png",
-      name: "Third Prize",
-      Total: "$1,810",
-      Cash: "₹5,000",
-      KnowMore: [
-        "InterviewBuddy: Mock Interview, discount Vouchers for all.",
-        "Echo3D:One Month free access to pro tier worth $99",
-        ".XYZ: Domain Name for One Year worth ₹165.",
-        "InterviewCake: Full access licences worth $249.",
-        "Exclusive Swag kits."
-      ]
-    },
-    {
-      image: "girls.jpeg",
-      name: "All Girls Team",
-      Total: "$1,750",
-      KnowMore: [
-        "Echo3D:One Month free access to pro tier worth $99",
-        ".XYZ: Domain Name for One Year worth ₹165.",
-        "InterviewCake: Full access licences worth $249.",
-        "InterviewBuddy: Discount Vouchers for all.",
-        "Exclusive Swag kits."
-      ]
-    },
-    {
-      image: "fresher.jpeg",
-      name: "All Fresher Team",
-      Total: "$1,750",
-      KnowMore: [
-        "Echo3D:One Month free access to pro tier worth $99",
-        ".XYZ: Domain Name for One Year worth ₹165.",
-        "InterviewCake: Full access licences worth $249.",
-        "InterviewBuddy: Discount Vouchers for all.",
-        "Exclusive Swag kits."
-      ]
-    },
-    {
-      image: "participants.jpeg",
-      name: "All Paticipants",
-      Total: "$1,750",
-      KnowMore: [
-        "Echo3D:One Month free access to pro tier worth $99",
-        ".XYZ: Domain Name for One Year worth ₹165.",
-        "InterviewCake:Full access licences worth $249.",
-        "InterviewBuddy: Discount Vouchers for all.",
-        "Exclusive Swags."
-      ]
-    },
-    {
-      image: "PSPolygon.png",
-      name: "Polygon",
-      Cash: "$200",
-      KnowMore: [
-        "Polygon is a protocol and a framework for building and connecting Ethereum-compatible blockchain networks.",
-        "Track: Polygon Track",
-        "Read about the bounty details and find code templates for Polygon here: https://nsb.dev/polygon-bounty.",
-        "Best hack built on Polygon",
-        "1 PRIZE, 200 USD"
-      ]
-    },
-    {
-      image: "PSEthereum.png",
-      name: "ETHIndia",
-      Cash: "$100",
-      KnowMore: [
-        "ETHIndia is empowering the Ethereum Community through its various initiatives including hackathons, fellowships, grants, and more!",
-        "Track: Ethereum Track",
-        "Select this track if you're building on Ethereum to be eligible for the prizes!",
-        "Best hack built on Ethereum",
-        "1 PRIZE, 100 USD",
-
-
-      ]
-    },
-  ]
   const [showModal, setShowModal] = useState(false)
   const [ModalContent, setModalContent] = useState()
 
@@ -117,17 +139,6 @@ function PrizePool() {
     setModalContent(prizes[e.target.value])
     setShowModal(true)
   }
-
-  useEffect(() => {
-    console.log(ModalContent)
-
-    // return () => {
-    //   second
-    // }
-  }, [ModalContent])
-
-
-
   return (
     <>
       <div className="w-screen overflow-x-hidden h-full relative flex items-center pt-12 justify-center mb-5 lg:mb-0 ">
@@ -181,9 +192,10 @@ const Box = ({
   handleModal,
 }) => {
   return (
-    <div className=" w-[90%] text-center space-y-0 mx-auto lg:w-[28%] lg:space-y-24  flex items-center justify-end min-h-[20vh]  flex-col relative ">
-      <div className="w-full h-[350px] rounded-2xl hover:shadow-xl hover:shadow-black hover:scale-105 transition-all ease-in-out bg-gray-200 hoverEffect flex shadow-lg shadow-black items-center justify-end flex-col  pb-5 text-Cblue relative  mt-[100px] lg:mt-0">
+    <div key={index} className=" w-[90%] text-center space-y-0 mx-auto lg:w-[28%] lg:space-y-24  flex items-center justify-end min-h-[20vh]  flex-col relative ">
+      <div key={index} className="w-full h-[350px] rounded-2xl hover:shadow-xl hover:shadow-black hover:scale-105 transition-all ease-in-out bg-gray-200 hoverEffect flex shadow-lg shadow-black items-center justify-end flex-col  pb-5 text-Cblue relative  mt-[100px] lg:mt-0">
         <Image
+          key={index}
           src={`/images/${image}`}
           className=" rounded-full p-4 hoverEffectChild  border-gray-500 border-4 overflow-clip h-[170px] absolute w-[170px] top-[-100px]"
           style={{ boxShadow: "0px 2px 5px rgba(0,0,0,.6) " }}
@@ -192,6 +204,7 @@ const Box = ({
           alt=""
         />
         <h3
+          key={index}
           className="text-3xl -translate-y-10 font-bold"
           style={{ textShadow: "1px 1px 3px rgba(0,0,0,.4) " }}
         >

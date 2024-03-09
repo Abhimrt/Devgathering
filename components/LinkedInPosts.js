@@ -77,7 +77,7 @@ const Box = ({
     return (
         <div className=" w-[98%] lg:w-[28%] h-[500px]  text-center space-y-0 mx-auto lg:space-y-24  flex items-center justify-end  flex-col relative overflow-hidden">
             <div className=" w-full h-full shadow-lg shadow-black">
-                <iframe className=" rounded-xl w-full h-full" src={link} height=""  width="" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+                <iframe className=" rounded-xl w-full h-full" src={link} height=""  width="" frameBorder="0" allowFullScreen="" title="Embedded post"></iframe>
             </div>
         </div>
     );
