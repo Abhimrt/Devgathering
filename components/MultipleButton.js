@@ -6,7 +6,7 @@ const MultipleButton = ({ portal, setshow }) => {
         <div className='w-screen flex justify-center items-center my-10 Mbutton gap-8 flex-wrap'>
             {
                 portal.map((e, i) => (
-                    <Link href={`/#${e}`} className='active' key={i} onClick={() => setshow(e)}>
+                    <Link href={e === "Sponsors & Partners" ? "/#Sponsors" : `/#${e}`} className='active' key={i} onClick={() => setshow(e)}>
                         {e}
                     </Link>
                 ))

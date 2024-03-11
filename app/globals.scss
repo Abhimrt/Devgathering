@@ -245,7 +245,7 @@ section {
   }
 
   a {
-    @apply min-w-40 drop-shadow-xl text-Ccream font-semibold capitalize text-xl bg-Cblue rounded-sm text-center py-3 relative duration-200;
+    @apply min-w-64 drop-shadow-xl text-Ccream font-semibold capitalize text-xl bg-Cblue rounded-sm text-center py-3 relative duration-200;
 
     &:before {
       content: "";
@@ -270,12 +270,13 @@ section {
   }
 }
 
-.hoverEffect{
-  .hoverEffectChild{
+.hoverEffect {
+  .hoverEffectChild {
     transition: .3s all ease-in-out;
   }
-  &:hover{
-    .hoverEffectChild{
+
+  &:hover {
+    .hoverEffectChild {
       @apply rotate-180
     }
   }

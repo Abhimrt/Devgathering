@@ -23,38 +23,37 @@ import Seminar from "@/components/seminar";
 export default function Home() {
 
   const portal = [
-    "Sponsors",
-    "Partners",
+    "Sponsors & Partners",
     "Judges",
     "Mentors",
     "Community",
     "Evangelist"
   ]
 
-  const [show, setshow] = useState("Sponsors")
+  const [show, setshow] = useState("Sponsors & Partners")
 
   return (
     <>
-      <Loader />
+      {/* <Loader /> */}
       {/* <FlareCursor /> */}
       <Nav />
       <Main />
       <About />
       <Participate />
-      <PrizePool/>
+      <PrizePool />
       <MultipleButton portal={portal} setshow={setshow} />
       {
-        (show == "Sponsors") ? <Sponsors /> :
-          (show == "Partners") ? <Partners /> :
-            (show == "Judges") ? <JoinMember content={joinMem.judge} /> :
-              (show == "Mentors") ? <JoinMember content={joinMem.mentors} /> :
-                (show == "Community") ? <JoinMember content={joinMem.community} /> :
-                  <JoinMember content={joinMem.evangelist} />
+        (show == "Sponsors & Partners") ? <Sponsors /> :
+          // (show == "Partners") ? <Partners /> :
+          (show == "Judges") ? <JoinMember content={joinMem.judge} /> :
+            (show == "Mentors") ? <JoinMember content={joinMem.mentors} /> :
+              (show == "Community") ? <JoinMember content={joinMem.community} /> :
+                <JoinMember content={joinMem.evangelist} />
       }
       <EventSchedule />
       {/* <Seminar/> */}
       <Past />
-      <LinkedInPosts/>
+      <LinkedInPosts />
       <Faq />
       <Team />
       <Footer />

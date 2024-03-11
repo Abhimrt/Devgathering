@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
+import Partners from './Partners'
 
 const Sponsors = () => {
   return (
@@ -66,6 +67,7 @@ const Sponsors = () => {
         </div>
       </div>
 
+      <Partners />
     </section>
   )
 }
