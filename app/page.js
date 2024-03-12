@@ -19,6 +19,7 @@ import Loader from "@/components/Loader";
 import PrizePool from "@/components/PrizePool";
 import LinkedInPosts from "@/components/LinkedInPosts";
 import Seminar from "@/components/seminar";
+import Judges from "@/components/Judges";
 
 export default function Home() {
 
@@ -46,6 +47,7 @@ export default function Home() {
         (show == "Sponsors & Partners") ? <Sponsors /> :
           // (show == "Partners") ? <Partners /> :
           (show == "Judges") ? <JoinMember content={joinMem.judge} /> :
+          // (show == "Judges") ? <Judges/> :
             (show == "Mentors") ? <JoinMember content={joinMem.mentors} /> :
               (show == "Community") ? <JoinMember content={joinMem.community} /> :
                 <JoinMember content={joinMem.evangelist} />

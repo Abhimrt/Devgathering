@@ -5,7 +5,8 @@ import Partners from './Partners'
 const Sponsors = () => {
   return (
     <section id='Sponsors' className='flex justify-center items-center flex-col w-screen min-h-[100vh] mb-10 relative overflow-visible '>
-      <h2 className='text-Cblue text-3xl cursor-pointer sm:text-5xl tracking-[5px] font-bold relative flex justify-center overflow-visible items-center my-10' style={{ textShadow: "1px 1px 3px black" }}>
+      <Partners />
+      <h2 className='text-Cblue text-3xl mt-10 lg:mt-20 cursor-pointer sm:text-5xl tracking-[5px] font-bold relative flex justify-center overflow-visible items-center my-10' style={{ textShadow: "1px 1px 3px black" }}>
         <span className='text-Corange z-10 relative'>Sp</span> onsors
         <Image src="/images/SponsorsLine.png" className='absolute  min-w-[90vw] h-auto -top-10  -z-10' width={1000} height={500} alt="" />
         <div className='text-right w-[80px] lg:w-[100px] min-h-[80px] lg:min-h-[100px]  pr-0 rounded-full bg-Cblue absolute -z-1  left-[-35px]'></div>
@@ -67,7 +68,6 @@ const Sponsors = () => {
         </div>
       </div>
 
-      <Partners />
     </section>
   )
 }
