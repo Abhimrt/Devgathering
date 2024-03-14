@@ -129,6 +129,33 @@ const prizes = [
       "Max Prize a team can avail out of $200 Prize pool is $40 per team.",
     ]
   },
+  {
+    image: "sponsorsDcornerr.png",
+    name: "DCornerr",
+    Cash: "₹5000",
+    KnowMore: [
+      // "Track: Blockchain Track",
+      "Cash Prize of Rs.5000 to the best use of Data Structures and self created optimal Algorithms.",
+      "Amazon/Flipkart Gift Cards for Fun activities [Rs. 250-500 each- 3 winners]",
+      "Free Mock Interview Sessions with DCornerr to all winners.",
+      "Internship Opportunities for Campus Ambassador role at DCornerr",
+      "25% Discount for all Hackathon shortlisted Participants on DCornerr DSA course",
+      "Additional Rs. 1000 discount to all winners on DCornerr DSA course",
+    ]
+  },
+  {
+    image: "sponsorsVirtual.png",
+    name: "Virtual Protocol",
+    Cash: "$500",
+    KnowMore: [
+      "Best AI Use-case for Gaming, Social or Digital Entertainment",
+      // "$500 is divided into 2 parts  :  $300  for top 3 projects that have integrated or used Tezos Blockchain",
+      "1st prize : ₹7000",
+      "2nd Prize : ₹5000",
+      "3rd prize :  ₹3000",
+      "For More Info: https://clammy-playground-d25.notion.site/AI-Hackathon-Bounty-9b6c8a87f4d342d99c9673d04c4f7508",
+    ]
+  },
 ]
 function PrizePool() {
   const [showModal, setShowModal] = useState(false)

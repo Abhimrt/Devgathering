@@ -20,6 +20,7 @@ import PrizePool from "@/components/PrizePool";
 import LinkedInPosts from "@/components/LinkedInPosts";
 import Seminar from "@/components/seminar";
 import Judges from "@/components/Judges";
+import Mentors from "@/components/Mentors";
 
 export default function Home() {
 
@@ -35,7 +36,7 @@ export default function Home() {
 
   return (
     <>
-      <Loader />
+      {/* <Loader /> */}
       {/* <FlareCursor /> */}
       <Nav />
       <Main />
@@ -46,9 +47,10 @@ export default function Home() {
       {
         (show == "Sponsors & Partners") ? <Sponsors /> :
           // (show == "Partners") ? <Partners /> :
-          (show == "Judges") ? <JoinMember content={joinMem.judge} /> :
-          // (show == "Judges") ? <Judges/> :
-            (show == "Mentors") ? <JoinMember content={joinMem.mentors} /> :
+          // (show == "Judges") ? <JoinMember content={joinMem.judge} /> :
+          (show == "Judges") ? <Judges/> :
+          // (show == "Mentors") ? <JoinMember content={joinMem.mentors} /> :
+          (show == "Mentors") ? <Mentors/> :
               (show == "Community") ? <JoinMember content={joinMem.community} /> :
                 <JoinMember content={joinMem.evangelist} />
       }

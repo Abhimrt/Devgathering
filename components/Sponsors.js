@@ -26,7 +26,7 @@ const Sponsors = () => {
           <Box1 image="sponsorsETH" name="ETHINDIA" />
           <Box1 image="sponsorsGithub" name="Github" />
           <Box1 image="sponsorsMiet" name="Github" />
-
+          <Box1 image="sponsorsVirtual" name="Virtual Protocol" />
         </div>
       </div>
 
@@ -50,6 +50,8 @@ const Sponsors = () => {
           {/* <h3 className='text-Ccream text-center text-3xl w-screen ' >Declare soon...</h3> */}
           <Box image="sponsorsQuillAudits" name="Quill Audits" />
           <Box image="trackTezos" name="Tezos" />
+          <Box image="trackVirtual" name="Virtual Protocol" />
+          <Box image="sponsorsDcornerr" name="Dcornerr" />
         </div>
       </div>
 
@@ -64,6 +66,7 @@ const Sponsors = () => {
           <Box image="sponsorsECHO" name="Echo3d" />
           <Box image="sponsorsIC" name="Interview Cake" />
           <Box image="sponsorsInterviewBuddy" name="Interview Buddy" />
+          <Box image="sponsorsDcornerr" name="Dcornerr" />
 
         </div>
       </div>
