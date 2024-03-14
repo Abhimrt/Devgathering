@@ -36,7 +36,7 @@ export default function Home() {
 
   return (
     <>
-      {/* <Loader /> */}
+      <Loader />
       {/* <FlareCursor /> */}
       <Nav />
       <Main />
