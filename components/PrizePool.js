@@ -12,6 +12,7 @@ const prizes = [
     Cash: "₹12,000",
     KnowMore: [
       "InterviewBuddy: Mock Interview, discount Vouchers for all.",
+      "Free Mock Interview Sessions with DCornerr to all winners.",
       "Echo3D:One Month free access to pro tier worth $99",
       ".XYZ: Domain Name for One Year worth ₹165.",
       "InterviewCake: Full access licences worth $249.",
@@ -25,6 +26,7 @@ const prizes = [
     Cash: "₹8,000",
     KnowMore: [
       "InterviewBuddy: Mock Interview, discount Vouchers for all.",
+      "Free Mock Interview Sessions with DCornerr to all winners.",
       "Echo3D:One Month free access to pro tier worth $99",
       ".XYZ: Domain Name for One Year worth ₹165.",
       "InterviewCake: Full access licences worth $249.",
@@ -38,6 +40,7 @@ const prizes = [
     Cash: "₹5,000",
     KnowMore: [
       "InterviewBuddy: Mock Interview, discount Vouchers for all.",
+      "Free Mock Interview Sessions with DCornerr to all winners.",
       "Echo3D:One Month free access to pro tier worth $99",
       ".XYZ: Domain Name for One Year worth ₹165.",
       "InterviewCake: Full access licences worth $249.",
@@ -137,7 +140,6 @@ const prizes = [
       // "Track: Blockchain Track",
       "Cash Prize of Rs.5000 to the best use of Data Structures and self created optimal Algorithms.",
       "Amazon/Flipkart Gift Cards for Fun activities [Rs. 250-500 each- 3 winners]",
-      "Free Mock Interview Sessions with DCornerr to all winners.",
       "Internship Opportunities for Campus Ambassador role at DCornerr",
       "25% Discount for all Hackathon shortlisted Participants on DCornerr DSA course",
       "Additional Rs. 1000 discount to all winners on DCornerr DSA course",

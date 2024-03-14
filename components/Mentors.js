@@ -7,17 +7,10 @@ import Box from "./Box"
 
 const mentor = [
     {
-        image: "MeetAbhinavY",
-        name: "Abhinav Yadav",
-        domain: "Web Development, CyberSecurity ",
-        position: "CXI Mentor ",
-        connect: "https://www.linkedin.com/in/yabhi1205/ ",
-    },
-    {
         image: "MeetMadhur",
         name: "Madhur Agrawal",
         domain: "Cloud, AIML",
-        position: "MLSA Core TeamMLSA Core Team ",
+        position: "MLSA Core Team ",
         connect: "https://www.linkedin.com/in/madhuraglhttps://www.linkedin.com/in/madhuragl ",
     },
     {

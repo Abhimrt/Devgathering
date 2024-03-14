@@ -33,7 +33,7 @@ const judges = [
     {
         image:"JudgeVani",
         name:  "Vani Mittal",
-        position:" ",
+        position:"Gold MLSA",
         connect:"https://www.linkedin.com/in/vani-mi-ttal/",
     },
 ]
