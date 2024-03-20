@@ -32,7 +32,7 @@ const Sponsors = () => {
 
       {/* // Bronze Sponsors */}
 
-      <h3 className=' text-2xl rounded-full pb-2 pt-3 mt-8 px-10 shadow-sm bg-Cblue text-Corange'>Bronze Sponsor</h3>
+      <h3 className=' text-2xl rounded-full pb-2 pt-3 mt-8 px-10 shadow-sm bg-Cblue text-Corange'>Silver Sponsor</h3>
       <div className='w-screen overflow-hidden  min-h-[40vh] flex justify-center items-center'>
         <div className='sponsorScroll  overflow-x-auto  flex justify-center items-center flex-wrap px-12 lg:pl-24 sm:gap-10  lg:gap-20'>
           {/* <h3 className='text-Ccream text-center text-3xl w-screen ' >Declare soon...</h3> */}
