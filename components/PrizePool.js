@@ -133,7 +133,7 @@ const prizes = [
     ]
   },
   {
-    image: "sponsorsDcornerr.png",
+    image: "sponsorsDcornerrCir.png",
     name: "DCornerr",
     Cash: "₹5000",
     KnowMore: [
@@ -146,7 +146,7 @@ const prizes = [
     ]
   },
   {
-    image: "sponsorsVirtual.png",
+    image: "sponsorsVirtualCir.png",
     name: "Virtual Protocol",
     Cash: "$500",
     KnowMore: [
@@ -173,7 +173,7 @@ function PrizePool() {
       <div className="w-screen overflow-x-hidden h-full relative flex items-center pt-12 justify-center mb-5 lg:mb-0 ">
         <Image
           src="/images/Participateheading.png"
-          className="absolute bottom-2 -scale-x-100 lg:bottom-6 left-2 lg:left-[17%] min-w-[105vw]  lg:min-w-[50vw] h-auto -z-1"
+          className="absolute bottom-2 object-cover -scale-x-100 lg:bottom-6 left-2 lg:left-[17%] min-w-[105vw]  lg:min-w-[50vw] h-auto -z-1"
           alt=""
           width={600}
           height={50}

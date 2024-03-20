@@ -19,9 +19,9 @@ const Box = ({
 }) => {
     return (
         <>
-            <div className=" w-[90%] text-center space-y-0 mx-auto lg:mt-32 lg:w-[28%] lg:space-y-24  flex items-center justify-end min-h-[40vh]  flex-col relative ">
+            <div className=" w-[90%] text-center space-y-0 mx-auto px-2 lg:mt-32 lg:w-[28%] lg:space-y-24  flex items-center justify-end min-h-[40vh]  flex-col relative ">
                 {/* <div className="w-full h-[400px] rounded-2xl hover:shadow-xl hover:shadow-black hover:scale-105 transition-all ease-in-out bg-Ccream hoverEffect flex shadow-lg shadow-black items-center justify-end flex-col text-Cblue relative  mt-[100px] lg:mt-0"> */}
-                <div className="w-full h-[350px] space-y-4 rounded-2xl bg-Ccream flex items-center justify-end flex-col hover:shadow-xl hover:shadow-black hover:scale-105 transition-all shadow-lg shadow-black ease-in-out pb-5 text-Cblue relative  mt-[100px] lg:mt-0">
+                <div className="w-full h-[350px] space-y-4  rounded-2xl bg-Ccream flex items-center justify-end flex-col hover:shadow-xl hover:shadow-black hover:scale-105 transition-all shadow-lg shadow-black ease-in-out pb-5 text-Cblue relative  mt-[100px] lg:mt-0">
                     <Image
                         src={`/images/${image}.jpeg`}
                         // src={`/images/MeetAbhishek.jpg`}

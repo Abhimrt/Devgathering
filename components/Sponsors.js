@@ -11,8 +11,8 @@ const Sponsors = () => {
         <Image src="/images/SponsorsLine.png" className='absolute  min-w-[90vw] h-auto -top-10  -z-10' width={1000} height={500} alt="" />
         <div className='text-right w-[80px] lg:w-[100px] min-h-[80px] lg:min-h-[100px]  pr-0 rounded-full bg-Cblue absolute -z-1  left-[-35px]'></div>
       </h2>
-      <p className='text-Ccream text-lg text-center mx-5'>Want to be featured here and be a part of this event and help us. Fill the form given form below</p>
-      <a href="https://abhisheksinghal.notion.site/abhisheksinghal/MLSA-MIET-Dev-Gathering-Call-for-Sponsors-0005e944a676484d96b298479af82617" target='_blank' className='text-Ccream border-2 border-Ccream px-5 py-2 rounded-xl mt-2 mb-5 hover:bg-Cblue duration-300 text-nowrap' >Sponsor Us</a>
+      {/* <p className='text-Ccream text-lg text-center mx-5'>Want to be featured here and be a part of this event and help us. Fill the form given form below</p>
+      <a href="https://abhisheksinghal.notion.site/abhisheksinghal/MLSA-MIET-Dev-Gathering-Call-for-Sponsors-0005e944a676484d96b298479af82617" target='_blank' className='text-Ccream border-2 border-Ccream px-5 py-2 rounded-xl mt-2 mb-5 hover:bg-Cblue duration-300 text-nowrap' >Sponsor Us</a> */}
 
 
       {/* // Gold Sponsors */}
