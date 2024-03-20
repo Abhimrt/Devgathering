@@ -16,7 +16,8 @@ const prizes = [
       "Echo3D:One Month free access to pro tier worth $99",
       ".XYZ: Domain Name for One Year worth ₹165.",
       "InterviewCake: Full access licences worth $249.",
-      "Exclusive Swag kits."
+      "DCornerr: Rs. 1000 discount on DCornerr DSA course",
+      "Exclusive Swag kits.",
     ]
   },
   {
@@ -30,7 +31,8 @@ const prizes = [
       "Echo3D:One Month free access to pro tier worth $99",
       ".XYZ: Domain Name for One Year worth ₹165.",
       "InterviewCake: Full access licences worth $249.",
-      "Exclusive Swag kits."
+      "DCornerr: Rs. 1000 discount on DCornerr DSA course",
+      "Exclusive Swag kits.",
     ]
   },
   {
@@ -44,7 +46,8 @@ const prizes = [
       "Echo3D:One Month free access to pro tier worth $99",
       ".XYZ: Domain Name for One Year worth ₹165.",
       "InterviewCake: Full access licences worth $249.",
-      "Exclusive Swag kits."
+      "DCornerr: Rs. 1000 discount on DCornerr DSA course",
+      "Exclusive Swag kits.",
     ]
   },
   {
@@ -56,7 +59,8 @@ const prizes = [
       ".XYZ: Domain Name for One Year worth ₹165.",
       "InterviewCake: Full access licences worth $249.",
       "InterviewBuddy: Discount Vouchers for all.",
-      "Exclusive Swag kits."
+      "DCornerr: Rs. 1000 discount on DCornerr DSA course",
+      "Exclusive Swag kits.",
     ]
   },
   {
@@ -68,7 +72,8 @@ const prizes = [
       ".XYZ: Domain Name for One Year worth ₹165.",
       "InterviewCake: Full access licences worth $249.",
       "InterviewBuddy: Discount Vouchers for all.",
-      "Exclusive Swag kits."
+      "DCornerr: Rs. 1000 discount on DCornerr DSA course",
+      "Exclusive Swag kits.",
     ]
   },
   {
@@ -80,7 +85,9 @@ const prizes = [
       ".XYZ: Domain Name for One Year worth ₹165.",
       "InterviewCake:Full access licences worth $249.",
       "InterviewBuddy: Discount Vouchers for all.",
-      "Exclusive Swags."
+      "DCornerr: Cash Prize of Rs.5000 to the best use of Data Structures and self created optimal Algorithms.",
+      "25% Discount for all Hackathon shortlisted Participants on DCornerr DSA course",
+      "Exclusive Swags.",
     ]
   },
   {

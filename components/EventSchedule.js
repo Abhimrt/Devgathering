@@ -44,6 +44,7 @@ const Data = [
         title: "Hackathon Day",
         subTitle: "Offline",
         date: "30/03/2024",
+        link: "a"
     },
 ]
 
@@ -63,13 +64,11 @@ const EventSchedule = () => {
                                     {e.subTitle && <div className="position">{e.subTitle}</div>}
                                     <div className="date">{e.date}</div>
                                     {e.para && <p>{e.para}</p>}
+                                    {e.link && <a href="https://www.commudle.com/communities/microsoft-learn-student-ambassadors-meerut-institute-of-engineering-and-technology/events/mlsa-miet-dev-gathering-2024/agenda" className='text-2xl text-blue-500 relative z-50' target='_blank'>Event Agenda</a>}
                                 </div>
                             )
                         })
                     }
-
-
-
                 </div>
 
             </div></section>
