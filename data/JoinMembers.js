@@ -72,8 +72,8 @@ const joinMem = {
             {
                 name: "Abhinav Rai",
                 image: "EvengeAbhinav",
-                connect: "💻 Software Engineer at Aakash Educational Services Limited | 🌐 Open Source Contributor | 🛠️ DevOps Enthusiast | 📊 Analytics Wizard",
-                domain: "https://www.linkedin.com/in/abhinav-rai-6a7119154/"
+                connect: "https://www.linkedin.com/in/abhinav-rai-6a7119154/",
+                domain: "💻 Software Engineer at Aakash Educational Services Limited | 🌐 Open Source Contributor | 🛠️ DevOps Enthusiast | 📊 Analytics Wizard",
             },
             // {
             //     name: "",
