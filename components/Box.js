@@ -25,7 +25,7 @@ const Box = ({
                     <Image
                         src={`/images/${image}.jpeg`}
                         // src={`/images/MeetAbhishek.jpg`}
-                        className=" rounded-2xl absolute shadow-2xl top-[-100px]"
+                        className=" rounded-2xl absolute shadow-2xl top-[-100px] bg-white"
                         style={{ boxShadow: "0px 2px 5px rgba(0,0,0,.6) " }}
                         width={200}
                         height={200}

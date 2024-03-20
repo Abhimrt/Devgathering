@@ -86,7 +86,8 @@ const prizes = [
       "InterviewCake:Full access licences worth $249.",
       "InterviewBuddy: Discount Vouchers for all.",
       "DCornerr: Cash Prize of Rs.5000 to the best use of Data Structures and self created optimal Algorithms.",
-      "25% Discount for all Hackathon shortlisted Participants on DCornerr DSA course",
+      "DCornerr: 25% Discount for all Hackathon shortlisted Participants on DCornerr DSA course",
+      "DCornerr: Amazon/Flipkart Gift Cards for Fun activities [Rs. 250-500 each- 3 winners]",
       "Exclusive Swags.",
     ]
   },
