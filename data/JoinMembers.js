@@ -69,6 +69,18 @@ const joinMem = {
                 connect: "https://www.linkedin.com/in/divyanshi-sharma-profile/",
                 domain: "Student at SRM University, core member of AWS UG NCR"
             },
+            {
+                name: "Shrey Bhaskar",
+                image: "EvengeShrey",
+                connect: "https://www.linkedin.com/in/shrey-bhaskar-737b2025a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+                domain: ""
+            },
+            {
+                name: "Maneesha",
+                image: "EvengeManeesha",
+                connect: "https://www.linkedin.com/in/maneesha-c-40800a239?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+                domain: ""
+            },
             // {
             //     name: "",
             //     image: "Evenge",
