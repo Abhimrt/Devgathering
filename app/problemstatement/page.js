@@ -5,18 +5,18 @@ import Image from 'next/image'
 import React, { useRef, useState } from 'react'
 
 const data = [
+    // {
+    //     title: "Where You Elevate",
+    //     content: [
+    //         {
+    //             psno: "WUE01",
+    //             text: "Hackathons are a crucible for innovation, where ideas are forged into tangible projects under the pressure of time. The feedback from judges not only serves as a beacon for improvement but also shapes the participants' perspectives on their work. However, this valuable feedback can be voluminous and diverse, making it a challenge to analyze effectively. Moreover, unconscious biases in feedback can influence the reception and self-esteem of participants. Your mission, should you choose to accept it, is to develop an automated tool that not only categorizes the sentiment of feedback but also detects potential biases, ensuring a fair and constructive hackathon experience for all.",
+    //             desc: <a href="https://drive.google.com/file/d/1VkS-nSQ7oZIfEtke6OATdS0PHX8UPLEl/view?usp=sharing" target='_blank' className='z-50 relative text-nowrap'>Description Link</a>
+    //         },
+    //     ]
+    // },
     {
-        title: "Where You Elevate",
-        content: [
-            {
-                psno: "WUE01",
-                text: "Hackathons are a crucible for innovation, where ideas are forged into tangible projects under the pressure of time. The feedback from judges not only serves as a beacon for improvement but also shapes the participants' perspectives on their work. However, this valuable feedback can be voluminous and diverse, making it a challenge to analyze effectively. Moreover, unconscious biases in feedback can influence the reception and self-esteem of participants. Your mission, should you choose to accept it, is to develop an automated tool that not only categorizes the sentiment of feedback but also detects potential biases, ensuring a fair and constructive hackathon experience for all.",
-                desc: <a href="https://drive.google.com/file/d/1VkS-nSQ7oZIfEtke6OATdS0PHX8UPLEl/view?usp=sharing" target='_blank' className='z-50 relative text-nowrap'>Description Link</a>
-            },
-        ]
-    },
-    {
-        title: "",
+        title: "Problem Statement",
         content: [
             {
                 psno: "PS01",

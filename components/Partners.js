@@ -18,22 +18,22 @@ const Partners = () => {
         <p className='text-Ccream text-lg text-center mx-5'>Want to be featured here and be a part of this event and help us. Fill the form given form below</p>
         <a href="https://abhisheksinghal.notion.site/abhisheksinghal/MLSA-MIET-Dev-Gathering-Call-for-Sponsors-0005e944a676484d96b298479af82617" className='text-Ccream border-2 border-Ccream px-5 py-2 rounded-xl mt-2 mb-5 hover:bg-Cblue duration-300 text-no-wrap' >Become Partner</a>
       </> */}
-      <div className='w-screen  h-auto flex justify-center items-center flex-col md:flex-row space-y-10 md:space-y-0 md:space-x-4 my-10 lg:scale-125'>
+      <div className='w-screen flex justify-center items-center flex-col md:flex-row space-y-10 md:space-y-0 md:space-x-10 md:my-10 lg:scale-125 '>
         <Box image="PartnerMIET.png" />
-        {/* <Box image="PartnerReskill.png"/> */}
+        <Box image="PartnerReskill.png" />
         <div className='lg:w-48'></div>
       </div>
       <div className='w-screen flex justify-center items-center flex-col md:flex-row space-y-10 md:space-y-0 md:space-x-10 md:my-10 lg:scale-125 '>
         {/* <div className='lg:w-36 hidden lg:block'></div> */}
-        <div className='hidden'></div>
+        {/* <div className='hidden'></div> */}
         <Box image="PartnerBobble.png" />
-        {/* <Box image="PartnerReskill.png"/> */}
+        <Box image="PartnerAzure.png" />
       </div>
       <div className='w-screen flex justify-center items-center flex-col md:flex-row space-y-10 md:space-y-0 md:space-x-10 my-10 lg:scale-125'>
         <div className='hidden'></div>
         <div className='lg:w-48 hidden lg:block'></div>
         <Box image="PartnerCommudle.png" />
-        {/* <Box image="PartnerReskill.png"/> */}
+        <Box image="PartnerADC.png" />
       </div>
     </section>
   )
