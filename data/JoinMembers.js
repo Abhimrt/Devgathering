@@ -70,6 +70,18 @@ const joinMem = {
                 domain: "Student at SRM University, core member of AWS UG NCR"
             },
             {
+                name: "Ishaan Garg",
+                image: "EvengeIshaan",
+                connect: "https://www.linkedin.com/in/ishaan-garg-112-learner-achiever/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+                domain: "Event Manager @ Microsoft Learn Student Ambassador MIET | Jr.Event Manager @ Computer Society of India MIET"
+            },
+            {
+                name: "Khushi Tyagi",
+                image: "EvengeKhushi",
+                connect: "https://www.linkedin.com/in/khushi-tyagi-a7472924a/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+                domain: "MLSA MIET | Web development | Front-end developer | SSOC2.0"
+            },
+            {
                 name: "Shrey Bhaskar",
                 image: "EvengeShrey",
                 connect: "https://www.linkedin.com/in/shrey-bhaskar-737b2025a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
