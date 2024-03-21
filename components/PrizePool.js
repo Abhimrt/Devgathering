@@ -59,7 +59,6 @@ const prizes = [
       ".XYZ: Domain Name for One Year worth ₹165.",
       "InterviewCake: Full access licences worth $249.",
       "InterviewBuddy: Discount Vouchers for all.",
-      "DCornerr: Rs. 1000 discount on DCornerr DSA course",
       "Exclusive Swag kits.",
     ]
   },
@@ -72,7 +71,6 @@ const prizes = [
       ".XYZ: Domain Name for One Year worth ₹165.",
       "InterviewCake: Full access licences worth $249.",
       "InterviewBuddy: Discount Vouchers for all.",
-      "DCornerr: Rs. 1000 discount on DCornerr DSA course",
       "Exclusive Swag kits.",
     ]
   },
