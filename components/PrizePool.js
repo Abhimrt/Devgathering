@@ -9,7 +9,7 @@ const prizes = [
     image: "first.png",
     name: "First Prize",
     Total: "$1,900",
-    Cash: "₹12,000",
+    Cash: "₹10,000",
     KnowMore: [
       "InterviewBuddy: Mock Interview, discount Vouchers for all.",
       "Free Mock Interview Sessions with DCornerr to all winners.",
@@ -24,7 +24,7 @@ const prizes = [
     image: "second.png",
     name: "Second Prize",
     Total: "$1,845",
-    Cash: "₹8,000",
+    Cash: "₹5,000",
     KnowMore: [
       "InterviewBuddy: Mock Interview, discount Vouchers for all.",
       "Free Mock Interview Sessions with DCornerr to all winners.",
@@ -39,7 +39,7 @@ const prizes = [
     image: "third.png",
     name: "Third Prize",
     Total: "$1,810",
-    Cash: "₹5,000",
+    Cash: "₹3,000",
     KnowMore: [
       "InterviewBuddy: Mock Interview, discount Vouchers for all.",
       "Free Mock Interview Sessions with DCornerr to all winners.",
