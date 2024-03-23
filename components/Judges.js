@@ -21,18 +21,25 @@ const judges = [
         connect: "https://mayankagr.in/",
     },
     {
-        image: "JudgeSarthak",
-        name: "Sarthak Jain",
-        position: "ID8NXT ",
-        domain: "Head of Communities ID8NXT |   Cloud & DevOps Trainer",
-        connect: "https://www.linkedin.com/in/dotsarthak/",
-    },
-    {
         image: "JudgePranav",
         name: "Pranav Malik",
         position: "Microsoft",
         domain: "SDE-2 Microsoft |Ex-Oracle Cloud,PayPal,DRDO |Technology evangelist|Full Stack |Backend| Big Data| Distributed Systems",
         connect: "https://www.linkedin.com/in/candidatepstx-95adfsdk23/",
+    },
+    {
+        image: "JudgeAnchal",
+        name: "Anchal Sharma ",
+        position: "PayPal",
+        domain: "Software Engineer at PayPal",
+        connect: "https://www.linkedin.com/in/anchal-sharma-57a08714a/",
+    },
+    {
+        image: "JudgeSarthak",
+        name: "Sarthak Jain",
+        position: "ID8NXT ",
+        domain: "Head of Communities ID8NXT |   Cloud & DevOps Trainer",
+        connect: "https://www.linkedin.com/in/dotsarthak/",
     },
     {
         image: "JudgeVani",

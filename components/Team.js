@@ -109,7 +109,7 @@ const Team = () => {
         </h2>
         <div className="w-[95vw] gap-10 lg:gap-0 flex items-center justify-between flex-col lg:flex-row space-y-5 lg:space-y-0 lg:mt-[100px]">
           <Box
-            image="MeetAbhishek.jpg"
+            image="MeetAbhishek.jpeg"
             name="Abhishek Singhal"
             phone="9927245142"
             mail="support@abhisheksinghal.in"

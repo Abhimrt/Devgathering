@@ -7,18 +7,39 @@ import Box from "./Box"
 
 const mentor = [
     {
-        image: "MeetMadhur",
-        name: "Madhur Agrawal",
-        domain: "Cloud, AIML",
-        position: "MLSA Core Team ",
-        connect: "https://www.linkedin.com/in/madhuraglhttps://www.linkedin.com/in/madhuragl ",
+        image: "MeetRohan",
+        name: "Rohan Kumar",
+        domain: "Web Dev, App Dev ",
+        position: "Full Stack Developer - MIDAS ",
+        connect: "https://www.linkedin.com/in/rohan-kumar-a65a87175/ ",
     },
     {
-        image: "MeetAbdal",
-        name: "Abdal Lalit",
-        domain: "App Dev, AIML & DS ",
-        position: "Product Analyst - BharatPe ",
-        connect: "https://www.linkedin.com/in/abdal-lalit/ ",
+        image: "MeetSudhir",
+        name: "Sudhir Meena",
+        domain: "Web Dev, CyberSecurity, AIML & DS ",
+        position: "Lead SWE - Persistent Systems ",
+        connect: "https://www.linkedin.com/in/sudhir-meena-b29982b7/ ",
+    },
+    {
+        image: "MeetHarshita",
+        name: "Harshita ",
+        domain: "Web Development",
+        position: "Alpha MLSA",
+        connect: "https://www.linkedin.com/in/harshita-gupta-03b6b125b/",
+    },
+    {
+        image: "MeetChanchal",
+        name: "Chanchal Kuntal",
+        domain: "Web Dev, AIML, DS",
+        position: "Banasthali",
+        connect: "https://www.linkedin.com/in/chanchal-kuntal-6b5506251/",
+    },
+    {
+        image: "MeetManan",
+        name: "Manan Bedi",
+        domain: "Web Dev, AIML, DS ",
+        position: "Business Analyst - Paytm ",
+        connect: "https://www.linkedin.com/in/manan-bedi2908 ",
     },
     {
         image: "MeetAbhinav",
@@ -35,11 +56,11 @@ const mentor = [
         connect: "https://www.linkedin.com/in/abhishek-mishra-ror ",
     },
     {
-        image: "MeetAman",
-        name: "Aman Chopra",
-        domain: "Web Development ",
-        position: "DevRel - LambdaTest ",
-        connect: "https://www.linkedin.com/in/iam-aman-chopra/ ",
+        image: "MeetAbdal",
+        name: "Abdal Lalit",
+        domain: "App Dev, AIML & DS ",
+        position: "Product Analyst - BharatPe ",
+        connect: "https://www.linkedin.com/in/abdal-lalit/ ",
     },
     {
         image: "MeetAnup",
@@ -49,82 +70,111 @@ const mentor = [
         connect: "https://www.linkedin.com/in/anupg-learn4tarakki/ ",
     },
     {
-        image: "MeetBharat",
-        name: "Bharat Varshney",
-        domain: "Web Dev, IoT ",
-        position: "Sr. Tech Consultant - Aarete Technosoft ",
-        connect: "https://www.linkedin.com/in/bharatvarshney/ ",
+        "name": "Shivam Goyal",
+        "domain": "Web Dev, Web3, Blockchain",
+        "position": "Software Developer @JungleeGames",
+        "connect": "https://www.linkedin.com/in/shivamgoyall/",
+        "image": "MeetShivam"
     },
     {
-        image: "MeetEkanksh",
-        name: "Ekanksh Mittal",
-        domain: "Web Dev, App Dev ",
-        position: "Product Owner - Grappus ",
-        connect: "https://www.linkedin.com/in/ekansh-mittal/ ",
+        "name": "Ekanksh Mittal",
+        "domain": "Web Dev, App Dev",
+        "position": "Product Owner - Grappus",
+        "connect": "https://www.linkedin.com/in/ekansh-mittal/",
+        "image": "MeetEkanksh"
     },
     {
-        image: "MeetHarshR",
-        name: "Harsh Raj",
-        domain: "Web Dev, App Dev ",
-        position: "GL Bajaj ITM ",
-        connect: "https://www.linkedin.com/in/harshraj2717/ ",
+        "name": "Manav Gupta",
+        "domain": "AIML & DS",
+        "position": "LLM Engineer at Yogleads",
+        "connect": "https://www.linkedin.com/in/--manav-gupta--/",
+        "image": "MeetManav"
     },
     {
-        image: "MeetHitesh",
-        name: "Hitesh Garg",
-        domain: "App Development ",
-        position: "Product Manager - QuickBlox ",
-        connect: "https://www.linkedin.com/in/hiteshgarg285/ ",
+        "name": "Madhur Agrawal",
+        "domain": "Cloud, AIML",
+        "position": "MLSA Core Team",
+        "connect": "https://www.linkedin.com/in/madhuragl",
+        "image": "MeetMadhur"
     },
     {
-        image: "MeetManan",
-        name: "Manan Bedi",
-        domain: "Web Dev, AIML, DS ",
-        position: "Business Analyst - Paytm ",
-        connect: "https://www.linkedin.com/in/manan-bedi2908 ",
+        "name": "Abhishek Singhal",
+        "domain": "Augmented Reality, NextJs, ThreeJs",
+        "position": "Full Stack Developer",
+        "connect": "https://abhisheksinghal.in",
+        "image": "MeetAbhishek"
     },
     {
-        image: "MeetManav",
-        name: "Manav Gupta",
-        domain: "AIML & DS ",
-        position: "Devrel - Shadeform ",
-        connect: "https://www.linkedin.com/in/--manav-gupta--/ ",
+        "name": "Aman Chopra",
+        "domain": "Web Development",
+        "position": "DevRel - LambdaTest",
+        "connect": "https://www.linkedin.com/in/iam-aman-chopra/",
+        "image": "MeetAman"
     },
     {
-        image: "MeetPurvesh",
-        name: "Purvesh Gupta",
-        domain: "Web Dev, Web3, Blockchain, AIML & DS ",
-        position: "Intern - CryptoWaley ",
-        connect: "https://www.linkedin.com/in/purvesh-gupta-736b95256/ ",
+        "name": "Bharat Varshney",
+        "domain": "Web Dev, IoT",
+        "position": "Sr. Tech Consultant - Aarete Technosoft",
+        "connect": "https://www.linkedin.com/in/bharatvarshney/",
+        "image": "MeetBharat"
     },
     {
-        image: "MeetRohan",
-        name: "Rohan Kumar",
-        domain: "Web Dev, App Dev ",
-        position: "Full Stack Developer - MIDAS ",
-        connect: "https://www.linkedin.com/in/rohan-kumar-a65a87175/ ",
+        "name": "Harsh Raj",
+        "domain": "Web Dev, App Dev",
+        "position": "GL Bajaj ITM",
+        "connect": "https://www.linkedin.com/in/harshraj2717/",
+        "image": "MeetHarshR"
     },
     {
-        image: "MeetRohit",
-        name: "Rohit Yadav",
-        domain: "App Dev, AIML & DS ",
-        position: "Incoming Data Analyst - LatentView Analytics ",
-        connect: "https://www.linkedin.com/in/rty2423 ",
+        "name": "Hitesh Garg",
+        "domain": "App Development",
+        "position": "Product Manager - QuickBlox",
+        "connect": "https://www.linkedin.com/in/hiteshgarg285/",
+        "image": "MeetHitesh"
     },
     {
-        image: "MeetSomya",
-        name: "Somya Maheshwari",
-        domain: "App Development ",
-        position: "MLSA Core Team ",
-        connect: "https://www.linkedin.com/in/somya-maheshwari-0b5305243/ ",
+        "name": "Purvesh Gupta",
+        "domain": "Web Dev, Web3, Blockchain, AIML & DS",
+        "position": "Intern - CryptoWaley",
+        "connect": "https://www.linkedin.com/in/purvesh-gupta-736b95256/",
+        "image": "MeetPurvesh"
     },
     {
-        image: "MeetSudhir",
-        name: "Sudhir Meena",
-        domain: "Web Dev, CyberSecurity, AIML & DS ",
-        position: "Lead SWE - Persistent Systems ",
-        connect: "https://www.linkedin.com/in/sudhir-meena-b29982b7/ ",
+        "name": "Rohit Yadav",
+        "domain": "App Dev, AIML & DS",
+        "position": "Incoming Data Analyst - LatentView Analytics",
+        "connect": "https://www.linkedin.com/in/rty2423",
+        "image": "MeetRohit"
     },
+    {
+        "name": "Somya Maheshwari",
+        "domain": "App Development",
+        "position": "MLSA Core Team",
+        "connect": "https://www.linkedin.com/in/somya-maheshwari-0b5305243/",
+        "image": "MeetSomya"
+    },
+    {
+        "name": "Abhinav Yadav",
+        "domain": "Web Development, CyberSecurity",
+        "position": "CXI Mentor",
+        "connect": "https://www.linkedin.com/in/yabhi1205/",
+        "image": "MeetAbhinavY"
+    },
+    {
+        "name": "Manas Chopra",
+        "domain": "App Dev, AIML & DS",
+        "position": "MSIT",
+        "connect": "https://www.linkedin.com/in/themanas95826",
+        "image": "MeetManas"
+    },
+    
+    {
+        "name": "Tushar Sharma",
+        "domain": "Web Development",
+        "position": "MLSA Core Team",
+        "connect": "https://www.linkedin.com/in/tusharsh1803/",
+        "image": "MeetTushar"
+    }
 ]
 
 const Mentors = ({
