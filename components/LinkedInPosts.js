@@ -32,7 +32,7 @@ function LinkedInPosts() {
                     height={50}
                 />
                 <h2 className="text-Cblue text-center text-4xl sm:text-5xl tracking-[1px] lg:tracking-[5px]  font-bold pb-8 z-20 ">
-                    Our Socials
+                    Our Testimonials 
                 </h2>
             </div>
             {/* <div className="w-[80vw] lg:w-[40vw] shadow-lg shadow-black bg-Cblue flex mx-auto h-32 my-6 rounded-xl">
