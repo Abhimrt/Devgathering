@@ -41,19 +41,6 @@ const Sponsors = () => {
         </div>
       </div>
 
-
-      {/* // In Ecosystem Sponsors */}
-
-      <h3 className=' text-2xl rounded-full pb-2 pt-3 mt-8 px-10 shadow-sm bg-Cblue text-Corange'>Ecosystem</h3>
-      <div className='w-screen overflow-hidden  min-h-[40vh] flex justify-center items-center'>
-        <div className='sponsorScroll  overflow-x-auto  flex justify-center items-center flex-wrap px-12 lg:pl-24 sm:gap-10  lg:gap-20'>
-          {/* <h3 className='text-Ccream text-center text-3xl w-screen ' >Declare soon...</h3> */}
-          <Box image="sponsorsQuillAudits" name="Quill Audits" />
-          <Box image="trackTezos" name="Tezos" />
-          <Box image="trackVirtual" name="Virtual Protocol" />
-          <Box image="sponsorsDcornerr" name="Dcornerr" />
-        </div>
-      </div>
       {/* // In Track Sponsors */}
 
       <h3 className=' text-2xl rounded-full pb-2 pt-3 mt-8 px-10 shadow-sm bg-Cblue text-Corange'>Track Sponsors</h3>
